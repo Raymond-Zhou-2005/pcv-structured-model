@@ -6,6 +6,7 @@ import pandas as pd
 
 ROOT=Path(__file__).resolve().parent
 CHECKS=[]
+DIFFERENCES=[]
 def check(name,passed,detail=''):
     CHECKS.append(dict(check=name,passed=bool(passed),detail=str(detail)))
 
@@ -49,6 +50,11 @@ def main():
             if pd.api.types.is_numeric_dtype(a[col]) and pd.api.types.is_numeric_dtype(b[col]):
                 av=a[col].to_numpy(dtype=float);bv=b[col].to_numpy(dtype=float)
                 okay=np.allclose(av,bv,rtol=1e-12,atol=1e-7,equal_nan=True)
+                for index in np.flatnonzero(~np.isclose(av,bv,rtol=1e-12,atol=1e-7,equal_nan=True)):
+                    identifiers={key:str(a.iloc[index][key]) for key in ['scenario','vaccine','product','metric','mechanism','label','name','setting','k'] if key in a.columns}
+                    error_at_row=float(abs(av[index]-bv[index]))
+                    limit=float(1e-7+1e-12*abs(bv[index]))
+                    DIFFERENCES.append(dict(path=relative,column=col,row=int(index),identifiers=json.dumps(identifiers),reference=float(av[index]),actual=float(bv[index]),absolute_error=error_at_row,strict_limit=limit,error_to_limit=error_at_row/limit))
                 error=float(np.nanmax(abs(av-bv))) if len(av) and np.isfinite(av-bv).any() else 0.
                 maxerr=max(maxerr,error);check('reference_numeric_column',okay,f'{relative}: {col}; max_abs={error:g}')
             else:
@@ -72,6 +78,7 @@ def main():
                 exclusions='Execution times; CSV floating point roundtrip differences below tolerance. Reference tests do not prove empirical input validity.')
     (ROOT/'checks/verification.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
     pd.DataFrame(CHECKS).to_csv(ROOT/'checks/verification.csv',index=False)
+    pd.DataFrame(DIFFERENCES,columns=['path','column','row','identifiers','reference','actual','absolute_error','strict_limit','error_to_limit']).to_csv(ROOT/'checks/platform_differences.csv',index=False)
     print(json.dumps({k:v for k,v in result.items() if k!='reference_table_comparisons'},indent=2))
     if failed:raise AssertionError(failed)
 

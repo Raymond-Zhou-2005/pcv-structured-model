@@ -1,7 +1,7 @@
 {
-  "stage": "all",
+  "stage": "check",
   "with_cohort": false,
-  "elapsed_seconds": 263.0845036506653,
+  "elapsed_seconds": 4.279548168182373,
   "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
   "script": "reproduce.py",
   "expected_scope": "Deterministic scenario reproduction and conditional simulation checks; not empirical calibration or PSA"

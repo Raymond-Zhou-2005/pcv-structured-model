@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/reproduce.yml",
-      "bytes": 944,
-      "sha256": "f71ed5123c5561aa3bda15fe22d4560603d278e41917f28d0c3491850d66025d"
+      "bytes": 1897,
+      "sha256": "1f168ccef947879c74809cedc77ceb3e8cbcef6907b73d95f138c6dbbde1a9fb"
     },
     {
       "path": ".gitignore",
@@ -57,8 +57,8 @@
     },
     {
       "path": "checks/last_run.json",
-      "bytes": 327,
-      "sha256": "5b130ce860880b1481c0c50ae98bb596e1759b3408042c6713a7054daedd66cd"
+      "bytes": 329,
+      "sha256": "01c1220b795500e5959922744d724624dda5fe984f5a51eecc13894ecad66764"
     },
     {
       "path": "checks/manuscript_archive_validation.json",
@@ -69,6 +69,11 @@
       "path": "checks/manuscript_validation.json",
       "bytes": 270,
       "sha256": "8fdb15d5baae86fd534df6b877e83b7a3078e18c9602e9ae1dd69a130f6aa119"
+    },
+    {
+      "path": "checks/platform_differences.csv",
+      "bytes": 89,
+      "sha256": "59835ad07c4411a3e8d6b8ff0ef857661fe32768a518c084d87d1f35f5bdda16"
     },
     {
       "path": "checks/publication_preparation.json",
@@ -10247,8 +10252,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 5102,
-      "sha256": "4957cbe9ae6ce8ea188b80062a5017d7e09b6a2adde34096edf66ef86f150cac"
+      "bytes": 5977,
+      "sha256": "a71cd65628bc43f8179ee9bd4a84b83ace3c986f3066d729da705a3bf2007f29"
     },
     {
       "path": "verify_release.py",
