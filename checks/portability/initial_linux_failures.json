@@ -1,0 +1,137 @@
+[
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/accounting_migration.csv: mortality_cost_change_before_incident_adjustment_total; max_abs=0.000379787"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/accounting_migration.csv: mortality_cost_change_before_incident_adjustment_per100k; max_abs=2.74292e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/accounting_migration.csv: delta_qaly_loss; max_abs=2.28902e-07"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/accounting_migration.csv: delta_costs_total; max_abs=0.000379801"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/accounting_migration.csv: delta_incremental_costs_per100k; max_abs=2.12434e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/accounting_migration.csv: incremental_mortality_cost_change_before_incident_adjustment_per100k; max_abs=2.12497e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: qaly_loss; max_abs=2.55444e-07"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: sequela_costs; max_abs=8.07666e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: productivity_costs; max_abs=0.000376046"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: productivity_costs_per100k; max_abs=2.71597e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: incremental_costs; max_abs=0.000336647"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: incremental_costs_per100k; max_abs=2.43168e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: costs_total_per100k_delta_vs_on_schedule; max_abs=2.4708e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/factorial.csv: incremental_costs_per100k_delta_vs_on_schedule; max_abs=2.4708e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/interactions.csv: interaction_delta; max_abs=1.98465e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/schedules.csv: sequela_costs; max_abs=5.75674e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/schedules.csv: delta_incremental_costs_per100k; max_abs=9.48785e-07"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/sensitivity.csv: sequela_costs; max_abs=8.54349e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/sensitivity.csv: productivity_costs; max_abs=0.000286937"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/sensitivity.csv: incremental_costs_per100k; max_abs=4.47221e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/sensitivity.csv: delta_incremental_costs_per100k; max_abs=4.65591e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/shapley.csv: shapley_delta; max_abs=2.09367e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/shapley.csv: joint_delta; max_abs=1.94041e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/inputs/Final/outputs/shapley.csv: share_of_joint_pct; max_abs=3.73831e-07"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/outputs/aom.csv: sequela_costs; max_abs=8.06875e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/outputs/mortality_brackets.csv: sequela_costs; max_abs=8.12067e-06"
+  },
+  {
+    "check": "reference_numeric_column",
+    "passed": false,
+    "detail": "research/outputs/refinement.csv: sequela_costs; max_abs=8.0741e-06"
+  }
+]

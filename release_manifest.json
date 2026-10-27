@@ -12,8 +12,8 @@
     },
     {
       "path": ".github/workflows/reproduce.yml",
-      "bytes": 1897,
-      "sha256": "1f168ccef947879c74809cedc77ceb3e8cbcef6907b73d95f138c6dbbde1a9fb"
+      "bytes": 1852,
+      "sha256": "63a3b8f1c758557eed0faa063f20947ae978973e59fe3d2f80e28bbfe6c7c11c"
     },
     {
       "path": ".gitignore",
@@ -74,6 +74,56 @@
       "path": "checks/platform_differences.csv",
       "bytes": 89,
       "sha256": "59835ad07c4411a3e8d6b8ff0ef857661fe32768a518c084d87d1f35f5bdda16"
+    },
+    {
+      "path": "checks/portability/cross_platform_summary.json",
+      "bytes": 24502,
+      "sha256": "e36bd436b081869242c7148234507410bb7bc52bd111e91ec5cce7bf9d6e0f75"
+    },
+    {
+      "path": "checks/portability/fixed_input_month_flow_errors.csv",
+      "bytes": 20160,
+      "sha256": "44bd447f5fe0fc0de802ea9fe2e68061a4a26acf52f38279371b531cb8f2589a"
+    },
+    {
+      "path": "checks/portability/fixed_input_month_oracle.csv",
+      "bytes": 10308,
+      "sha256": "735cc170b9224851ccdf3d0f8d78e7b31c684e33ca8095cbf49f5eaa805f71c5"
+    },
+    {
+      "path": "checks/portability/fixed_input_month_oracle.py",
+      "bytes": 12184,
+      "sha256": "c52c81e0cbfa24dac0807612d53fd97016cd62bdeed370542a277b0b339890c0"
+    },
+    {
+      "path": "checks/portability/fixed_input_month_summary.json",
+      "bytes": 11649,
+      "sha256": "a25f2c56eaed7b8149b0cf43aad1a0b29bbe93e8cfd1879ec4dc167e716f3e7c"
+    },
+    {
+      "path": "checks/portability/frozen_month_coefficients.npz",
+      "bytes": 38486,
+      "sha256": "d5e0fe771ffc89be92d8a4961e08b70941f690acfbcc5cd1dce9250db78c3e95"
+    },
+    {
+      "path": "checks/portability/initial_linux_failures.json",
+      "bytes": 4993,
+      "sha256": "e18a9ccec33c325e9c6e85f2278df1d7bdde6f8c699b754511f7e6aeef766709"
+    },
+    {
+      "path": "checks/portability/linux_pass_verification.json",
+      "bytes": 3040,
+      "sha256": "d8d35b1d0022bd35c32140380ce54c417d7969d1a32483300c9b41ceab058e3c"
+    },
+    {
+      "path": "checks/portability/probability_conversion_audit.csv",
+      "bytes": 223024,
+      "sha256": "d33a05891978b295e7eb1737ae52bd868c392a92d8f2dbcf7e4e1789d336516b"
+    },
+    {
+      "path": "checks/portability/README.md",
+      "bytes": 3335,
+      "sha256": "bfe990c6c3fad10cc1034e226278bf61e56151e2071f0f3b79e72a9db0e80af3"
     },
     {
       "path": "checks/publication_preparation.json",
@@ -522,8 +572,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 9699,
-      "sha256": "9f267b8e75f954a9ab11e00fd757b19610415aba1ce8099a2b4df1368fd38718"
+      "bytes": 10449,
+      "sha256": "31fcbe7d2be20f7e1bc311a33ed5e88a34700162b2fa4f92d2292484ac403152"
     },
     {
       "path": "reproduce.py",

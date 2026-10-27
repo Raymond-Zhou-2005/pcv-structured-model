@@ -1,0 +1,749 @@
+{
+  "scientific_solver_or_tolerance_changed": false,
+  "windows_reference": {
+    "python": "3.12.14",
+    "checks": 811,
+    "passed": 811
+  },
+  "linux_initial": {
+    "run": 40555237696,
+    "conclusion": "failure",
+    "strict_failed_columns": 27,
+    "max_reported_cost_difference_total_USD": 0.000379801,
+    "full_model_and_figures_completed": true,
+    "warning": "Original failing runner outputs were not archived; the retained log reports maxima, not complete per-row residuals."
+  },
+  "linux_diagnostic_rerun": {
+    "run": 40557076944,
+    "commit": "0c665bdf13f538f5eeb3d5a3c1cbf19ab9cf207a",
+    "python": "3.12.15",
+    "conclusion": "success",
+    "check_count": 811,
+    "passed": 811,
+    "parameters_semantically_identical": true,
+    "maximum_state_difference_from_windows": 2.9103830456733704e-11,
+    "state_arrays": [
+      {
+        "scenario": "no_vaccination",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_birth_seasonality_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_burden_0p75",
+        "max_absolute_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_CFR_1p25",
+        "max_absolute_difference": 0.0,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_delay_probability_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_direct_VE_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_2_4_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_2_4_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_2_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_3_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_3_5_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_3_6_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_completion_catchup",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_delayed",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_dose1_only",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_birth_seasonality_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_burden_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_CFR_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_delay_probability_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_direct_VE_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_2_4_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_2_4_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_2_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_3_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_3_5_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_3_6_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_completion_catchup",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_delayed",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_dose1_only",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_birth_seasonality_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_burden_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_CFR_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_delay_probability_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_direct_VE_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_2_4_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_2_4_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_2_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_3_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_3_5_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_3_6_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_completion_catchup",
+        "max_absolute_difference": 2.9103830456733704e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_delayed",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_dose1_only",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_birth_seasonality_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_burden_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_CFR_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_delay_probability_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_direct_VE_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "within_tolerance": true
+      }
+    ]
+  },
+  "interpretation": "One Linux runner passed the unchanged strict checks; another failed 27 economic/derived-output comparisons. This is not proof of universal cross-platform portability. The mathematical monthly oracle and Decimal conversion audit identify floating-point sensitivity, without proving the first runner discrepancy root cause. Windows is the fully tested reference environment; no numerical acceptance was relaxed."
+}

@@ -16,6 +16,17 @@ declarations in the review manuscript still require author confirmation.
 
 ## Quick start
 
+The fully validated reference platform is **Windows x86-64, CPython 3.12.14**
+with the locked dependencies: the complete rerun passed 811/811 checks.
+One Ubuntu/Python 3.12.15 run passed the same 811 checks; an earlier Linux
+runner completed the analyses and figures but failed 27 very strict
+output-column comparisons. General Linux portability is therefore not
+established by these two runs. The original acceptance
+tolerances and scientific solver are unchanged; see
+[`checks/portability/README.md`](checks/portability/README.md) and the release's
+`validation.zip` for the retained diagnostics. Use tag `v1.0.0` for the exact
+manuscript-linked source; the default branch also contains subsequent audits.
+
 Python 3.12 was used for the recorded run. From a clean environment:
 
 ```sh
@@ -27,9 +38,9 @@ python reproduce.py
 Run the SHA-256 check before reproduction, which regenerates output files.
 `requirements-lock.txt` records all packages in the publication validation
 environment; `requirements.txt` records the direct dependencies.
-The GitHub Actions workflow independently runs the complete default pipeline
-with Python 3.12 on Linux. Its status records computational checks, not
-empirical calibration or journal acceptance. To compile the manuscript, run
+The manually dispatched GitHub Actions workflow runs the complete default
+pipeline on Linux as an experimental portability diagnostic. Its status records
+computational checks, not empirical calibration or journal acceptance. To compile the manuscript, run
 `tectonic main.tex` from `paper/` with an output directory of your choice, or
 import the release's `overleaf.zip` into Overleaf and select `main.tex`.
 After numerical validation and compilation to `manuscript.pdf`,
