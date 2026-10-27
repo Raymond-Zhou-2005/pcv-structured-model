@@ -1,0 +1,8 @@
+{
+  "scenario_name": "pcv10sii_sens_burden_0p75",
+  "warmup_months": 60,
+  "warmup_mode": "baseline_only_no_vaccination",
+  "warmup_alive_after_age_shift": 6710251.64363128,
+  "warmup_preexisting_sequelae_total": 296.20901795193924,
+  "retain_preexisting_sequelae": false
+}

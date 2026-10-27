@@ -1,0 +1,359 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,graphicx,booktabs,longtable,tabularx,array}
+\usepackage{cite,hyperref,xurl,setspace,float,caption,lineno,microtype}
+\hypersetup{hidelinks}
+\graphicspath{{figures/}}
+\doublespacing
+\emergencystretch=3em
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\newtheorem{proposition}{Proposition}
+\newcommand{\clip}{\operatorname{clip}}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\NV}{\mathrm{NV}}
+\newcommand{\plotfigure}[3]{\begin{figure}[H]\centering\includegraphics[width=\textwidth]{#1.pdf}\caption{#2}\label{#3}\end{figure}}
+\begin{document}
+\begin{titlepage}
+\thispagestyle{plain}
+\raggedright
+{\Large\bfseries From cohort state transitions to age--calendar transport: a reproducible framework for vaccination programme analysis\par}
+\vspace{1cm}
+Ruimeng Zhou\par
+\vspace{0.5cm}
+\textit{Author-review version. Complete author list, affiliations, corresponding author, funding and competing-interest declarations require author confirmation.}\par
+\vspace{1cm}
+Short title: Age--calendar vaccination models\par
+\vfill
+Mathematical methods with a pneumococcal vaccination application in Viet Nam\par
+\end{titlepage}
+\setcounter{page}{2}
+\linenumbers
+
+\section*{Abstract}
+Understanding and modelling vaccination effectiveness is important for national health policy. Health-economic analyses that lump chronological age and dose history can conceal age- and dose-dependent risks, particularly in young children. We formulate a hybrid age--calendar transport framework combining state-transition dynamics, continuing births, scheduled-dose interfaces and population feedback. We combine deterministic ordinary differential equation (ODE) and stochastic continuous-time Markov representations: matched ODEs efficiently compute expected counts, while the stochastic interpretation characterises conditional variability and event probabilities. We state the conditions linking these representations, derive characteristic and population balances, and show why dose-state aggregation generally fails to close. A five-state pneumococcal conjugate vaccine application provides a monthly implementation and numerical refinement study. Controlled Markov experiments verify expected occupancies and quantify terminal-count variation and absorption probabilities; a separate closed-cohort simulation checks matched discrete-time expected rewards. Populations with identical age and dose marginals produced different indirect multipliers and disease-event totals. Manufactured-solution and submonthly experiments quantified numerical behaviour. For three separately evaluated products, delayed/incomplete dosing, attained-age waning and gradual indirect-protection build-up jointly reduced quality-adjusted life-year (QALY) gains by 10.2--18.4\%; paired herd-off comparisons attributed 61.0--69.7\% of full-scenario gains to the modelled indirect pathway. Schedule experiments and deterministic perturbations demonstrate how the retained structure changes programme comparisons. The framework offers readers a reproducible connection between model representations and a way to identify information needed for programme evaluation. The economic results remain conditional illustrations: empirical calibration, verified valuation inputs and joint parameter uncertainty are required before policy prediction.
+
+\section{Introduction}
+Vaccination models translate assumptions about disease, dose receipt and protection into population outcomes. State-transition models are attractive because their event and economic accounting can be made explicit. Their interpretation nevertheless depends on which state information is retained. A cohort model may follow one group from birth, whereas an ongoing programme simultaneously contains children born in different calendar months and at different stages of vaccination. The mathematical distinction is between a cohort trajectory and a continuously renewed structured population, not between intrinsically valid and invalid model families.
+
+Continuous-time Markov chains (CTMCs) provide forward equations for state probabilities, and mean-field constructions connect individual transition mechanisms to ordinary differential equations (ODEs) under stated conditions \cite{Hurtado2021}. Age-structured transport provides a related representation in which individuals move deterministically through age while changing programme state. Connections between stochastic individual models and McKendrick--von Foerster partial differential equations (PDEs) are established \cite{Foutel2022}. Age-stratified ODEs and sufficiently augmented Markov or individual models can represent the same mechanisms. The reason to use transport here is its transparent treatment of characteristics, birth boundaries, scheduled interventions and age-weighted functionals.
+
+In earlier closed-cohort work underlying this project, we used a Markov representation to investigate pneumococcal conjugate vaccines (PCVs), alongside a deterministic implementation of matched expected outcomes. Those analyses followed age through cohort time but represented vaccination through aggregate protection assumptions, without retaining an explicit joint distribution of programme calendar time, chronological age and dose history. The earlier model comparisons are documented in the accompanying repository. Indirect effects can materially change the health-economic evaluation of vaccination programmes \cite{Brisson2003Herd,Jit2011Primer}. Trials in Vietnamese infants have examined how schedules affect carriage \cite{SmithVaughan2023VietnamCarriage}; surveillance and local effectiveness studies also motivate explicit distinctions between individual protection and population effects \cite{Bennett2025,Truong2026VietnamEffectiveness}. These studies motivate the mechanisms, but do not identify every numerical coefficient in the present application.
+
+In this paper, we extend our earlier cohort analyses to a continuously renewed structured population and ask three methodological questions. Under which restrictions are state-transition and cohort representations consistent? Which information is lost when an age--dose distribution is reduced to totals? How can scheduling and indirect-protection assumptions be evaluated without confounding a change in mechanism with a change in implementation? We answer these questions by derivation, constructed counterexamples and numerical verification, then use a three-product PCV application to demonstrate trajectory, factorial and counterfactual analyses. Disease and economic quantities are conditional outputs from a frozen illustrative ledger, not surveillance-calibrated predictions. Reporting separates mathematical properties, computational verification and empirical evidence \cite{Caro2012ModelingOverview,Pitman2012DynamicTransmission,Husereau2022CHEERS}.
+
+\section{Methods}
+\subsection{State-transition, cohort and transport representations}
+Let $p(t)$ be a column vector of state probabilities and $Q(t)$ a row generator with non-negative off-diagonal entries and zero row sums, including death as an absorbing state. For externally specified, bounded transition rates,
+\begin{equation}
+ p'(t)=Q(t)^\top p(t),\qquad p(0)=p_0.
+ \label{eq:markov}
+\end{equation}
+For constant $Q$, $p(t)=\exp(tQ^\top)p_0$. Independent individuals following this process have expected state counts $Np(t)$. This is an exact expectation statement for that model. It does not identify the probability distribution of every outcome from its mean. If transition intensities depend on a finite random population, generally $\mathbb E[f(X)]\ne f(\mathbb E[X])$; nonlinear population feedback requires additional analysis or approximation. For example, if $X=N^{-1}\operatorname{Binomial}(N,p)$, then $\mathbb E[X^2]=p^2+p(1-p)/N$. At $N=100$ and $p=0.5$, this equals 0.2525, whereas $(\mathbb E[X])^2=0.25$. This finite-population correction illustrates why substituting a random population mean into nonlinear feedback requires a closure argument.
+
+A discrete-time model instead satisfies $p_{n+1}=P_n^\top p_n$. With a constant continuous generator over a cycle of length $h$, the compatible matrix is $P_n=\exp(hQ_n)$. Arbitrary monthly kernels need not be representable by a single such generator. The application includes scheduled-dose kernels and therefore uses a hybrid formulation rather than converting every visit probability into a constant transition hazard.
+
+Let $A_g(t,a)$ denote alive density in programme state $g$, at calendar time $t$ and chronological age $a$. Ages and times are measured in months. The general structured formulation, between scheduled-dose interfaces, is
+\begin{equation}
+ (\partial_t+\partial_a)A(t,a)=K(t,a;H[A])^\top A(t,a),
+ \quad 0<a<L,\quad A(t,0)=b(t),\quad A(0,a)=A_0(a).
+ \label{eq:pde}
+\end{equation}
+The alive-state matrix $K$ is a subgenerator: its off-diagonal entries are non-negative, and row sums are minus death hazards. An absorbing-death augmentation yields a conservative generator. At a scheduled age $a_i$, a column-stochastic map $J_i(t)$ implements a dose opportunity:
+\begin{equation}
+ A(t,a_i^+)=J_i(t)A(t,a_i^-).
+ \label{eq:jump}
+\end{equation}
+The same map may depend on programme calendar time, permitting a declared campaign. Probability is conditional on remaining in the source dose state at that opportunity. In the PCV implementation, $K=-\diag(\mu_g)$ between opportunities; acute diseases are recurrent event rewards, not mutually exclusive disease-state compartments.
+
+Along $a=t-t_0$, Eq.~\ref{eq:pde} gives a cohort ODE with the same interface maps and the shared feedback supplied by the whole population. A closed-cohort comparison must match initial conditions, coefficients, impulses, feedback and output accounting. A concentrated birth cohort is naturally represented as a measure; its characteristic relation does not require treating a Dirac mass as an ordinary smooth density. The three representations describe the same externally driven cohort under these matched conditions: probability evolution supplies expected state counts, characteristics follow one birth cohort, and transport assembles cohorts with continuing inflow and shared population feedback. Age-resolved ODEs and augmented Markov models can preserve this structure as well.
+
+For a prescribed feedback trajectory $h$, let $U_h(t,s;a_0)$ denote the cohort propagator starting at age $a_0$ and time $s$, including the ordered dose-interface maps. The characteristic representation is
+\begin{equation}
+ A(t,a)=\begin{cases}
+ U_h(t,0;a-t)A_0(a-t),&a>t,\\
+ U_h(t,t-a;0)b(t-a),&a<t.
+ \end{cases}
+ \label{eq:characteristic_explicit}
+\end{equation}
+One-sided traces are used at interfaces; the equality is understood almost everywhere for integrable densities.
+
+\subsection{Positivity, balance and the limits of aggregation}
+\begin{proposition}[Positive propagation and characteristic consistency]
+Let $A_0\in L^1_+(0,L;\mathbb R^m)$, $b\in L^1_{\rm loc,+}(\mathbb R_+;\mathbb R^m)$, and let externally prescribed $K$ be measurable and uniformly bounded on each finite time strip, with non-negative off-diagonal entries and non-positive row sums. For a finite number of fixed age interfaces with bounded non-negative column-stochastic maps, the characteristic mild solution is non-negative. Conditional on a prescribed feedback trajectory, it is the same cohort evolution obtained by integrating the matched ODE and applying the same maps.
+\end{proposition}
+\begin{proof}
+The fundamental solution of the cooperative linear system is non-negative, and multiplication by each non-negative interface map preserves this property. Restricting the transport equation to a characteristic gives the ODE; applying the ordered maps yields the same propagation. The statement is conditional on matching feedback, not an equivalence between a finite stochastic interacting population and a deterministic PDE.
+\end{proof}
+
+\begin{proposition}[Population balance]
+For a piecewise $W^{1,1}$ solution, or a mild solution admitting integrable incoming, outgoing and interface traces, conservative dose maps and death hazard $\mu_g$, total alive population $N(t)=\sum_g\int_0^L A_g(t,a)\,da$ satisfies for almost every $t$
+\begin{equation}
+ N'(t)=\mathbf1^\top b(t)-\mathbf1^\top A(t,L)
+       -\sum_g\int_0^L\mu_g(t,a;H[A])A_g(t,a)\,da.
+ \label{eq:balance}
+\end{equation}
+\end{proposition}
+\begin{proof}
+Integrate the transport equation and sum over states. Internal transition gains and losses cancel. Interface terms cancel because $\mathbf1^\top J_i=\mathbf1^\top$. The remaining terms are births, age-out and deaths.
+\end{proof}
+
+The integral vector $M(t)=\int_0^L A(t,a)\,da$ obeys
+\begin{equation}
+ M'(t)=b(t)-A(t,L)+\int_0^L K(t,a;H[A])^\top A(t,a)\,da
+       +\sum_i(J_i-I)A(t,a_i^-).
+ \label{eq:aggregate}
+\end{equation}
+Neither the weighted reaction integral nor the interface and age-out traces are generally determined by $M$. In a boundary-free special case, age-independent coefficients and feedback determined solely by $M$ give a closed reaction equation. Those conditions are sufficient for that restricted setting, not necessary and sufficient conditions for every possible reduced model. Exact Markov aggregation similarly requires lumpability conditions \cite{Tian2006}.
+
+\begin{proposition}[Dose-state totals need not determine observables]
+For a linear age--state reward with a nonzero cross-difference, there exist non-negative populations with equal dose-state and age marginals but different instantaneous reward values. A weighted index also differs if its unchanged denominator is positive. Distinct feedback values require a feedback map that separates the two index values.
+\end{proposition}
+\begin{proof}
+Place equal masses in two dose states at two ages and interchange their state assignments. Both marginals are unchanged. For a linear reward with weights $f_{ga}$, the difference is proportional to $f_{g_1a_1}+f_{g_2a_2}-f_{g_1a_2}-f_{g_2a_1}$, which need not vanish. An age-weighted dose index is such a reward divided by an age-only denominator that is unchanged by the swap. A feedback map that separates the two index values yields distinct feedback. Clipping or a zero feedback strength can instead give the same multiplier; the numerical construction below lies in a region that separates the values.
+\end{proof}
+
+For the nonlinear formulation, work in $C([0,T];L^1(0,L;\mathbb R^m))$ on a bounded positive neighbourhood whose weighted population denominator is at least $\delta>0$. Assume bounded weights, rates uniformly locally Lipschitz in feedback, fixed integrable birth data and bounded interface maps independent of the unknown solution. Write $D(A)=\sum_g\int wA_g$ and $N_\rho(A)=\sum_g\rho_g\int wA_g$. Then
+\begin{equation}
+ \left|\frac{N_\rho(A)}{D(A)}-\frac{N_\rho(B)}{D(B)}\right|
+ \le\frac{|N_\rho(A)-N_\rho(B)|}{\delta}
+ +\frac{|N_\rho(B)|\,|D(A)-D(B)|}{\delta^2}
+ \le L_C\|A-B\|_1.
+ \label{eq:ratio_lipschitz}
+\end{equation}
+Clipping preserves this Lipschitz property. On a suitably bounded invariant neighbourhood, the characteristic integral map satisfies $\|\mathcal TA-\mathcal TB\|_{C([0,T];L^1)}\le TL_F\|A-B\|_{C([0,T];L^1)}$. For sufficiently small $T$ it is a contraction; fixed birth data and the bounded linear interface maps preserve the estimate. This establishes a unique local mild solution under the stated denominator and coefficient bounds. Successive characteristic strips extend it while those bounds persist. At zero denominator the implementation sets the index to zero; no global uniqueness theorem across arbitrary empty-population configurations is claimed.
+
+\subsection{Numerical implementation and verification design}
+The established application uses 60 one-month age bins, a 60-month unvaccinated warm-up and 120 recorded months. Each recorded step inserts newborn survivors, applies dose opportunities in descending dose order, stores pre-reaction states, freezes the current feedback, integrates disease and mortality reactions, and shifts survivors by one age bin. Recorded-window sequela stocks start at zero after the warm-up. Descending order prevents two administrations to the same child during one opportunity step. Exact per-cell reaction propagation is available when coefficients are frozen:
+\begin{equation}
+ A_{gj}^{+}=A_{gj}^{-}e^{-\mu_{gj}h},\qquad
+ E_{e,gj}=A_{gj}^{-}\lambda_{e,gj}\frac{1-e^{-\mu_{gj}h}}{\mu_{gj}},
+ \label{eq:reaction}
+\end{equation}
+with the continuous limit $E=A^-\lambda h$ at $\mu=0$. The historical solver uses RK45; the refinement bridge uses Eq.~\ref{eq:reaction}. Their one-month outputs are checked under the same inputs. This algebraic bridge isolates reaction integration from the remaining transport and timing conventions.
+
+We refine with $h=\Delta a=1/k$ months, $k=1,2,4,8,16$, preserving each dose opportunity at its integer attained age. A monthly conditional probability is applied once on crossing that age, never once per substep. Monthly birth counts are subdivided into $k$ equal inflows, corresponding to an explicit within-month uniform-birth interpolation. Age-dependent coefficients retain their piecewise-constant one-month definition; annual target histories remain fixed. Feedback is updated each substep. Thus the bridge studies the continuous-time interpretation of births, transport and feedback, while its $k=1$ member reproduces the declared monthly scheme. Differences are not attributed solely to RK45 tolerances.
+
+The finest computed grid is a reference, not an exact solution. We plot QALY gains across grid sizes and retain the complete numerical ledger in the repository source data. Annual economic timing conventions remain fixed. A separate transport test with zero initial population, $b(t)=100[1+0.2\sin(t)]$, constant death hazard $0.03$ per month and no vaccine has a closed characteristic solution. Cell-mass and integrated-population errors are evaluated at eight months for $k=1,2,4,8,16,32$. This test has no population feedback; observed order does not establish a general convergence theorem for the nonlinear application.
+
+A controlled five-state continuous-time chain is evaluated by matrix exponentiation and numerical forward integration at four times. For each time, 1,000 multinomial replicates of 100,000 independent individuals check terminal expected occupancies using base seed 20261004. These are samples of the transition law, not simulated full trajectories. Separately, the retained closed-cohort count microsimulation contains 1,000 independently seeded replicates in each of four configurations, whose stored replicate summaries are rechecked in this revision, using two otitis-media conventions and vaccination/no-vaccination. Its monthly event kernel is audited as a discrete model. Monte Carlo intervals quantify uncertainty in simulated means, not parameter uncertainty or individual prediction.
+
+The verification generator is specified by $Q_{01}=0.20$, $Q_{12}=0.15$, $Q_{23}=0.08$ and $(Q_{04},Q_{14},Q_{24},Q_{34})=(0.010,0.012,0.018,0.022)$ per month. All other off-diagonal entries are zero, $Q_{ii}=-\sum_{j\ne i}Q_{ij}$, and state 4 is absorbing. The initial probability is $p_0=(1,0,0,0,0)^\top$. The observation times are $t=0.25,1,3,12$ months; each terminal sample uses seed $20261004+\lfloor100t\rfloor$, with $N=100{,}000$ individuals and 1,000 replicates. These constructed rates specify the verification example, not the PCV programme states.
+
+For the constructed continuous-time chain, the terminal counts for $N$ independent individuals follow a multinomial distribution with probabilities $p(t)$. Thus
+\begin{equation}
+ \mathbb E[N_i(t)]=Np_i(t),\qquad
+ \operatorname{Var}[N_i(t)]=Np_i(t)\{1-p_i(t)\},\qquad
+ \operatorname{Cov}[N_i(t),N_j(t)]=-Np_i(t)p_j(t)\quad(i\ne j).
+ \label{eq:terminal_variability}
+\end{equation}
+We reconstruct the seeded terminal samples and compare their count means and standard deviations with these expressions. Since state 4 is absorbing and initially empty, $p_4(t)$ is also the model-implied probability of absorption by time $t$. Central 95\% binomial prediction intervals describe terminal-count variation conditional on the fixed generator and $N$. Forward ODEs already provide these state probabilities; the stochastic representation specifies the associated distribution and event interpretation. Observation times are sampled independently and do not form linked individual trajectories. In the retained discrete cohort summaries, reported deaths are conditional fatal-event rewards; their replicate variation is not a distribution of actual integer fatalities.
+
+\subsection{PCV application: population, schedules and evidence status}
+The pneumococcal conjugate vaccine (PCV) application uses five alive states: non-programme, enrolled/no dose, one dose, two doses and booster. An illustrative annual birth input of 1,384,610 and 90\% newborn enrolment are held fixed. A seasonal monthly birth profile is an assumption; uniform births are also tested. WHO guidance recommends infant PCV as 2p+1 or 3p+0, beginning from six weeks of age. For 2p+1, the primary-dose interval is normally at least eight weeks, with a booster at 9--18 months; specified programme reasons can justify a four-week interval. Interrupted series resume without restarting \cite{WHO2025,WHOSchedule}. The 2-, 4- and 12-month strategy is an illustrative 2p+1 programme rule. National schedules require local epidemiological and programme decisions. A conditional 1p+1 option for established population immunity is outside the strategies evaluated here. The surviving newborn boundary is $b(t)=B(t)(1-q_N)(1-c,c,0,0,0)^\top$, with gross birth inflow $B(t)$, enrolment $c=0.90$ and neonatal probability $q_N=0.0103$. PCV10-GSK, PCV13 and PCV10-SII are evaluated separately with a shared solver.
+
+Dose-1 relative direct protection is 0.45, two-dose protection 1.00 and booster protection 1.10, with endpoint-specific absolute effectiveness capped at 0.95. Two-dose relative protection becomes 0.85 at age 24 months and 0.70 at 36 months; booster protection becomes 0.95, 0.80 and 0.70 at ages 24, 36 and 48 months. These are attained-age structural assumptions. Time since the actual administration is not tracked. Carriage weights do not wane in the current implementation.
+
+The delay configuration applies conditional opportunities at ages 2--5, 4--8 and 12--16 months. Finite opportunity windows also generate incompletion; ``delay'' therefore does not isolate lateness among eventual completers. Six deterministic schedules, a delayed/incomplete strategy, one-dose-only delivery and hypothetical completion recovery are compared with waning and gradual build-up held enabled. Recovery adds 0.20 conditional opportunities for already enrolled children at ages 6--11, 9--17 and 17--23 months. It does not enrol older non-programme children or enforce every clinical minimum interval. All numerical maps are given in the repository parameter records.
+
+Input evidence is classified as directly verified, transferred, computationally derived or unverified illustrative. Epidemiological studies and assessments motivate incidence and sequela assumptions \cite{Wahl2018,Edmond2010,PhilippinesHTA}; product immunogenicity motivates sensitivity to bridging \cite{Adigweme2023}. The SII direct profile equals the PCV13 profile multiplied by the retained summary multiplier 0.8203164. Immunogenicity motivates this scenario, but the original row-level extraction underlying the multiplier is unavailable. The visible serotype weights sum to 109\%, so they do not validate a compositional clinical-effectiveness calculation. The repository source ledger distinguishes the reproducible endpoint multiplication from the unresolved derivation of the summary multiplier. Exact national calibration is not claimed. Unavailable administrative cost records and surveys are represented only by disclosed numerical scenario constants; no published citation is used to imply that those data were independently inspected.
+
+\begingroup\small\singlespacing\setlength{\tabcolsep}{3pt}
+\begin{longtable}{L{2.8cm}L{7.7cm}L{3.8cm}}
+\caption{Key retained computational inputs. Acute endpoint vectors are ordered as inpatient pneumonia, outpatient pneumonia, meningitis, sepsis and AOM. IPD/PN/AOM profile vectors refer to invasive pneumococcal disease, pneumonia and AOM. Values are scenario inputs; a published reference identity does not independently validate an exact national value. The repository contains the complete parameter and transformation ledger.}\label{tab:key_inputs}\\
+\toprule Parameter & Retained value and unit & Evidence status \\\midrule
+\endfirsthead
+\toprule Parameter & Retained value and unit & Evidence status \\\midrule
+\endhead
+Annual births & 1,384,610 births/year & Illustrative demographic input \\
+Population and horizon & Ages 0--59 months; 60-month unvaccinated warm-up; 120 recorded months & Declared model design \\
+Enrolment and mortality & Newborn enrolment $c=0.90$; neonatal $q_N=0.0103$; under-five $q_5=0.020$ & Frozen probabilities; mortality allocation disclosed in Methods \\
+Incidence inputs & Pneumonia 1,771; meningitis 12; sepsis 124; all-cause AOM 9,570, per 100,000 child-years & Transferred/inherited; exact national values unverified \\
+Disease-age masses & Pneumonia/sepsis: $(0.50,0.25,0.15,0.10)$ and meningitis: $(0.65,0.18,0.07,0.10)$ at 0--11/12--23/24--35/36--59 months. AOM: $(0.1869,0.1889,0.6242)$ at 0--11/12--23/24--59 months & Frozen age-allocation scenarios \\
+Severity and fatality & Severe-pneumonia share 0.389; meningitis/severe-pneumonia/sepsis fatality probabilities $(0.032258,0.014241,0.08)$ & Inherited/transferred scenario inputs \\
+AOM attribution & $\theta=0.303$ & Frozen pneumococcal-attribution proxy; primary detection denominators differ \\
+Direct VE profiles & IPD/PN/AOM: GSK $(0.500,0.220,0.530)$; PCV13 $(0.602,0.190,0.460)$; SII $0.8203164086\times$ PCV13 & Endpoint profiles; SII summary bridge lacks original row-level identification \\
+Dose opportunities & On time: probability 1 at 2, 4 and 12 months. Delayed: dose 1 $(.65,.57,.67,.60)$ at 2--5; dose 2 $(.70,.45,.30,.20,.10)$ at 4--8; booster $(.55,.35,.25,.15,.10)$ at 12--16 months & Conditional on remaining in the source state; finite windows permit incompletion \\
+Direct dose/waning & Dose multipliers $(.45,1,1.10)$, absolute VE cap .95; two-dose protection becomes .85/.70 at 24/36 months; booster becomes .95/.80/.70 at 24/36/48 months & Attained-age structural assumptions; actual time since dose not tracked \\
+Indirect index & $\rho=(0,0,.15,.34,.40)$; age weights $(0,1,.8,.35)$ at 0--5/6--17/18--23/24--59 months; $\eta=.88$; $s=1$ & Structural proxy; not fitted carriage prevalence \\
+Annual target sequences & Programme-year indices 0--5: GSK .59/.49/.39/.32/.28/.26; PCV13 .54/.38/.32/.2864333333/.2528666667/.2193; SII .2211 at every index; final target retained thereafter & Inherited scenario histories; not calibrated programme trajectories \\
+Sequela probabilities & Cognitive/epilepsy/hemiplegia/hearing after meningitis survival: $(.016,.022,.032,.046)$; implant/special education conditional on hearing: $(.025,.2574)$ & Transferred/inherited; endpoint and denominator transfer require verification \\
+Acute valuation & Utilities $(.9941,.9963,.9768,.9921,.995)$; durations $(8.74,7,18.41,12.44,7)$ days & Transferred state utilities and unverified durations; source observation-window conversion unresolved \\
+Chronic utilities & Cognitive/hearing/epilepsy/hemiplegia: $(.62,.91,.83,.3903)$ & Transferred valuations; hemiplegia uses severe-brain-damage proxy \\
+Acute medical costs & $(214.6505,15.6214,557.7670,572.4272,12.9223)$ scenario USD/event & Unverified illustrative local aggregates; complete societal cost ledger in repository \\
+Programme unit costs & GSK/SII procurement $2/1.03=1.94174757$; PCV13 4.22; delivery $2.10/1.03=2.03883495$, scenario USD/dose. Procurement multiplied by 1.05 & Price scenarios and 3\% alignment proxy; common real price year unresolved \\
+Mortality valuation & Annual discount .03; assumed life expectancy 74 years; mean death age 2.5 years & Fixed valuation approximation with recorded-window morbidity \\
+\bottomrule
+\end{longtable}\endgroup
+
+\subsection{Indirect-protection functional and endpoint accounting}
+For endpoint $e$ and product $v$, let IRR denote an incidence rate ratio and VE the direct vaccine effectiveness. Define an annual target-derived multiplier
+\begin{equation}
+ H^*_{v,e}(y)=\clip_{[0,1]}\left[
+ \frac{\mathrm{IRR}_v(y)}{1-\clip_{[0,0.95]}(c\eta VE_{v,e})}\right],
+ \qquad c=0.90,\quad\eta=0.88.
+ \label{eq:target}
+\end{equation}
+These are inherited annual scenario targets. The constant $\eta=0.88$ supplies a fixed reference normalisation, distinct from receipt generated by the dose maps; the target trajectories are not fitted to this programme. Applying one target history across distinct endpoints is a structural assumption; it is not evidence that IPD and AOM share an observed incidence ratio. Target histories and clipping are reported so that saturation is reproducible.
+
+The state weights are $\rho=(0,0,0.15,0.34,0.40)$, and age weights are $w(a)=0,1,0.8,0.35$ for ages 0--5, 6--17, 18--23 and 24--59 months. Define
+\begin{align}
+ C[A](t)&=\frac{\sum_g\rho_g\int_0^Lw(a)A_g(t,a)\,da}
+                   {\sum_g\int_0^Lw(a)A_g(t,a)\,da},\label{eq:C}\\
+ r[A](t)&=\clip_{[0,1]}\left(\frac{C[A](t)}{c\eta\rho_{\mathrm{D2}}}\right),\qquad\rho_{\mathrm{D2}}=0.34,\label{eq:r}\\
+ H_{v,e}[A](t)&=1-s\{1-H^*_{v,e}(y(t))\}r[A](t),\qquad0\le s\le1.\label{eq:H}
+\end{align}
+Here $\rho_{\mathrm{D2}}=0.34$ is the reference two-dose coefficient. Zero weighted population gives $C=r=0$. $C$ is a dose-state proxy, not measured carriage prevalence. Local carriage studies motivate age and schedule structure \cite{SmithVaughan2023VietnamCarriage,Tao2026VietnamCarriageReview}, but do not validate these coefficients. We replace the previously ambiguous $x(t)$ notation with separate $C$, $r$ and $H$.
+
+For completed age month $a\in\{0,\ldots,59\}$, let $w_e(a)$ be a disease-specific monthly allocation with $\sum_a w_e(a)=1$. Within each declared age band, its total mass is distributed uniformly across months. A retained incidence input $i_e$ per 100,000 child-years is mapped to
+\begin{equation}
+ p_e^0(a)=1-\exp\{-5i_e w_e(a)/10^5\}.
+ \label{eq:baseline_age_probability}
+\end{equation}
+Thus $5i_e/10^5$ is integrated five-year exposure for an ideal survivor under the allocation; $i_e$ is not a monthly probability. Table~\ref{tab:key_inputs} specifies the retained band masses. For AOM, this expression defines the all-cause baseline and the attribution factor $\theta$ is applied as described below.
+
+For a baseline monthly endpoint probability $p^0_e(a)$, direct dose-state effectiveness $VE_{v,e,g}(a)$ and current multiplier $H$, the implementation uses
+\begin{align}
+ p_{v,e,g}&=\clip_{[0,1]}\{p^0_e(a)[1-VE_{v,e,g}(a)]H_{v,e}[A](t)\},\nonumber\\
+ \lambda_{v,e,g}&=-\log[1-\min(p_{v,e,g},1-\varepsilon)],\qquad\varepsilon=10^{-12}.
+ \label{eq:hazard}
+\end{align}
+The final cap is the numerical guard in the code; current scenario probabilities remain below it. Rates have inverse-month units. Invasive pneumococcal disease (IPD) comprises the meningitis and sepsis endpoint group used for direct protection. Scaling the probability before transformation is generally different from multiplying a baseline hazard. Disease episodes accumulate as rewards; a child can experience multiple endpoints. Endpoint-specific fatal-event probabilities are transformed separately into hazards and combined with the cause-deleted background convention below. This convention does not constitute a mechanistic transmission or fully joint competing-disease model.
+
+Acute otitis media (AOM) is counted as a pneumococcal-attributable component using $p^0_{\rm AOM}=\theta p^0_{\rm all\mbox{-}cause\ AOM}$ before hazard transformation. The frozen $\theta=0.303$ is an attribution scenario proxy. A Vietnamese hospital study reported 30.1\% culture detection and 41.1\% combined culture/PCR detection in selected suppurative AOM cases \cite{Do2025}; these detection proportions do not identify the national causal fraction. We test $\theta=0.301$, 0.411, 0 and 1 as detection-related and structural alternatives. They are scenario settings rather than confidence limits. The value 1 applies effects to the entire AOM baseline as a mathematical bound; historical all-cause accounting instead retains the unaffected component.
+
+To avoid overlapping mortality inputs, set neonatal death probability $q_N=0.0103$ and birth-to-60-month all-cause death probability $q_5=0.020$. A constant residual post-neonatal hazard is
+\begin{equation}
+ \mu_*= -\frac1{60}\log\!\left(\frac{1-q_5}{1-q_N}\right),\qquad
+ \mu_{\rm bg}(a)=\mu_*-\mu^{0}_{\rm dis}(a),\qquad
+ \mu_{v,g}(t,a)=\mu_{\rm bg}(a)+\mu_{v,g,\rm dis}(t,a).
+ \label{eq:mortality}
+\end{equation}
+Here $\mu^{0}_{\rm dis}$ is the unvaccinated disease hazard under the frozen baseline inputs. All age-bin background hazards are non-negative. Thus neonatal survival followed by 60 months of unvaccinated survival is exactly $1-q_5$ under this allocation. The background is frozen when case-fatality ratios (CFRs) or disease burden are perturbed. This construction reconciles the accounting under a constant post-neonatal all-cause hazard; it does not supply an empirically identified age-specific cause-deleted life table. The repository compares it with the inherited construction and a zero-background scenario.
+
+\subsection{Output functionals, factorial attribution and sensitivity}
+For endpoint intensity $\lambda_e$, event totals are $\int\int\sum_g\lambda_{e,g}A_g\,da\,dt$. Reported deaths count pneumococcal fatal-event rewards; neonatal and background hazards determine exposure and population balance. The economic module converts events and sequela stocks into discounted costs and QALY losses. Acute losses use endpoint durations and disutilities; mortality losses use average death age 2.5 years and remaining-life valuation followed by calendar-event discounting. Chronic sequela losses and recurring costs are integrated over the ten-year recorded window using annual stocks; one-time sequela costs use actual incident survivor flows. Existing sequela stocks use aggregate alive survival and are not transported by age. The resulting ledger combines remaining-life mortality valuation with recorded-window morbidity accounting and is an illustrative output functional rather than a complete lifetime cost-effectiveness analysis. The annual discount rate is 3\%; cost-year alignment is a retained scenario conversion, with exceptions identified in the source ledger. These are declared approximations. Utilities are transferred across health-state descriptions; the hemiplegia value 0.3903 uses a severe-brain-damage valuation \cite{Bennett2000}. Acute duration and transferred utility are separate scenario inputs: the source elicited preferences for outcomes with specified disease courses, whose conversion to per-time health-state weights remains unverified. Other utility and delivery studies provide valuation context \cite{Oh1996,Oostenbrink2002,vanHoek2012,Mai2022}. Unavailable administrative and caregiver-cost aggregates remain scenario constants. A common real price year has not been established; reported monetary values are scenario USD with explicit proxy transformations and source-year exceptions.
+
+For $E_{e,y}$ acute events, duration $d_e$ in days and utility $u_e$, the undiscounted acute loss is $E_{e,y}d_e(1-u_e)/365$. Future quantities use annual discount $d=0.03$: disease and sequela quantities in year $y$ receive $(1+d)^{-(y-1/2)}$, and dose costs receive $(1+d)^{-(y-1+0.35)}$. For assumed death age $a_d=2.5$ years and remaining lifetime $R=74-a_d$, set $n=\lfloor R\rfloor$ and $\tau=R-n$. The event-relative remaining-life weight is
+\begin{equation}
+ W_Q(a_d)=\sum_{k=0}^{n-1}(1+d)^{-(k+1/2)}
+       +\tau(1+d)^{-(n+\tau/2)}=29.74234703.
+ \label{eq:event_life_weight}
+\end{equation}
+This weight is then discounted from the calendar event. For stored birth-discounted annual productivity contributions $q_k$, the corresponding fatal-event weight is $W_P(a_d)=(1+d)^{a_d}\sum_{k>\lfloor a_d\rfloor}q_k/1.03=44{,}314.83832662$ scenario USD. The factor $(1+d)^{a_d}$ converts birth-discounted contributions to the event-relative scale. Separately, an input labelled source year $s>2023$ is aligned by $c_s/(1.03)^{s-2023}$; unlabelled inputs and the retained PCV13 procurement price are unchanged. This price-alignment proxy is distinct from outcome discounting. The repository preserves all category-specific costs, productivity contributions and source-year exceptions.
+
+For strategy $z$, let $L_z$ be loss of quality-adjusted life years (QALYs) and $K_z$ total cost. Gains are $Q_z=L_\NV-L_z$, incremental costs $\Delta K_z=K_z-K_\NV$, and ICER $\Delta K_z/Q_z$ when $Q_z\ne0$. Outputs are standardised per 100,000 births during the recorded window, including benefits to children present at entry. This denominator is not the total number of exposed children. Negative ICERs are accompanied by dominance status and are not used to rank products.
+
+The full $2^3$ factorial independently enables delayed/incomplete dose states ($D$), attained-age direct waning ($W$) and an additional state-dependent herd ramp ($G$). Reference 000 uses on-schedule dose maps, no waning and $H=H^*(y)$; 111 enables all three mechanisms. $G=0$ retains the annual target history and does not switch herd off. Matched herd-off runs set $H=1$ for each D/W configuration. For any output $Y$, the interaction for subset $S$ is
+\begin{equation}
+ \beta_S=\sum_{T\subseteq S}(-1)^{|S|-|T|}Y(\mathbf1_T),
+ \qquad\phi_i=\sum_{S\ni i}\frac{\beta_S}{|S|}.
+ \label{eq:factorial}
+\end{equation}
+The Shapley allocations sum to $Y(111)-Y(000)$. They allocate modelled changes including interactions, not empirical causal mediation. A separate scheduling comparison fixes W/G enabled, so its on-time reference is 011.
+
+Indirect QALY contribution is reproducibly defined by
+\begin{equation}
+ Q_{\rm indirect}=L_{\rm off}-L_{\rm on}=Q_{\rm on}-Q_{\rm off},
+ \qquad f_{\rm indirect}=\frac{Q_{\rm indirect}}{L_\NV-L_{\rm on}}.
+ \label{eq:indirect}
+\end{equation}
+The paired runs hold all inputs and dose rules fixed while allowing downstream survival and stocks to respond. The contribution can include benefits among vaccinated and unvaccinated children; it is not an exclusive count of unvaccinated beneficiaries. Costs are treated analogously. ICER contrasts are descriptive ratio changes; they are not interpreted as additive direct and indirect economic benefits.
+
+The application comprises 37 core, 27 schedule and 80 perturbation/comparator configurations, including deliberately repeated bridge cases. Price, direct effectiveness, CFR, sequela costs, utility loss and disease burden are varied by factors 0.75 and 1.25. Additional settings vary waning, herd strength, dose completion, birth seasonality and costing perspective. Direct-VE perturbations fix baseline $H^*$ to prevent algebraic compensation; state-dependent feedback remains responsive. No joint distributions or correlations are assigned, and these analyses do not constitute probabilistic sensitivity analysis (PSA). New verification, refinement, AOM and mortality experiments are reported separately from these 144 application configurations.
+
+\section{Results}
+Three findings organise the results. First, matched deterministic and stochastic representations agree on expected outcomes, while the stochastic formulation also characterises conditional terminal variation and absorption probabilities. Second, populations with identical age and dose marginals produce different feedback and disease-event totals when their age--dose associations differ. A reduction based only on those marginals therefore needs additional information or a closure assumption. Third, retaining the structure permits separate evaluation of dosing, waning and indirect-protection build-up: their combined effect reduces PCV QALY gains by 10.2--18.4\%, and the paired indirect pathway contributes 61.0--69.7\% of full-scenario gains. The PDE provides an explicit representation of the joint structure and shared feedback; an ODE or Markov model retaining the same information can represent the same process. Numerical refinement and sensitivity analyses distinguish these structural findings from discretisation and input assumptions.
+
+\subsection{Matched representation and numerical verification}
+The controlled continuous-time forward equation matched the matrix exponential with maximum absolute state-probability error 7.6e-13. In the retained independently seeded cohort audit, 16 of 16 deterministic comparisons lay within pointwise 95\% Monte Carlo intervals for the simulated means; this is a diagnostic check without a simultaneous-coverage claim. The population and cell-mass errors in the manufactured transport example decreased under refinement. Its finest successive integrated-population order was 1.003.
+
+The stochastic interpretation also supplies a distribution around a mean-count summary. At 12 months, the constructed chain gives an absorption probability of 0.14606. For 100,000 independent individuals, the expected absorbing count is 14,605.58 and its exact standard deviation is 111.68; the reconstructed Monte Carlo standard deviation is 114.06. The central 95\% binomial prediction interval is 14,387--14,825 individuals. These quantities illustrate fixed-input variability and event probabilities in the verification chain, rather than calibrated PCV risks. The repository reports all observation times and distinguishes prediction intervals from uncertainty in a simulated mean.
+
+The exact-reaction one-month implementation reproduced the revised application's four full/NV output ledgers within the specified bridge tolerance. At $h=1/16$ month, full-scenario QALY gains were 1,421.53, 1,516.35, 1,596.50 per 100,000 births for GSK, PCV13 and SII, respectively. Relative to this finite reference, monthly QALY-gain differences were 0.386\%, 0.417\%, 0.530\%; the largest difference between $h=1/8$ and $h=1/16$ was 0.035\%. These differences include the declared birth interpolation and feedback update frequency. Fig.~\ref{fig:verification}C plots the actual gain at every tested grid size, including $h=1/16$, so that the vertical scale shows the benefit itself rather than a reference error. The finest-grid values above are finite numerical references, not zero-error estimates; the complete gain-refinement ledger is retained in the repository.
+
+
+\plotfigure{Fig1}{Expected-state verification and refinement of QALY gains. A, state probabilities in a constructed five-state continuous-time Markov chain: coloured curves are matrix-exponential solutions and black crosses are the matched forward ODE solution; their overlap verifies expected occupancies under the same generator. State 4 is absorbing; these verification states are distinct from the PCV alive dose categories. B, errors relative to an analytic manufactured transport solution, plotted against step size in months; decreasing errors test the birth/transport discretisation. C, actual full-scenario QALY gains per 100,000 recorded-window births for each product across all five grids, including $h=1/16$ month. The finest computed grid is a finite reference, not an exact solution. The numerical accuracy test in B and the gain comparison in C concern different quantities; neither establishes empirical vaccine effectiveness.}{fig:verification}
+
+\subsection{Age--dose association contains information absent from both marginals}
+Configuration A and configuration B each contained 50,000 alive individuals, with 10,000 in each of the five programme states. Both placed 10,000 individuals at each of ages 4, 8, 16, 20 and 48 months. In configuration A, the two-dose group was at 16 months and the booster group at 48 months; configuration B exchanged those two assignments. The other groups were unchanged: enrolled/no dose at 4 months, one dose at 8 months and non-programme at 20 months. The one-month reaction uses coefficients evaluated from each starting population and held fixed during that reaction. The weighted index changed from 0.2000 to 0.2124, and the IPD multiplier from 0.5686 to 0.5419. One-month disease events changed from 99.58 to 92.26 (-7.36\%). Both initial death derivatives and event rates differed. Thus neither dose totals alone nor dose and age marginals together identify these outputs (Fig.~\ref{fig:aggregation}). This demonstrates non-closure for the current observables rather than inferiority of all aggregated methods.
+
+
+\plotfigure{Fig2}{Joint age--dose structure distinguishes populations with identical marginals. A and B, each point represents 10,000 children at the labelled age and programme state. Configuration A places the two-dose group at 16 months and the booster group at 48 months; configuration B swaps only those two assignments. Both age and dose-state totals remain identical. C, the corresponding expected disease episodes during one frozen-coefficient month are 99.58 and 92.26; annotations report the dimensionless initial IPD multipliers, 0.5686 and 0.5419. The 7.36\% reduction reflects the changed joint association, which the two marginals alone cannot identify. These are constructed diagnostic populations.}{fig:aggregation}
+
+\subsection{Population trajectories expose scheduling and feedback}
+In the application, non-programme children from the warm-up coexist with newly enrolled cohorts. Dose-state density follows cohort diagonals and accumulates across successive births. Delayed/incomplete dosing shifts protection towards later ages and leaves some enrolled children in incomplete states. Fig.~\ref{fig:trajectories} presents no vaccination, on-time 011 and delayed 111 populations alongside age-integrated state totals, $C$, $r$, $H$ and annual disease events. These trajectories show the mechanism behind aggregate gains; the target-normalised index is neither a fitted transmission trajectory nor evidence that a national programme has reached equilibrium. The repository provides product-specific trajectory panels and year-10 outcomes.
+\plotfigure{Fig3}{Age--calendar densities and integrated PCV13 trajectories explain the programme mechanism. A--C, total alive density by age and programme year under no vaccination, on-time 011 and delayed/incomplete 111; colour denotes thousands of children per month-age bin. D, age-integrated alive population under the same three strategies. E, the weighted dose proxy C (dashed) and normalised build-up index r (solid); F, the corresponding IPD multiplier H, where smaller values mean stronger modelled indirect protection. G, age-integrated dose-state populations under 111. H, the age-specific share with at least two doses under 111. I, annual disease episodes. State integrals and indices use the declared pre-reaction timing. The paired scenarios retain W/G enabled, so their contrast concerns dose delivery rather than an additional switch in waning or herd build-up.}{fig:trajectories}
+
+\subsection{Factorial effects and paired indirect contribution}
+The established monthly implementation gave full-scenario gains of 1,427.0, 1,522.7, 1,605.0 QALYs per 100,000 births. Joint decrements relative to 000 were 10.2\%, 11.1\%, 18.4\%. These are combined D/W/G effects, not pure timing effects. The gradual-build-up factor accounted for 64.6\%, 67.5\%, 86.1\% of the joint QALY decrement under Shapley allocation. Matched full-scenario herd comparisons yielded indirect shares of 62.3\%, 61.0\%, 69.7\% of total gains. The large indirect share and the ramp decrement answer different counterfactual questions. Table~\ref{tab:factorial} gives the endpoint and economic contrasts; Fig.~\ref{fig:factorial} decomposes the changes.
+\begin{table}[H]\centering\small\singlespacing
+\caption{Monthly application outcomes versus no vaccination per 100,000 recorded-window births. Deaths are pneumococcal fatal-event rewards. Cost differences are million scenario USD; all vaccine rows are dominant under this societal scenario.}\label{tab:factorial}
+\begin{tabular}{lrrrrrr}
+\toprule
+Product & DWG & Cases averted & Deaths averted & QALY gain & Cost diff. & ICER \\ \midrule
+PCV10-GSK & 000 & 14,609.5 & 62.7 & 1,588.6 & -4.397 & -2,768 \\
+PCV10-GSK & 111 & 13,131.3 & 56.9 & 1,427.0 & -3.970 & -2,782 \\
+PCV13 & 000 & 16,083.8 & 67.5 & 1,713.3 & -4.354 & -2,542 \\
+PCV13 & 111 & 14,208.3 & 60.6 & 1,522.7 & -3.873 & -2,543 \\
+PCV10-SII & 000 & 18,190.7 & 76.2 & 1,966.4 & -5.729 & -2,913 \\
+PCV10-SII & 111 & 14,969.1 & 63.6 & 1,605.0 & -4.605 & -2,869 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\plotfigure{Fig4}{Separate mechanisms and paired herd contributions under a common solver. A--D, percentage changes in cases averted, pneumococcal deaths averted, QALY gains and incremental costs relative to each product's 000 reference, calculated as $100\{Y(z)-Y(000)\}/|Y(000)|$. The configurations are distinct factorial settings, not successive time points. D enables delayed/incomplete delivery, W attained-age waning and G gradual state-dependent herd build-up. A positive change in negative incremental cost means less saving. E, Shapley allocation of the total QALY decrement from 000 to 111, distributing interactions across the three mechanisms. F, full111 gains with herd disabled (grey) plus the difference from the matched herd-on run (green). G=0 retains target-derived protection; the herd-off counterfactual instead sets H=1. All gains are per 100,000 recorded-window births; product-specific assumptions preclude a clinical product ranking.}{fig:factorial}
+
+\subsection{Schedule strategies and structural robustness}
+All schedule experiments retained W/G enabled. On-time 011 gained 1,483.3, 1,584.4, 1,665.7 QALYs per 100,000 births, compared with 1,427.0, 1,522.7, 1,605.0 under delayed/incomplete delivery. One-dose-only strategies produced substantially smaller gains, while completion recovery restored part of the loss. Fig.~\ref{fig:schedule} reports the comparisons; complete numerical schedule outcomes are retained in the repository. Clinical feasibility and actual time since dose are not inferred from these attained-age scenarios.
+
+
+\plotfigure{Fig5}{Expected programme outcomes under alternative dose-delivery rules, with waning and gradual herd build-up enabled. Rows give six planned schedules in months, delayed/incomplete delivery, one-dose-only delivery and completion recovery. A, QALYs gained; B, cases averted; C, incremental societal cost in million scenario USD, all versus matched no vaccination per 100,000 recorded-window births. Later protection generally reduces modelled gains, while recovery restores part of the delayed/incomplete deficit. Recovery opportunities apply only to enrolled children and are hypothetical rules. Points are deterministic outputs, and connecting lines guide comparison across categories; they do not represent uncertainty or a longitudinal trajectory.}{fig:schedule}
+Deterministic screening changed gains and costs across plausible-direction perturbations without assigning probability distributions. The restricted healthcare convention changed all three incremental costs to positive values: 133,429, 534,949, 48,141 USD per 100,000 births, with unchanged QALY gains. Thus societal cost savings do not imply healthcare budget savings.
+
+For PCV13, the AOM attribution settings 0.301 and 0.411 gave 1,522.66 and 1,522.91 QALYs gained, respectively, versus 1,522.66 at the frozen proxy. Cost differences changed to -3.865 and -4.287 million USD. The operational proxy therefore matters more for counted AOM and costs than for mortality-dominated QALY gains in this ledger.
+
+The historical inherited neonatal/background construction implied approximately 30.1 deaths per 1,000 births before added pneumococcal hazards. PCV13 QALY gains became 1,521.92 in the neonatal-conditioned bracket and 1,525.73 with zero background. The revised cause-deleted allocation reconciles baseline unvaccinated survival to 20 deaths per 1,000 births; the alternative constructions quantify sensitivity to mortality accounting rather than identify an empirical life table. Fig.~\ref{fig:sensitivity} and repository result tables provide all settings.
+
+\plotfigure{Fig6}{Horizontal comparison of deterministic perturbations and accounting scenarios. A and B, QALY-gain and incremental-cost changes for 20 retained settings and three products; the horizontal coordinate is $100(Y_{\rm perturbed}-Y_{111})/|Y_{111}|$. Positive cost changes mean less saving or a higher net cost. Numeric setting labels give the declared multiplier or scenario value; uniform births and healthcare costs are alternative conventions. C, PCV13 incremental cost per 100,000 births under five AOM attribution settings. D, PCV13 QALY gains under four mortality conventions; the dashed line marks the revised cause-deleted convention, and the displayed axis is intentionally restricted to show small differences. These points have no uncertainty bars because they are fixed scenarios, not sampled parameter distributions, confidence intervals or cost-effectiveness probabilities.}{fig:sensitivity}
+
+\section{Discussion and conclusions}
+The study addresses three different questions that require different information: what outcomes are expected, which age--dose associations determine those outcomes, and how random outcomes vary around their expectations. The ODE, PDE and Markov descriptions provide related tools for answering them. Their value lies in matching the representation to the question while keeping population boundaries, intervention rules, feedback and reward accounting explicit.
+
+The principal methodological result is that preserving the joint age--dose distribution can matter even when both marginal distributions are known. The constructed swap changes the nonlocal index and endpoint rewards without changing either set of totals. A reduced model based only on those marginals therefore cannot identify the output for both configurations unless it introduces a closure assumption or additional state information. This gives a concrete explanation for using structured transport in programme analysis. It does not establish that a PDE is uniquely capable of representing the process; a sufficiently detailed ODE, Markov or individual model can retain the same information.
+
+The characteristic construction connects the structured model to familiar state-transition accounting. Under fixed external feedback, the cohort ODE and the transport characteristic have the same propagation. When feedback is endogenous, cohorts interact through the shared functional and cannot be evaluated independently with unrelated fixed multipliers. Explicit interface kernels also distinguish a scheduled dose opportunity from exponential waiting-time transitions. These distinctions avoid the overstatement that any monthly Markov model is exactly equivalent to a continuous-time ODE.
+
+The ODE and Markov descriptions serve complementary analytical roles. Under the matched externally specified process, the forward ODE computes state probabilities and expected counts without repeated simulation. The stochastic description specifies variation around those expectations and gives an event-based interpretation of absorption. In the controlled example, the same expected terminal count is accompanied by a nonzero count standard deviation and a conditional prediction interval. This distinction is not a mathematical limitation of ODEs: forward equations already provide terminal probabilities, and additional moment or backward equations can recover other distributional quantities. Here the continuous-time experiment demonstrates terminal variation and absorption probability, while the discrete closed-cohort simulation separately checks expected rewards. Neither supplies joint parameter uncertainty for the nonlinear calendar application.
+
+Numerical evidence has several levels. Matrix-exponential comparisons verify a controlled continuous-time chain. Seeded count simulations check matched discrete cohort expectations. Analytic reaction comparisons verify the frozen-coefficient integrator. The manufactured solution checks birth/transport behaviour, while the application refinement bridge examines timing and feedback resolution. Agreement at one level does not establish the others. In particular, the small submonthly changes in application gains do not validate the empirical indirect-effect mapping, and the finest computed grid has residual discretisation error.
+
+The PCV application demonstrates why mechanism decomposition is useful. A joint programme-realism decrement cannot reveal the isolated effect of lateness, direct waning or delayed indirect protection. The matched factorial keeps population input, state representation and accounting fixed while changing specified mechanisms. Interactions mean that one-at-a-time differences need not sum to the total. Shapley allocation provides an additive summary under this experiment, but its shares remain conditional on the chosen target histories, age weights and dose rules. The large herd-on/off QALY share should be interpreted as a sensitivity of this model to its indirect pathway, not as a directly measured biological proportion.
+
+For readers evaluating vaccination programmes, the framework offers both a diagnostic and an analysis design. The age--dose counterexample identifies when totals are insufficient; matched characteristic comparisons specify which assumptions must agree before model outputs can be compared; and the factorial and paired-herd experiments separate questions that a single combined scenario cannot answer. For policy analysts, the results identify evidence to collect: actual dose-age and completion distributions, age-specific disease risk, the evolution of carriage or indirect protection, and locally verified valuation inputs. These measurements could inform comparisons of delivery and recovery strategies after calibration. The present application does not establish procurement priorities or national forecasts.
+
+Primary-source verification changes interpretation of the AOM parameter. A hospital pathogen-detection proportion does not automatically identify a national causal attribution fraction. The original study's selected clinical population and different detection methods make a unique national $\theta$ unidentified. Consequently, neither 0.303 nor the two detection-related alternatives can be presented as validated population parameters. The AOM sensitivity shows which outputs depend on this convention, and the older all-cause accounting exercise remains a denominator check rather than external validation.
+
+The mortality revision separates frozen background from unvaccinated disease hazards and reconciles no-vaccination survival to the stated under-five probability. It removes the identified overlap by an explicit constant-hazard allocation. Empirical age-specific mortality remains needed to replace this convention. The revision also costs new sequelae from incident flows rather than net annual stock changes. A repository migration table isolates the effect of these accounting repairs; numerical verification alone does not establish empirical validity.
+
+Several extensions follow from the framework. Actual time-since-dose waning requires an additional elapsed-time coordinate or augmented state; the present attained-age approximation can treat a late dose as though it had aged like an early dose. Age-dependent contact, calibrated carriage, serotype replacement and adult benefits require additional transmission states and evidence. Calendar-specific enrolment and verified dose-age distributions could replace the assumed birth and completion patterns. These are supported extensions of the structure, not capabilities already demonstrated by the present experiments.
+
+Economic results are secondary illustrations of output functionals. The inherited cost ledger includes unverified local constants, transferred utilities, annual stock approximations and proxy product assumptions. Cost-saving conclusions change with costing perspective. The restricted healthcare calculation still retains some sequela and special-education categories and is not a payer budget-impact analysis. Product-specific annual target histories and the SII immunogenicity bridge preclude a head-to-head efficacy interpretation. Negative ICERs therefore carry dominance labels without comparative ranking.
+
+The current calendar model has no reproducible joint PSA. An early closed-cohort report described 200 exploratory parameter draws, but its original draws and seed are unavailable; that historical summary cannot substantiate a calendar-model uncertainty analysis. Randomness in an individual-event simulation and uncertainty in its Monte Carlo mean do not quantify uncertainty in incidence, effectiveness, costs or indirect effects. A future PSA needs defensible marginal distributions, correlations, and a coherent joint treatment of direct effectiveness and the target-derived multiplier. For a mathematical application, the current deterministic experiments explain structural behaviour; for a policy evaluation, independent calibration and parameter uncertainty are indispensable.
+
+The repository maps the project research strands and their evidential status: exact cohort propagation and assumption tiers, ODE/count-simulation checks, age--time and open-population bridges, endpoint-specific protection, dose realism, economic accounting, factorial and schedule analysis, and verification. Superseded economic results with inconsistent calendar discounting are excluded from current effect estimates. The repository records these corrections, the earlier cohort propagation and prefix experiments, characteristic comparison and deterministic cohort screening, and the current output ledger. Results from different denominators, protection conventions and cost years are shown in separate rows; they are not interchangeable baselines. Internal drafts, duplicate publication packages and reports are archival assets, not independent evidence.
+
+Taken together, a hybrid age--calendar formulation connects cohort state transitions to ongoing vaccination programmes, and the matched stochastic formulation distinguishes expected outcomes from their conditional variation. Its value is the explicit preservation of joint age--dose information, birth and intervention boundaries, and nonlocal feedback. Derivation, counterexamples and numerical checks together show when aggregation is insufficient and how implementation assumptions alter outputs. The PCV application illustrates these capabilities while exposing the parameter and accounting work required before the framework can support calibrated policy prediction.
+
+\section*{Data and code availability}
+The aggregate scenario inputs, complete run-level simulated outputs, figure and table source data, mathematical experiments and author-generated code underlying the reported findings are publicly available at \url{https://github.com/Raymond-Zhou-2005/pcv-structured-model}, release \texttt{v1.0.0}. The release provides the frozen manuscript source, data dictionary, parameter/source/transformation ledgers, fixed dependencies, random seeds, SHA-256 manifests and an executable reproduction workflow. Original code is licensed under MIT; original data and text are licensed under CC BY 4.0, with third-party rights and attributions documented separately. Only aggregate scenario constants and simulated outputs are included; no patient-level records are used. Published-source provenance and unresolved parameter qualifications are recorded in the source ledgers. Unsupported original cost records are not represented as newly collected or independently accessed data.
+\section*{Ethics and author declarations}
+This work conducts mathematical and computational analyses without recruiting participants or accessing individual patient records.
+\section*{Acknowledgments}
+Acknowledgment wording and permissions require author confirmation.
+\bibliographystyle{plos2025}
+\bibliography{references}
+\end{document}

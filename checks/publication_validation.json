@@ -1,0 +1,917 @@
+{
+  "date": "2026-10-28",
+  "manuscript_pages": 29,
+  "manuscript_only_changes": [
+    "Actual repository URL, version, licences and availability paragraph",
+    "Enabled continuous line numbering required for PLOS review"
+  ],
+  "manuscript_scientific_text_unchanged": true,
+  "six_frozen_main_figures_unchanged": true,
+  "numerical_checks_passed": 811,
+  "numerical_checks_total": 811,
+  "compilation": {
+    "successful": true,
+    "no_overfull_boxes": true,
+    "no_undefined_references": true,
+    "pdf_no_replacement_characters": true,
+    "visually_checked": "Abstract with continuous line numbers and availability page"
+  },
+  "comparison_to_frozen_previous_release": {
+    "all_144_state_arrays_within_tolerance": true,
+    "bitwise_equal_arrays": 2,
+    "max_absolute_state_difference": 2.9103830456733704e-11,
+    "relative_tolerance": 1e-12,
+    "absolute_tolerance": 1e-07,
+    "states": [
+      {
+        "scenario": "no_vaccination",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_birth_seasonality_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_burden_0p75",
+        "max_absolute_difference": 0.0,
+        "bitwise_equal": true,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_CFR_1p25",
+        "max_absolute_difference": 0.0,
+        "bitwise_equal": true,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_delay_probability_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_direct_VE_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "nv_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D0W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W1G0",
+        "max_absolute_difference": 2.9103830456733704e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_D1W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_2_4_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_2_4_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_2_5_12",
+        "max_absolute_difference": 2.9103830456733704e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_3_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_3_5_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_3_6_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_completion_catchup",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_delayed",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_schedule_dose1_only",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_birth_seasonality_0p0",
+        "max_absolute_difference": 2.9103830456733704e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_burden_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_CFR_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_delay_probability_0p75",
+        "max_absolute_difference": 2.9103830456733704e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_direct_VE_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10_gsk_sens_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D0W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_D1W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_2_4_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_2_4_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_2_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_3_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_3_5_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_3_6_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_completion_catchup",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_delayed",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_schedule_dose1_only",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_birth_seasonality_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_burden_0p75",
+        "max_absolute_difference": 7.275957614183426e-12,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_CFR_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_delay_probability_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_direct_VE_1p25",
+        "max_absolute_difference": 2.9103830456733704e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv10sii_sens_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D0W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W0_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W0G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W0G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W1_herd_off",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W1G0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_D1W1G1",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_2_4_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_2_4_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_2_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_3_5_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_3_5_15",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_3_6_12",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_completion_catchup",
+        "max_absolute_difference": 2.9103830456733704e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_delayed",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_schedule_dose1_only",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_birth_seasonality_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_burden_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_burden_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_CFR_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_CFR_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_delay_probability_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_delay_probability_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_direct_VE_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_direct_VE_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_healthcare_perspective_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_herd_strength_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_herd_strength_0p5",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_price_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_price_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_sequela_cost_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_sequela_cost_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_utility_loss_0p75",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_utility_loss_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_waning_0p0",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      },
+      {
+        "scenario": "pcv13_sens_waning_1p25",
+        "max_absolute_difference": 1.4551915228366852e-11,
+        "bitwise_equal": false,
+        "within_tolerance": true
+      }
+    ],
+    "key_tables": [
+      {
+        "file": "factorial.csv",
+        "max_absolute_numeric_difference": 4.76837158203125e-07
+      },
+      {
+        "file": "herd_contributions.csv",
+        "max_absolute_numeric_difference": 4.190951585769653e-09
+      },
+      {
+        "file": "shapley.csv",
+        "max_absolute_numeric_difference": 1.862645149230957e-09
+      },
+      {
+        "file": "schedules.csv",
+        "max_absolute_numeric_difference": 1.1920928955078125e-07
+      },
+      {
+        "file": "sensitivity.csv",
+        "max_absolute_numeric_difference": 2.384185791015625e-07
+      }
+    ]
+  },
+  "environment_note": "Fresh CPython 3.12.14/PyPI environment versus historical conda 3.12.7. Binary/library floating-point differences are disclosed; reference checks do not establish empirical input validity.",
+  "readiness": "Public research repository prepared for author review and journal data/code sharing; authorship/funding/conflict confirmations and final production figure formatting remain pending.",
+  "original_release_zip_sha256": "26ca254f9d002c74317043d48d6ff4d8b12eda91e49f52d2f44de009d2b4d6f9"
+}

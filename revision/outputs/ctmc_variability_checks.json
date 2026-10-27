@@ -1,0 +1,1031 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "terminal_probability_mass",
+      "passed": true,
+      "detail": 0.25
+    },
+    {
+      "check": "nonnegative_terminal_probabilities",
+      "passed": true,
+      "detail": 0.25
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 4
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 0.25,
+        "state": 4
+      }
+    },
+    {
+      "check": "terminal_probability_mass",
+      "passed": true,
+      "detail": 1.0
+    },
+    {
+      "check": "nonnegative_terminal_probabilities",
+      "passed": true,
+      "detail": 1.0
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 1.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "terminal_probability_mass",
+      "passed": true,
+      "detail": 3.0
+    },
+    {
+      "check": "nonnegative_terminal_probabilities",
+      "passed": true,
+      "detail": 3.0
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 3.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "terminal_probability_mass",
+      "passed": true,
+      "detail": 12.0
+    },
+    {
+      "check": "nonnegative_terminal_probabilities",
+      "passed": true,
+      "detail": 12.0
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 0
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 1
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 2
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 3
+      }
+    },
+    {
+      "check": "matched_forward_ODE_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "matched_frozen_exact_probability",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_mean",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "reproduced_original_MC_standard_error",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_mean_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 4
+      }
+    },
+    {
+      "check": "MC_variance_within_five_analytic_SE",
+      "passed": true,
+      "detail": {
+        "month": 12.0,
+        "state": 4
+      }
+    }
+  ],
+  "check_count": 128,
+  "passed": 128,
+  "input_sha256": "cf9c540e2a3814e4693723bd8c78309668c6bb0f40a996d965dddea23279fb3c",
+  "script_sha256": "ffe98f0302754b53396fa8783665d5c6a5423da7b5138055cdcda4b63d50d9c6",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "rates": "Constructed fixed five-state CTMC; not calibrated PCV disease hazards",
+  "uncertainty": "Conditional sampling variation; no parameter PSA",
+  "intervals": "Central binomial terminal-count prediction intervals at fixed inputs",
+  "seed_rule": "20261004 + int(month*100); 1000 terminal draws at each time",
+  "longitudinal_linkage": false,
+  "at_12_months": {
+    "month": 12.0,
+    "absorbing_event_probability": 0.14605578866358485,
+    "expected_absorbing_count": 14605.578866358484,
+    "exact_count_SD": 111.67967373763369,
+    "MC_count_SD": 114.06387385284754,
+    "count_prediction_2p5_percent": 14387.0,
+    "count_prediction_97p5_percent": 14825.0,
+    "empirical_count_2p5_percent": 14385.0,
+    "empirical_count_97p5_percent": 14843.0,
+    "population": 100000,
+    "replicates": 1000,
+    "seed": 20262204
+  }
+}

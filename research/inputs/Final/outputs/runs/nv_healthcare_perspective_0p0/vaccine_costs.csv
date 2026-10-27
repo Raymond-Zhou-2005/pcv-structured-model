@@ -1,0 +1,11 @@
+model_label,scenario,vaccine_label,year,vaccine_key,dose1_administered,dose2_administered,booster_administered,total_administered_doses,raw_vaccine_procurement_cost,raw_delivery_cost,raw_ae_cost,raw_vaccine_program_cost,pv_vaccine_program_cost
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,1,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,2,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,3,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,4,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,5,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,6,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,7,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,8,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,9,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Calendar PDE: delayed dose states + waning + carriage-informed herd,nv_healthcare_perspective_0p0,Baseline,10,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

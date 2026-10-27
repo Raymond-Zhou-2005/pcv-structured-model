@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "flattened_parameter_rows": 219,
+  "raw_table_comparison_rows": 56,
+  "raw_numeric_matches": 56,
+  "productivity_reconstruction_max_error": 1.5916157281026244e-12,
+  "raw_productivity_sum": 42392.920058580676,
+  "proxy_aligned_productivity_sum": 41158.174814155995,
+  "event_relative_productivity_at_2p5": 44314.838326622295,
+  "event_relative_qaly_at_2p5": 29.742347026236324,
+  "sii_bridge_endpoint_rows": 3,
+  "sii_bridge_max_difference_to_frozen_profile": 0.0,
+  "sii_bridge_evidence_status": "calculation_only; original serotype-weight/GMC derivation unrecovered",
+  "using_rounded_income224p09_productivity": 42393.708315313685,
+  "numeric_validation_scope": "Code/table arithmetic only; source population and exact primary values remain qualified.",
+  "public_manuscript_internal_comparison_citations": false
+}

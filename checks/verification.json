@@ -1,0 +1,99 @@
+{
+  "check_count": 811,
+  "passed": 811,
+  "failed": [],
+  "run_state_arrays": 144,
+  "bitwise_equal_state_arrays": 2,
+  "reference_table_comparisons": [
+    {
+      "path": "research/inputs/Final/outputs/accounting_migration.csv",
+      "rows": 7,
+      "max_absolute_numeric_difference": 1.1920928955078125e-07
+    },
+    {
+      "path": "research/inputs/Final/outputs/factorial.csv",
+      "rows": 37,
+      "max_absolute_numeric_difference": 4.76837158203125e-07
+    },
+    {
+      "path": "research/inputs/Final/outputs/herd_contributions.csv",
+      "rows": 24,
+      "max_absolute_numeric_difference": 4.190951585769653e-09
+    },
+    {
+      "path": "research/inputs/Final/outputs/interactions.csv",
+      "rows": 189,
+      "max_absolute_numeric_difference": 1.862645149230957e-09
+    },
+    {
+      "path": "research/inputs/Final/outputs/schedules.csv",
+      "rows": 27,
+      "max_absolute_numeric_difference": 1.1920928955078125e-07
+    },
+    {
+      "path": "research/inputs/Final/outputs/sensitivity.csv",
+      "rows": 60,
+      "max_absolute_numeric_difference": 2.384185791015625e-07
+    },
+    {
+      "path": "research/inputs/Final/outputs/shapley.csv",
+      "rows": 81,
+      "max_absolute_numeric_difference": 1.862645149230957e-09
+    },
+    {
+      "path": "research/inputs/Final/outputs/stable.csv",
+      "rows": 18,
+      "max_absolute_numeric_difference": 5.820766091346741e-11
+    },
+    {
+      "path": "research/outputs/aggregation.csv",
+      "rows": 2,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "path": "research/outputs/aom.csv",
+      "rows": 20,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "path": "research/outputs/ctmc.csv",
+      "rows": 20,
+      "max_absolute_numeric_difference": 4.011901921785466e-12
+    },
+    {
+      "path": "research/outputs/manufactured.csv",
+      "rows": 6,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "path": "research/outputs/mortality_brackets.csv",
+      "rows": 16,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "path": "research/outputs/refinement.csv",
+      "rows": 20,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "path": "revision/outputs/ctmc_absorbing_event.csv",
+      "rows": 4,
+      "max_absolute_numeric_difference": 3.637978807091713e-12
+    },
+    {
+      "path": "revision/outputs/ctmc_absorbing_replicates.csv",
+      "rows": 4000,
+      "max_absolute_numeric_difference": 0.0
+    },
+    {
+      "path": "revision/outputs/ctmc_variability.csv",
+      "rows": 20,
+      "max_absolute_numeric_difference": 2.1827872842550278e-11
+    }
+  ],
+  "numeric_tolerance": {
+    "relative": 1e-12,
+    "absolute": 1e-07
+  },
+  "exclusions": "Execution times; CSV floating point roundtrip differences below tolerance. Reference tests do not prove empirical input validity."
+}

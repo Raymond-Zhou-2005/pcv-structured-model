@@ -1,0 +1,812 @@
+check,passed,detail
+numerical_checks_all_pass,True,research/inputs/Final/outputs/checks.csv: 750
+numerical_checks_all_pass,True,research/inputs/Final/outputs/independent_checks.csv: 7544
+numerical_checks_all_pass,True,research/outputs/checks.csv: 19283
+numerical_checks_all_pass,True,research/coverage/outputs/checks.csv: 186
+CTMC_distribution_checks,True,128
+application_run_count,True,
+factorial_core_count,True,
+schedule_count,True,
+vaccinated_sensitivity_count,True,
+run_state_shape,True,no_vaccination
+run_state_finite,True,no_vaccination
+run_integrated_states,True,no_vaccination
+run_state_shape,True,nv_birth_seasonality_0p0
+run_state_finite,True,nv_birth_seasonality_0p0
+run_integrated_states,True,nv_birth_seasonality_0p0
+run_state_shape,True,nv_burden_0p75
+run_state_finite,True,nv_burden_0p75
+run_integrated_states,True,nv_burden_0p75
+run_state_shape,True,nv_burden_1p25
+run_state_finite,True,nv_burden_1p25
+run_integrated_states,True,nv_burden_1p25
+run_state_shape,True,nv_CFR_0p75
+run_state_finite,True,nv_CFR_0p75
+run_integrated_states,True,nv_CFR_0p75
+run_state_shape,True,nv_CFR_1p25
+run_state_finite,True,nv_CFR_1p25
+run_integrated_states,True,nv_CFR_1p25
+run_state_shape,True,nv_delay_probability_0p75
+run_state_finite,True,nv_delay_probability_0p75
+run_integrated_states,True,nv_delay_probability_0p75
+run_state_shape,True,nv_delay_probability_1p25
+run_state_finite,True,nv_delay_probability_1p25
+run_integrated_states,True,nv_delay_probability_1p25
+run_state_shape,True,nv_direct_VE_0p75
+run_state_finite,True,nv_direct_VE_0p75
+run_integrated_states,True,nv_direct_VE_0p75
+run_state_shape,True,nv_direct_VE_1p25
+run_state_finite,True,nv_direct_VE_1p25
+run_integrated_states,True,nv_direct_VE_1p25
+run_state_shape,True,nv_healthcare_perspective_0p0
+run_state_finite,True,nv_healthcare_perspective_0p0
+run_integrated_states,True,nv_healthcare_perspective_0p0
+run_state_shape,True,nv_herd_strength_0p0
+run_state_finite,True,nv_herd_strength_0p0
+run_integrated_states,True,nv_herd_strength_0p0
+run_state_shape,True,nv_herd_strength_0p5
+run_state_finite,True,nv_herd_strength_0p5
+run_integrated_states,True,nv_herd_strength_0p5
+run_state_shape,True,nv_price_0p75
+run_state_finite,True,nv_price_0p75
+run_integrated_states,True,nv_price_0p75
+run_state_shape,True,nv_price_1p25
+run_state_finite,True,nv_price_1p25
+run_integrated_states,True,nv_price_1p25
+run_state_shape,True,nv_sequela_cost_0p75
+run_state_finite,True,nv_sequela_cost_0p75
+run_integrated_states,True,nv_sequela_cost_0p75
+run_state_shape,True,nv_sequela_cost_1p25
+run_state_finite,True,nv_sequela_cost_1p25
+run_integrated_states,True,nv_sequela_cost_1p25
+run_state_shape,True,nv_utility_loss_0p75
+run_state_finite,True,nv_utility_loss_0p75
+run_integrated_states,True,nv_utility_loss_0p75
+run_state_shape,True,nv_utility_loss_1p25
+run_state_finite,True,nv_utility_loss_1p25
+run_integrated_states,True,nv_utility_loss_1p25
+run_state_shape,True,nv_waning_0p0
+run_state_finite,True,nv_waning_0p0
+run_integrated_states,True,nv_waning_0p0
+run_state_shape,True,nv_waning_1p25
+run_state_finite,True,nv_waning_1p25
+run_integrated_states,True,nv_waning_1p25
+run_state_shape,True,pcv10_gsk_D0W0_herd_off
+run_state_finite,True,pcv10_gsk_D0W0_herd_off
+run_integrated_states,True,pcv10_gsk_D0W0_herd_off
+run_state_shape,True,pcv10_gsk_D0W0G0
+run_state_finite,True,pcv10_gsk_D0W0G0
+run_integrated_states,True,pcv10_gsk_D0W0G0
+run_state_shape,True,pcv10_gsk_D0W0G1
+run_state_finite,True,pcv10_gsk_D0W0G1
+run_integrated_states,True,pcv10_gsk_D0W0G1
+run_state_shape,True,pcv10_gsk_D0W1_herd_off
+run_state_finite,True,pcv10_gsk_D0W1_herd_off
+run_integrated_states,True,pcv10_gsk_D0W1_herd_off
+run_state_shape,True,pcv10_gsk_D0W1G0
+run_state_finite,True,pcv10_gsk_D0W1G0
+run_integrated_states,True,pcv10_gsk_D0W1G0
+run_state_shape,True,pcv10_gsk_D0W1G1
+run_state_finite,True,pcv10_gsk_D0W1G1
+run_integrated_states,True,pcv10_gsk_D0W1G1
+run_state_shape,True,pcv10_gsk_D1W0_herd_off
+run_state_finite,True,pcv10_gsk_D1W0_herd_off
+run_integrated_states,True,pcv10_gsk_D1W0_herd_off
+run_state_shape,True,pcv10_gsk_D1W0G0
+run_state_finite,True,pcv10_gsk_D1W0G0
+run_integrated_states,True,pcv10_gsk_D1W0G0
+run_state_shape,True,pcv10_gsk_D1W0G1
+run_state_finite,True,pcv10_gsk_D1W0G1
+run_integrated_states,True,pcv10_gsk_D1W0G1
+run_state_shape,True,pcv10_gsk_D1W1_herd_off
+run_state_finite,True,pcv10_gsk_D1W1_herd_off
+run_integrated_states,True,pcv10_gsk_D1W1_herd_off
+run_state_shape,True,pcv10_gsk_D1W1G0
+run_state_finite,True,pcv10_gsk_D1W1G0
+run_integrated_states,True,pcv10_gsk_D1W1G0
+run_state_shape,True,pcv10_gsk_D1W1G1
+run_state_finite,True,pcv10_gsk_D1W1G1
+run_integrated_states,True,pcv10_gsk_D1W1G1
+run_state_shape,True,pcv10_gsk_schedule_2_4_12
+run_state_finite,True,pcv10_gsk_schedule_2_4_12
+run_integrated_states,True,pcv10_gsk_schedule_2_4_12
+run_state_shape,True,pcv10_gsk_schedule_2_4_15
+run_state_finite,True,pcv10_gsk_schedule_2_4_15
+run_integrated_states,True,pcv10_gsk_schedule_2_4_15
+run_state_shape,True,pcv10_gsk_schedule_2_5_12
+run_state_finite,True,pcv10_gsk_schedule_2_5_12
+run_integrated_states,True,pcv10_gsk_schedule_2_5_12
+run_state_shape,True,pcv10_gsk_schedule_3_5_12
+run_state_finite,True,pcv10_gsk_schedule_3_5_12
+run_integrated_states,True,pcv10_gsk_schedule_3_5_12
+run_state_shape,True,pcv10_gsk_schedule_3_5_15
+run_state_finite,True,pcv10_gsk_schedule_3_5_15
+run_integrated_states,True,pcv10_gsk_schedule_3_5_15
+run_state_shape,True,pcv10_gsk_schedule_3_6_12
+run_state_finite,True,pcv10_gsk_schedule_3_6_12
+run_integrated_states,True,pcv10_gsk_schedule_3_6_12
+run_state_shape,True,pcv10_gsk_schedule_completion_catchup
+run_state_finite,True,pcv10_gsk_schedule_completion_catchup
+run_integrated_states,True,pcv10_gsk_schedule_completion_catchup
+run_state_shape,True,pcv10_gsk_schedule_delayed
+run_state_finite,True,pcv10_gsk_schedule_delayed
+run_integrated_states,True,pcv10_gsk_schedule_delayed
+run_state_shape,True,pcv10_gsk_schedule_dose1_only
+run_state_finite,True,pcv10_gsk_schedule_dose1_only
+run_integrated_states,True,pcv10_gsk_schedule_dose1_only
+run_state_shape,True,pcv10_gsk_sens_birth_seasonality_0p0
+run_state_finite,True,pcv10_gsk_sens_birth_seasonality_0p0
+run_integrated_states,True,pcv10_gsk_sens_birth_seasonality_0p0
+run_state_shape,True,pcv10_gsk_sens_burden_0p75
+run_state_finite,True,pcv10_gsk_sens_burden_0p75
+run_integrated_states,True,pcv10_gsk_sens_burden_0p75
+run_state_shape,True,pcv10_gsk_sens_burden_1p25
+run_state_finite,True,pcv10_gsk_sens_burden_1p25
+run_integrated_states,True,pcv10_gsk_sens_burden_1p25
+run_state_shape,True,pcv10_gsk_sens_CFR_0p75
+run_state_finite,True,pcv10_gsk_sens_CFR_0p75
+run_integrated_states,True,pcv10_gsk_sens_CFR_0p75
+run_state_shape,True,pcv10_gsk_sens_CFR_1p25
+run_state_finite,True,pcv10_gsk_sens_CFR_1p25
+run_integrated_states,True,pcv10_gsk_sens_CFR_1p25
+run_state_shape,True,pcv10_gsk_sens_delay_probability_0p75
+run_state_finite,True,pcv10_gsk_sens_delay_probability_0p75
+run_integrated_states,True,pcv10_gsk_sens_delay_probability_0p75
+run_state_shape,True,pcv10_gsk_sens_delay_probability_1p25
+run_state_finite,True,pcv10_gsk_sens_delay_probability_1p25
+run_integrated_states,True,pcv10_gsk_sens_delay_probability_1p25
+run_state_shape,True,pcv10_gsk_sens_direct_VE_0p75
+run_state_finite,True,pcv10_gsk_sens_direct_VE_0p75
+run_integrated_states,True,pcv10_gsk_sens_direct_VE_0p75
+run_state_shape,True,pcv10_gsk_sens_direct_VE_1p25
+run_state_finite,True,pcv10_gsk_sens_direct_VE_1p25
+run_integrated_states,True,pcv10_gsk_sens_direct_VE_1p25
+run_state_shape,True,pcv10_gsk_sens_healthcare_perspective_0p0
+run_state_finite,True,pcv10_gsk_sens_healthcare_perspective_0p0
+run_integrated_states,True,pcv10_gsk_sens_healthcare_perspective_0p0
+run_state_shape,True,pcv10_gsk_sens_herd_strength_0p0
+run_state_finite,True,pcv10_gsk_sens_herd_strength_0p0
+run_integrated_states,True,pcv10_gsk_sens_herd_strength_0p0
+run_state_shape,True,pcv10_gsk_sens_herd_strength_0p5
+run_state_finite,True,pcv10_gsk_sens_herd_strength_0p5
+run_integrated_states,True,pcv10_gsk_sens_herd_strength_0p5
+run_state_shape,True,pcv10_gsk_sens_price_0p75
+run_state_finite,True,pcv10_gsk_sens_price_0p75
+run_integrated_states,True,pcv10_gsk_sens_price_0p75
+run_state_shape,True,pcv10_gsk_sens_price_1p25
+run_state_finite,True,pcv10_gsk_sens_price_1p25
+run_integrated_states,True,pcv10_gsk_sens_price_1p25
+run_state_shape,True,pcv10_gsk_sens_sequela_cost_0p75
+run_state_finite,True,pcv10_gsk_sens_sequela_cost_0p75
+run_integrated_states,True,pcv10_gsk_sens_sequela_cost_0p75
+run_state_shape,True,pcv10_gsk_sens_sequela_cost_1p25
+run_state_finite,True,pcv10_gsk_sens_sequela_cost_1p25
+run_integrated_states,True,pcv10_gsk_sens_sequela_cost_1p25
+run_state_shape,True,pcv10_gsk_sens_utility_loss_0p75
+run_state_finite,True,pcv10_gsk_sens_utility_loss_0p75
+run_integrated_states,True,pcv10_gsk_sens_utility_loss_0p75
+run_state_shape,True,pcv10_gsk_sens_utility_loss_1p25
+run_state_finite,True,pcv10_gsk_sens_utility_loss_1p25
+run_integrated_states,True,pcv10_gsk_sens_utility_loss_1p25
+run_state_shape,True,pcv10_gsk_sens_waning_0p0
+run_state_finite,True,pcv10_gsk_sens_waning_0p0
+run_integrated_states,True,pcv10_gsk_sens_waning_0p0
+run_state_shape,True,pcv10_gsk_sens_waning_1p25
+run_state_finite,True,pcv10_gsk_sens_waning_1p25
+run_integrated_states,True,pcv10_gsk_sens_waning_1p25
+run_state_shape,True,pcv10sii_D0W0_herd_off
+run_state_finite,True,pcv10sii_D0W0_herd_off
+run_integrated_states,True,pcv10sii_D0W0_herd_off
+run_state_shape,True,pcv10sii_D0W0G0
+run_state_finite,True,pcv10sii_D0W0G0
+run_integrated_states,True,pcv10sii_D0W0G0
+run_state_shape,True,pcv10sii_D0W0G1
+run_state_finite,True,pcv10sii_D0W0G1
+run_integrated_states,True,pcv10sii_D0W0G1
+run_state_shape,True,pcv10sii_D0W1_herd_off
+run_state_finite,True,pcv10sii_D0W1_herd_off
+run_integrated_states,True,pcv10sii_D0W1_herd_off
+run_state_shape,True,pcv10sii_D0W1G0
+run_state_finite,True,pcv10sii_D0W1G0
+run_integrated_states,True,pcv10sii_D0W1G0
+run_state_shape,True,pcv10sii_D0W1G1
+run_state_finite,True,pcv10sii_D0W1G1
+run_integrated_states,True,pcv10sii_D0W1G1
+run_state_shape,True,pcv10sii_D1W0_herd_off
+run_state_finite,True,pcv10sii_D1W0_herd_off
+run_integrated_states,True,pcv10sii_D1W0_herd_off
+run_state_shape,True,pcv10sii_D1W0G0
+run_state_finite,True,pcv10sii_D1W0G0
+run_integrated_states,True,pcv10sii_D1W0G0
+run_state_shape,True,pcv10sii_D1W0G1
+run_state_finite,True,pcv10sii_D1W0G1
+run_integrated_states,True,pcv10sii_D1W0G1
+run_state_shape,True,pcv10sii_D1W1_herd_off
+run_state_finite,True,pcv10sii_D1W1_herd_off
+run_integrated_states,True,pcv10sii_D1W1_herd_off
+run_state_shape,True,pcv10sii_D1W1G0
+run_state_finite,True,pcv10sii_D1W1G0
+run_integrated_states,True,pcv10sii_D1W1G0
+run_state_shape,True,pcv10sii_D1W1G1
+run_state_finite,True,pcv10sii_D1W1G1
+run_integrated_states,True,pcv10sii_D1W1G1
+run_state_shape,True,pcv10sii_schedule_2_4_12
+run_state_finite,True,pcv10sii_schedule_2_4_12
+run_integrated_states,True,pcv10sii_schedule_2_4_12
+run_state_shape,True,pcv10sii_schedule_2_4_15
+run_state_finite,True,pcv10sii_schedule_2_4_15
+run_integrated_states,True,pcv10sii_schedule_2_4_15
+run_state_shape,True,pcv10sii_schedule_2_5_12
+run_state_finite,True,pcv10sii_schedule_2_5_12
+run_integrated_states,True,pcv10sii_schedule_2_5_12
+run_state_shape,True,pcv10sii_schedule_3_5_12
+run_state_finite,True,pcv10sii_schedule_3_5_12
+run_integrated_states,True,pcv10sii_schedule_3_5_12
+run_state_shape,True,pcv10sii_schedule_3_5_15
+run_state_finite,True,pcv10sii_schedule_3_5_15
+run_integrated_states,True,pcv10sii_schedule_3_5_15
+run_state_shape,True,pcv10sii_schedule_3_6_12
+run_state_finite,True,pcv10sii_schedule_3_6_12
+run_integrated_states,True,pcv10sii_schedule_3_6_12
+run_state_shape,True,pcv10sii_schedule_completion_catchup
+run_state_finite,True,pcv10sii_schedule_completion_catchup
+run_integrated_states,True,pcv10sii_schedule_completion_catchup
+run_state_shape,True,pcv10sii_schedule_delayed
+run_state_finite,True,pcv10sii_schedule_delayed
+run_integrated_states,True,pcv10sii_schedule_delayed
+run_state_shape,True,pcv10sii_schedule_dose1_only
+run_state_finite,True,pcv10sii_schedule_dose1_only
+run_integrated_states,True,pcv10sii_schedule_dose1_only
+run_state_shape,True,pcv10sii_sens_birth_seasonality_0p0
+run_state_finite,True,pcv10sii_sens_birth_seasonality_0p0
+run_integrated_states,True,pcv10sii_sens_birth_seasonality_0p0
+run_state_shape,True,pcv10sii_sens_burden_0p75
+run_state_finite,True,pcv10sii_sens_burden_0p75
+run_integrated_states,True,pcv10sii_sens_burden_0p75
+run_state_shape,True,pcv10sii_sens_burden_1p25
+run_state_finite,True,pcv10sii_sens_burden_1p25
+run_integrated_states,True,pcv10sii_sens_burden_1p25
+run_state_shape,True,pcv10sii_sens_CFR_0p75
+run_state_finite,True,pcv10sii_sens_CFR_0p75
+run_integrated_states,True,pcv10sii_sens_CFR_0p75
+run_state_shape,True,pcv10sii_sens_CFR_1p25
+run_state_finite,True,pcv10sii_sens_CFR_1p25
+run_integrated_states,True,pcv10sii_sens_CFR_1p25
+run_state_shape,True,pcv10sii_sens_delay_probability_0p75
+run_state_finite,True,pcv10sii_sens_delay_probability_0p75
+run_integrated_states,True,pcv10sii_sens_delay_probability_0p75
+run_state_shape,True,pcv10sii_sens_delay_probability_1p25
+run_state_finite,True,pcv10sii_sens_delay_probability_1p25
+run_integrated_states,True,pcv10sii_sens_delay_probability_1p25
+run_state_shape,True,pcv10sii_sens_direct_VE_0p75
+run_state_finite,True,pcv10sii_sens_direct_VE_0p75
+run_integrated_states,True,pcv10sii_sens_direct_VE_0p75
+run_state_shape,True,pcv10sii_sens_direct_VE_1p25
+run_state_finite,True,pcv10sii_sens_direct_VE_1p25
+run_integrated_states,True,pcv10sii_sens_direct_VE_1p25
+run_state_shape,True,pcv10sii_sens_healthcare_perspective_0p0
+run_state_finite,True,pcv10sii_sens_healthcare_perspective_0p0
+run_integrated_states,True,pcv10sii_sens_healthcare_perspective_0p0
+run_state_shape,True,pcv10sii_sens_herd_strength_0p0
+run_state_finite,True,pcv10sii_sens_herd_strength_0p0
+run_integrated_states,True,pcv10sii_sens_herd_strength_0p0
+run_state_shape,True,pcv10sii_sens_herd_strength_0p5
+run_state_finite,True,pcv10sii_sens_herd_strength_0p5
+run_integrated_states,True,pcv10sii_sens_herd_strength_0p5
+run_state_shape,True,pcv10sii_sens_price_0p75
+run_state_finite,True,pcv10sii_sens_price_0p75
+run_integrated_states,True,pcv10sii_sens_price_0p75
+run_state_shape,True,pcv10sii_sens_price_1p25
+run_state_finite,True,pcv10sii_sens_price_1p25
+run_integrated_states,True,pcv10sii_sens_price_1p25
+run_state_shape,True,pcv10sii_sens_sequela_cost_0p75
+run_state_finite,True,pcv10sii_sens_sequela_cost_0p75
+run_integrated_states,True,pcv10sii_sens_sequela_cost_0p75
+run_state_shape,True,pcv10sii_sens_sequela_cost_1p25
+run_state_finite,True,pcv10sii_sens_sequela_cost_1p25
+run_integrated_states,True,pcv10sii_sens_sequela_cost_1p25
+run_state_shape,True,pcv10sii_sens_utility_loss_0p75
+run_state_finite,True,pcv10sii_sens_utility_loss_0p75
+run_integrated_states,True,pcv10sii_sens_utility_loss_0p75
+run_state_shape,True,pcv10sii_sens_utility_loss_1p25
+run_state_finite,True,pcv10sii_sens_utility_loss_1p25
+run_integrated_states,True,pcv10sii_sens_utility_loss_1p25
+run_state_shape,True,pcv10sii_sens_waning_0p0
+run_state_finite,True,pcv10sii_sens_waning_0p0
+run_integrated_states,True,pcv10sii_sens_waning_0p0
+run_state_shape,True,pcv10sii_sens_waning_1p25
+run_state_finite,True,pcv10sii_sens_waning_1p25
+run_integrated_states,True,pcv10sii_sens_waning_1p25
+run_state_shape,True,pcv13_D0W0_herd_off
+run_state_finite,True,pcv13_D0W0_herd_off
+run_integrated_states,True,pcv13_D0W0_herd_off
+run_state_shape,True,pcv13_D0W0G0
+run_state_finite,True,pcv13_D0W0G0
+run_integrated_states,True,pcv13_D0W0G0
+run_state_shape,True,pcv13_D0W0G1
+run_state_finite,True,pcv13_D0W0G1
+run_integrated_states,True,pcv13_D0W0G1
+run_state_shape,True,pcv13_D0W1_herd_off
+run_state_finite,True,pcv13_D0W1_herd_off
+run_integrated_states,True,pcv13_D0W1_herd_off
+run_state_shape,True,pcv13_D0W1G0
+run_state_finite,True,pcv13_D0W1G0
+run_integrated_states,True,pcv13_D0W1G0
+run_state_shape,True,pcv13_D0W1G1
+run_state_finite,True,pcv13_D0W1G1
+run_integrated_states,True,pcv13_D0W1G1
+run_state_shape,True,pcv13_D1W0_herd_off
+run_state_finite,True,pcv13_D1W0_herd_off
+run_integrated_states,True,pcv13_D1W0_herd_off
+run_state_shape,True,pcv13_D1W0G0
+run_state_finite,True,pcv13_D1W0G0
+run_integrated_states,True,pcv13_D1W0G0
+run_state_shape,True,pcv13_D1W0G1
+run_state_finite,True,pcv13_D1W0G1
+run_integrated_states,True,pcv13_D1W0G1
+run_state_shape,True,pcv13_D1W1_herd_off
+run_state_finite,True,pcv13_D1W1_herd_off
+run_integrated_states,True,pcv13_D1W1_herd_off
+run_state_shape,True,pcv13_D1W1G0
+run_state_finite,True,pcv13_D1W1G0
+run_integrated_states,True,pcv13_D1W1G0
+run_state_shape,True,pcv13_D1W1G1
+run_state_finite,True,pcv13_D1W1G1
+run_integrated_states,True,pcv13_D1W1G1
+run_state_shape,True,pcv13_schedule_2_4_12
+run_state_finite,True,pcv13_schedule_2_4_12
+run_integrated_states,True,pcv13_schedule_2_4_12
+run_state_shape,True,pcv13_schedule_2_4_15
+run_state_finite,True,pcv13_schedule_2_4_15
+run_integrated_states,True,pcv13_schedule_2_4_15
+run_state_shape,True,pcv13_schedule_2_5_12
+run_state_finite,True,pcv13_schedule_2_5_12
+run_integrated_states,True,pcv13_schedule_2_5_12
+run_state_shape,True,pcv13_schedule_3_5_12
+run_state_finite,True,pcv13_schedule_3_5_12
+run_integrated_states,True,pcv13_schedule_3_5_12
+run_state_shape,True,pcv13_schedule_3_5_15
+run_state_finite,True,pcv13_schedule_3_5_15
+run_integrated_states,True,pcv13_schedule_3_5_15
+run_state_shape,True,pcv13_schedule_3_6_12
+run_state_finite,True,pcv13_schedule_3_6_12
+run_integrated_states,True,pcv13_schedule_3_6_12
+run_state_shape,True,pcv13_schedule_completion_catchup
+run_state_finite,True,pcv13_schedule_completion_catchup
+run_integrated_states,True,pcv13_schedule_completion_catchup
+run_state_shape,True,pcv13_schedule_delayed
+run_state_finite,True,pcv13_schedule_delayed
+run_integrated_states,True,pcv13_schedule_delayed
+run_state_shape,True,pcv13_schedule_dose1_only
+run_state_finite,True,pcv13_schedule_dose1_only
+run_integrated_states,True,pcv13_schedule_dose1_only
+run_state_shape,True,pcv13_sens_birth_seasonality_0p0
+run_state_finite,True,pcv13_sens_birth_seasonality_0p0
+run_integrated_states,True,pcv13_sens_birth_seasonality_0p0
+run_state_shape,True,pcv13_sens_burden_0p75
+run_state_finite,True,pcv13_sens_burden_0p75
+run_integrated_states,True,pcv13_sens_burden_0p75
+run_state_shape,True,pcv13_sens_burden_1p25
+run_state_finite,True,pcv13_sens_burden_1p25
+run_integrated_states,True,pcv13_sens_burden_1p25
+run_state_shape,True,pcv13_sens_CFR_0p75
+run_state_finite,True,pcv13_sens_CFR_0p75
+run_integrated_states,True,pcv13_sens_CFR_0p75
+run_state_shape,True,pcv13_sens_CFR_1p25
+run_state_finite,True,pcv13_sens_CFR_1p25
+run_integrated_states,True,pcv13_sens_CFR_1p25
+run_state_shape,True,pcv13_sens_delay_probability_0p75
+run_state_finite,True,pcv13_sens_delay_probability_0p75
+run_integrated_states,True,pcv13_sens_delay_probability_0p75
+run_state_shape,True,pcv13_sens_delay_probability_1p25
+run_state_finite,True,pcv13_sens_delay_probability_1p25
+run_integrated_states,True,pcv13_sens_delay_probability_1p25
+run_state_shape,True,pcv13_sens_direct_VE_0p75
+run_state_finite,True,pcv13_sens_direct_VE_0p75
+run_integrated_states,True,pcv13_sens_direct_VE_0p75
+run_state_shape,True,pcv13_sens_direct_VE_1p25
+run_state_finite,True,pcv13_sens_direct_VE_1p25
+run_integrated_states,True,pcv13_sens_direct_VE_1p25
+run_state_shape,True,pcv13_sens_healthcare_perspective_0p0
+run_state_finite,True,pcv13_sens_healthcare_perspective_0p0
+run_integrated_states,True,pcv13_sens_healthcare_perspective_0p0
+run_state_shape,True,pcv13_sens_herd_strength_0p0
+run_state_finite,True,pcv13_sens_herd_strength_0p0
+run_integrated_states,True,pcv13_sens_herd_strength_0p0
+run_state_shape,True,pcv13_sens_herd_strength_0p5
+run_state_finite,True,pcv13_sens_herd_strength_0p5
+run_integrated_states,True,pcv13_sens_herd_strength_0p5
+run_state_shape,True,pcv13_sens_price_0p75
+run_state_finite,True,pcv13_sens_price_0p75
+run_integrated_states,True,pcv13_sens_price_0p75
+run_state_shape,True,pcv13_sens_price_1p25
+run_state_finite,True,pcv13_sens_price_1p25
+run_integrated_states,True,pcv13_sens_price_1p25
+run_state_shape,True,pcv13_sens_sequela_cost_0p75
+run_state_finite,True,pcv13_sens_sequela_cost_0p75
+run_integrated_states,True,pcv13_sens_sequela_cost_0p75
+run_state_shape,True,pcv13_sens_sequela_cost_1p25
+run_state_finite,True,pcv13_sens_sequela_cost_1p25
+run_integrated_states,True,pcv13_sens_sequela_cost_1p25
+run_state_shape,True,pcv13_sens_utility_loss_0p75
+run_state_finite,True,pcv13_sens_utility_loss_0p75
+run_integrated_states,True,pcv13_sens_utility_loss_0p75
+run_state_shape,True,pcv13_sens_utility_loss_1p25
+run_state_finite,True,pcv13_sens_utility_loss_1p25
+run_integrated_states,True,pcv13_sens_utility_loss_1p25
+run_state_shape,True,pcv13_sens_waning_0p0
+run_state_finite,True,pcv13_sens_waning_0p0
+run_integrated_states,True,pcv13_sens_waning_0p0
+run_state_shape,True,pcv13_sens_waning_1p25
+run_state_finite,True,pcv13_sens_waning_1p25
+run_integrated_states,True,pcv13_sens_waning_1p25
+reference_shape,True,research/inputs/Final/outputs/accounting_migration.csv
+reference_columns,True,research/inputs/Final/outputs/accounting_migration.csv
+reference_identifier_column,True,research/inputs/Final/outputs/accounting_migration.csv: scenario
+reference_identifier_column,True,research/inputs/Final/outputs/accounting_migration.csv: vaccine
+reference_identifier_column,True,research/inputs/Final/outputs/accounting_migration.csv: decomposition_order
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: incident_flow_cost_adjustment_revised_states_total; max_abs=1.76442e-10
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: incident_flow_cost_adjustment_revised_states_per100k; max_abs=1.27898e-12
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: mortality_cost_change_before_incident_adjustment_total; max_abs=1.19209e-07
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: mortality_cost_change_before_incident_adjustment_per100k; max_abs=8.62201e-10
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_cases_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_cases_total; max_abs=4.65661e-10
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_cases_total; max_abs=4.69299e-10
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_deaths_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_deaths_total; max_abs=9.09495e-13
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_deaths_total; max_abs=9.09495e-13
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_qaly_loss; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_qaly_loss; max_abs=1.45519e-11
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_qaly_loss; max_abs=1.45519e-11
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_costs_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_costs_total; max_abs=1.19209e-07
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_costs_total; max_abs=1.19209e-07
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_doses_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_doses_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_doses_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_cases_averted_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_cases_averted_per100k; max_abs=9.09495e-12
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_cases_averted_per100k; max_abs=9.09495e-12
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_deaths_averted_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_deaths_averted_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_deaths_averted_per100k; max_abs=7.10543e-15
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_qalys_gained_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_qalys_gained_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_qalys_gained_per100k; max_abs=2.27374e-13
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_incremental_costs_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_incremental_costs_per100k; max_abs=1.86265e-09
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_incremental_costs_per100k; max_abs=1.86265e-09
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: original_icer; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: revised_icer; max_abs=9.09495e-13
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: delta_icer; max_abs=9.09495e-13
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: incremental_incident_flow_cost_adjustment_per100k; max_abs=7.24754e-13
+reference_numeric_column,True,research/inputs/Final/outputs/accounting_migration.csv: incremental_mortality_cost_change_before_incident_adjustment_per100k; max_abs=8.62201e-10
+reference_shape,True,research/inputs/Final/outputs/factorial.csv
+reference_columns,True,research/inputs/Final/outputs/factorial.csv
+reference_identifier_column,True,research/inputs/Final/outputs/factorial.csv: scenario
+reference_identifier_column,True,research/inputs/Final/outputs/factorial.csv: vaccine
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: D; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: W; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: G; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: herd_off; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_total; max_abs=9.31323e-10
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_total; max_abs=3.63798e-12
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qaly_loss; max_abs=5.82077e-11
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: costs_total; max_abs=4.76837e-07
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: vaccine_costs; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: disease_costs; max_abs=1.19209e-07
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: sequela_costs; max_abs=6.98492e-10
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: productivity_costs; max_abs=1.49012e-07
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: doses_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: births_denominator; max_abs=0
+reference_identifier_column,True,research/inputs/Final/outputs/factorial.csv: design
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_total_per100k; max_abs=7.27596e-12
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_total_per100k; max_abs=2.84217e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qaly_loss_per100k; max_abs=6.82121e-13
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: costs_total_per100k; max_abs=2.79397e-09
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: vaccine_costs_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: disease_costs_per100k; max_abs=1.39698e-09
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: sequela_costs_per100k; max_abs=5.45697e-12
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: productivity_costs_per100k; max_abs=9.31323e-10
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: doses_total_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_averted; max_abs=1.39698e-09
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_averted; max_abs=4.09273e-12
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qalys_gained; max_abs=5.82077e-11
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: incremental_costs; max_abs=2.5332e-07
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_averted_per100k; max_abs=1.00044e-11
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_averted_per100k; max_abs=2.4869e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qalys_gained_per100k; max_abs=4.54747e-13
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: incremental_costs_per100k; max_abs=1.97906e-09
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: icer; max_abs=3.18323e-12
+reference_identifier_column,True,research/inputs/Final/outputs/factorial.csv: economic_status
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_total_per100k_delta_vs_on_schedule; max_abs=5.45697e-12
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_total_per100k_pct_vs_on_schedule; max_abs=1.13687e-13
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_total_per100k_delta_vs_on_schedule; max_abs=4.26326e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_total_per100k_pct_vs_on_schedule; max_abs=1.56319e-13
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qaly_loss_per100k_delta_vs_on_schedule; max_abs=4.54747e-13
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qaly_loss_per100k_pct_vs_on_schedule; max_abs=8.52651e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: costs_total_per100k_delta_vs_on_schedule; max_abs=2.79397e-09
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: costs_total_per100k_pct_vs_on_schedule; max_abs=5.68434e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: vaccine_costs_per100k_delta_vs_on_schedule; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: vaccine_costs_per100k_pct_vs_on_schedule; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_averted_per100k_delta_vs_on_schedule; max_abs=7.50333e-12
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: cases_averted_per100k_pct_vs_on_schedule; max_abs=5.68434e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_averted_per100k_delta_vs_on_schedule; max_abs=2.13163e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: deaths_averted_per100k_pct_vs_on_schedule; max_abs=4.26326e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qalys_gained_per100k_delta_vs_on_schedule; max_abs=4.54747e-13
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: qalys_gained_per100k_pct_vs_on_schedule; max_abs=2.84217e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: incremental_costs_per100k_delta_vs_on_schedule; max_abs=1.86265e-09
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: incremental_costs_per100k_pct_vs_on_schedule; max_abs=4.26326e-14
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: icer_delta_vs_on_schedule; max_abs=3.18323e-12
+reference_numeric_column,True,research/inputs/Final/outputs/factorial.csv: icer_pct_vs_on_schedule; max_abs=1.13687e-13
+reference_shape,True,research/inputs/Final/outputs/herd_contributions.csv
+reference_columns,True,research/inputs/Final/outputs/herd_contributions.csv
+reference_identifier_column,True,research/inputs/Final/outputs/herd_contributions.csv: vaccine
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: D; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: W; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: G; max_abs=0
+reference_identifier_column,True,research/inputs/Final/outputs/herd_contributions.csv: scenario
+reference_identifier_column,True,research/inputs/Final/outputs/herd_contributions.csv: paired_herd_off
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: indirect_cases_averted_per100k; max_abs=9.09495e-12
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: direct_only_cases_averted_per100k; max_abs=1.00044e-11
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: total_cases_averted_per100k; max_abs=9.09495e-12
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: indirect_share_cases_averted_per100k_pct; max_abs=7.10543e-14
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: indirect_deaths_averted_per100k; max_abs=2.84217e-14
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: direct_only_deaths_averted_per100k; max_abs=2.4869e-14
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: total_deaths_averted_per100k; max_abs=2.13163e-14
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: indirect_share_deaths_averted_per100k_pct; max_abs=5.68434e-14
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: indirect_qalys_gained_per100k; max_abs=6.82121e-13
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: direct_only_qalys_gained_per100k; max_abs=4.54747e-13
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: total_qalys_gained_per100k; max_abs=4.54747e-13
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: indirect_share_qalys_gained_per100k_pct; max_abs=2.84217e-14
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: indirect_net_cost_savings_per100k; max_abs=4.19095e-09
+reference_numeric_column,True,research/inputs/Final/outputs/herd_contributions.csv: incremental_vaccine_cost_due_to_herd_per100k; max_abs=0
+reference_shape,True,research/inputs/Final/outputs/interactions.csv
+reference_columns,True,research/inputs/Final/outputs/interactions.csv
+reference_identifier_column,True,research/inputs/Final/outputs/interactions.csv: vaccine
+reference_identifier_column,True,research/inputs/Final/outputs/interactions.csv: metric
+reference_identifier_column,True,research/inputs/Final/outputs/interactions.csv: term
+reference_numeric_column,True,research/inputs/Final/outputs/interactions.csv: order; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/interactions.csv: interaction_delta; max_abs=1.86265e-09
+reference_numeric_column,True,research/inputs/Final/outputs/interactions.csv: pct_of_abs_on_schedule; max_abs=7.47007e-14
+reference_shape,True,research/inputs/Final/outputs/schedules.csv
+reference_columns,True,research/inputs/Final/outputs/schedules.csv
+reference_identifier_column,True,research/inputs/Final/outputs/schedules.csv: scenario
+reference_identifier_column,True,research/inputs/Final/outputs/schedules.csv: vaccine
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: D; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: W; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: G; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: herd_off; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: cases_total; max_abs=4.65661e-10
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: deaths_total; max_abs=3.63798e-12
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: qaly_loss; max_abs=5.82077e-11
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: costs_total; max_abs=1.19209e-07
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: vaccine_costs; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: disease_costs; max_abs=1.19209e-07
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: sequela_costs; max_abs=4.65661e-10
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: productivity_costs; max_abs=8.9407e-08
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: doses_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: births_denominator; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: cases_averted_per100k; max_abs=5.45697e-12
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: deaths_averted_per100k; max_abs=1.42109e-14
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: qalys_gained_per100k; max_abs=4.54747e-13
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: incremental_costs_per100k; max_abs=1.39698e-09
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: costs_total_per100k; max_abs=9.31323e-10
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: doses_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: icer; max_abs=9.09495e-13
+reference_identifier_column,True,research/inputs/Final/outputs/schedules.csv: strategy
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: delta_cases_averted_per100k; max_abs=3.64508e-12
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: delta_deaths_averted_per100k; max_abs=2.13163e-14
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: delta_qalys_gained_per100k; max_abs=4.54747e-13
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: delta_incremental_costs_per100k; max_abs=1.40426e-09
+reference_numeric_column,True,research/inputs/Final/outputs/schedules.csv: delta_doses_per100k; max_abs=0
+reference_shape,True,research/inputs/Final/outputs/sensitivity.csv
+reference_columns,True,research/inputs/Final/outputs/sensitivity.csv
+reference_identifier_column,True,research/inputs/Final/outputs/sensitivity.csv: scenario
+reference_identifier_column,True,research/inputs/Final/outputs/sensitivity.csv: vaccine
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: D; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: W; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: G; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: herd_off; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: cases_total; max_abs=9.31323e-10
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: deaths_total; max_abs=1.81899e-12
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: qaly_loss; max_abs=5.82077e-11
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: costs_total; max_abs=2.38419e-07
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: vaccine_costs; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: disease_costs; max_abs=1.19209e-07
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: sequela_costs; max_abs=6.98492e-10
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: productivity_costs; max_abs=1.49012e-07
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: doses_total; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: births_denominator; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: cases_averted_per100k; max_abs=2.00089e-11
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: deaths_averted_per100k; max_abs=7.10543e-14
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: qalys_gained_per100k; max_abs=1.59162e-12
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: incremental_costs_per100k; max_abs=2.79397e-09
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: costs_total_per100k; max_abs=1.86265e-09
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: doses_per100k; max_abs=0
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: icer; max_abs=2.72848e-12
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: delta_cases_averted_per100k; max_abs=2.18279e-11
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: delta_deaths_averted_per100k; max_abs=7.28306e-14
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: delta_qalys_gained_per100k; max_abs=1.42109e-12
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: delta_incremental_costs_per100k; max_abs=3.72529e-09
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: delta_icer; max_abs=3.86535e-12
+reference_identifier_column,True,research/inputs/Final/outputs/sensitivity.csv: parameter
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: value; max_abs=0
+reference_identifier_column,True,research/inputs/Final/outputs/sensitivity.csv: reference
+reference_numeric_column,True,research/inputs/Final/outputs/sensitivity.csv: fixed_target_herd; max_abs=0
+reference_shape,True,research/inputs/Final/outputs/shapley.csv
+reference_columns,True,research/inputs/Final/outputs/shapley.csv
+reference_identifier_column,True,research/inputs/Final/outputs/shapley.csv: vaccine
+reference_identifier_column,True,research/inputs/Final/outputs/shapley.csv: metric
+reference_identifier_column,True,research/inputs/Final/outputs/shapley.csv: factor
+reference_numeric_column,True,research/inputs/Final/outputs/shapley.csv: shapley_delta; max_abs=1.08776e-09
+reference_numeric_column,True,research/inputs/Final/outputs/shapley.csv: joint_delta; max_abs=1.86265e-09
+reference_numeric_column,True,research/inputs/Final/outputs/shapley.csv: share_of_joint_pct; max_abs=2.96723e-11
+reference_shape,True,research/inputs/Final/outputs/stable.csv
+reference_columns,True,research/inputs/Final/outputs/stable.csv
+reference_identifier_column,True,research/inputs/Final/outputs/stable.csv: vaccine
+reference_identifier_column,True,research/inputs/Final/outputs/stable.csv: endpoint
+reference_numeric_column,True,research/inputs/Final/outputs/stable.csv: baseline; max_abs=5.82077e-11
+reference_numeric_column,True,research/inputs/Final/outputs/stable.csv: vaccinated; max_abs=7.27596e-12
+reference_numeric_column,True,research/inputs/Final/outputs/stable.csv: reduction_pct; max_abs=2.84217e-14
+reference_shape,True,research/outputs/aggregation.csv
+reference_columns,True,research/outputs/aggregation.csv
+reference_identifier_column,True,research/outputs/aggregation.csv: configuration
+reference_numeric_column,True,research/outputs/aggregation.csv: alive; max_abs=0
+reference_numeric_column,True,research/outputs/aggregation.csv: C; max_abs=0
+reference_numeric_column,True,research/outputs/aggregation.csv: r; max_abs=0
+reference_numeric_column,True,research/outputs/aggregation.csv: H_ipd; max_abs=0
+reference_numeric_column,True,research/outputs/aggregation.csv: initial_alive_derivative; max_abs=0
+reference_numeric_column,True,research/outputs/aggregation.csv: one_month_cases; max_abs=0
+reference_numeric_column,True,research/outputs/aggregation.csv: one_month_deaths; max_abs=0
+reference_numeric_column,True,research/outputs/aggregation.csv: initial_ipd_rate; max_abs=0
+reference_shape,True,research/outputs/aom.csv
+reference_columns,True,research/outputs/aom.csv
+reference_identifier_column,True,research/outputs/aom.csv: vaccine
+reference_numeric_column,True,research/outputs/aom.csv: k; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: h; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: cases_total; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: deaths_total; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: qaly_loss; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: costs_total; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: vaccine_costs; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: disease_costs; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: sequela_costs; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: productivity_costs; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: doses_total; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: births_denominator; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: aom_fraction; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: aom_events; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: qalys_gained_per100k; max_abs=0
+reference_numeric_column,True,research/outputs/aom.csv: incremental_costs_per100k; max_abs=0
+reference_shape,True,research/outputs/ctmc.csv
+reference_columns,True,research/outputs/ctmc.csv
+reference_numeric_column,True,research/outputs/ctmc.csv: month; max_abs=0
+reference_numeric_column,True,research/outputs/ctmc.csv: state; max_abs=0
+reference_numeric_column,True,research/outputs/ctmc.csv: exact; max_abs=1.11022e-16
+reference_numeric_column,True,research/outputs/ctmc.csv: ode; max_abs=2.22045e-16
+reference_numeric_column,True,research/outputs/ctmc.csv: simulated_mean; max_abs=0
+reference_numeric_column,True,research/outputs/ctmc.csv: mc_se; max_abs=0
+reference_numeric_column,True,research/outputs/ctmc.csv: z; max_abs=4.0119e-12
+reference_shape,True,research/outputs/manufactured.csv
+reference_columns,True,research/outputs/manufactured.csv
+reference_numeric_column,True,research/outputs/manufactured.csv: k; max_abs=0
+reference_numeric_column,True,research/outputs/manufactured.csv: h; max_abs=0
+reference_numeric_column,True,research/outputs/manufactured.csv: L1_density_error; max_abs=0
+reference_numeric_column,True,research/outputs/manufactured.csv: total_error; max_abs=0
+reference_numeric_column,True,research/outputs/manufactured.csv: alive; max_abs=0
+reference_numeric_column,True,research/outputs/manufactured.csv: exact_total; max_abs=0
+reference_numeric_column,True,research/outputs/manufactured.csv: observed_total_order; max_abs=0
+reference_shape,True,research/outputs/mortality_brackets.csv
+reference_columns,True,research/outputs/mortality_brackets.csv
+reference_identifier_column,True,research/outputs/mortality_brackets.csv: vaccine
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: k; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: h; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: cases_total; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: deaths_total; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: qaly_loss; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: costs_total; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: vaccine_costs; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: disease_costs; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: sequela_costs; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: productivity_costs; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: doses_total; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: births_denominator; max_abs=0
+reference_identifier_column,True,research/outputs/mortality_brackets.csv: background
+reference_identifier_column,True,research/outputs/mortality_brackets.csv: status
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: qalys_gained_per100k; max_abs=0
+reference_numeric_column,True,research/outputs/mortality_brackets.csv: incremental_costs_per100k; max_abs=0
+reference_shape,True,research/outputs/refinement.csv
+reference_columns,True,research/outputs/refinement.csv
+reference_identifier_column,True,research/outputs/refinement.csv: vaccine
+reference_numeric_column,True,research/outputs/refinement.csv: k; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: h; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: cases_total; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: deaths_total; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: qaly_loss; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: costs_total; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: vaccine_costs; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: disease_costs; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: sequela_costs; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: productivity_costs; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: doses_total; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: births_denominator; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: cases_averted_per100k; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: deaths_averted_per100k; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: qalys_gained_per100k; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: incremental_costs_per100k; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: cases_total_relative_error_to_k16; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: deaths_total_relative_error_to_k16; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: qaly_loss_relative_error_to_k16; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: costs_total_relative_error_to_k16; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: qalys_gained_per100k_relative_error_to_k16; max_abs=0
+reference_numeric_column,True,research/outputs/refinement.csv: incremental_costs_per100k_relative_error_to_k16; max_abs=0
+reference_shape,True,revision/outputs/ctmc_absorbing_event.csv
+reference_columns,True,revision/outputs/ctmc_absorbing_event.csv
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: month; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: absorbing_event_probability; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: expected_absorbing_count; max_abs=3.63798e-12
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: exact_count_SD; max_abs=2.84217e-14
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: MC_count_SD; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: count_prediction_2p5_percent; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: count_prediction_97p5_percent; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: empirical_count_2p5_percent; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: empirical_count_97p5_percent; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: population; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: replicates; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_event.csv: seed; max_abs=0
+reference_shape,True,revision/outputs/ctmc_absorbing_replicates.csv
+reference_columns,True,revision/outputs/ctmc_absorbing_replicates.csv
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_replicates.csv: month; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_replicates.csv: replicate; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_replicates.csv: absorbing_count; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_absorbing_replicates.csv: seed; max_abs=0
+reference_shape,True,revision/outputs/ctmc_variability.csv
+reference_columns,True,revision/outputs/ctmc_variability.csv
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: month; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: state; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: state_probability; max_abs=1.11022e-16
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: expected_count; max_abs=2.18279e-11
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: exact_count_SD; max_abs=4.26326e-14
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: MC_mean_count; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: MC_count_SD; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: mean_z; max_abs=4.59999e-12
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: sample_variance_z; max_abs=2.84217e-14
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: seed; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: population; max_abs=0
+reference_numeric_column,True,revision/outputs/ctmc_variability.csv: replicates; max_abs=0
+entry_point_syntax,True,research\src\experiments.py
+no_drive_path_dependency,True,research\src\experiments.py
+entry_point_syntax,True,research\src\revised_plots.py
+no_drive_path_dependency,True,research\src\revised_plots.py
+entry_point_syntax,True,revision\ctmc_variability.py
+no_drive_path_dependency,True,revision\ctmc_variability.py
+entry_point_syntax,True,revision\plot_figures.py
+no_drive_path_dependency,True,revision\plot_figures.py
+entry_point_syntax,True,package_release.py
+no_drive_path_dependency,True,package_release.py
+entry_point_syntax,True,plots.py
+no_drive_path_dependency,True,plots.py
+entry_point_syntax,True,reproduce.py
+no_drive_path_dependency,True,reproduce.py
+entry_point_syntax,True,verify.py
+no_drive_path_dependency,True,verify.py
+entry_point_syntax,True,verify_release.py
+no_drive_path_dependency,True,verify_release.py
+entry_point_syntax,True,write_manifest.py
+no_drive_path_dependency,True,write_manifest.py
+main_figure_present,True,1
+main_figure_present,True,2
+main_figure_present,True,3
+main_figure_present,True,4
+main_figure_present,True,5
+main_figure_present,True,6
+extended_figure_present,True,pcv10_gsk/population_trajectory
+extended_figure_present,True,pcv10_gsk/dose_integrals
+extended_figure_present,True,pcv10_gsk/age_calendar_dose_density
+extended_figure_present,True,pcv13/population_trajectory
+extended_figure_present,True,pcv13/dose_integrals
+extended_figure_present,True,pcv13/age_calendar_dose_density
+extended_figure_present,True,pcv10_sii/population_trajectory
+extended_figure_present,True,pcv10_sii/dose_integrals
+extended_figure_present,True,pcv10_sii/age_calendar_dose_density

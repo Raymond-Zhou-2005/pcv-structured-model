@@ -1,0 +1,142 @@
+{
+  "birth_cohort": 1384610,
+  "u5_mortality_rate": 20.0,
+  "neonatal_mortality_rate": 10.3,
+  "inc_pneumonia": 1771,
+  "inc_meningitis": 12,
+  "inc_sepsis": 124,
+  "inc_aom_all": 9570,
+  "prop_pneumo_severe": 0.389,
+  "prop_aom_spn": 0.303,
+  "cfr_pneumo_severe": 0.014241,
+  "cfr_meningitis": 0.032258,
+  "cfr_sepsis": 0.08,
+  "prob_cog": 0.016,
+  "prob_epi": 0.022,
+  "prob_hemi": 0.032,
+  "prob_hear": 0.046,
+  "prob_cochlear_implant": 0.025,
+  "prob_special_education": 0.2574,
+  "vaccine_coverage": 0.9,
+  "vaccine_irrs": {
+    "PCV10-GSK": [
+      0.59,
+      0.49,
+      0.39,
+      0.32,
+      0.28,
+      0.26
+    ],
+    "PCV13": [
+      0.54,
+      0.38,
+      0.32,
+      0.2864333333333333,
+      0.2528666666666667,
+      0.2193
+    ],
+    "PCV10-SII": [
+      0.2211,
+      0.2211,
+      0.2211,
+      0.2211,
+      0.2211,
+      0.2211
+    ]
+  },
+  "birth_month_shares": [
+    0.08,
+    0.074,
+    0.078,
+    0.082,
+    0.086,
+    0.091,
+    0.094,
+    0.092,
+    0.087,
+    0.083,
+    0.078,
+    0.075
+  ],
+  "warmup_months": 60,
+  "record_months": 120,
+  "age_bins": 60,
+  "vaccine_schedule_months": [
+    2,
+    4,
+    12
+  ],
+  "direct_protection_start_month": 4,
+  "vaccine_direct_effectiveness": {
+    "PCV10-GSK": {
+      "ipd": 0.5,
+      "pneumonia": 0.22,
+      "aom": 0.53
+    },
+    "PCV13": {
+      "ipd": 0.602,
+      "pneumonia": 0.19,
+      "aom": 0.46
+    },
+    "PCV10-SII": {
+      "ipd": 0.49383047794812496,
+      "pneumonia": 0.1558601176248235,
+      "aom": 0.3773455479337832
+    }
+  },
+  "vaccine_direct_effectiveness_bridge": {},
+  "pcv10_sii_relative_ve_assumption": "central_weighted_gmc",
+  "pcv10_sii_relative_ve_multiplier": 0.8203164085517026,
+  "routine_dose1_transition_probs": {
+    "2": 0.65,
+    "3": 0.57,
+    "4": 0.67,
+    "5": 0.6
+  },
+  "routine_dose2_transition_probs": {
+    "4": 0.7,
+    "5": 0.45,
+    "6": 0.3,
+    "7": 0.2,
+    "8": 0.1
+  },
+  "routine_booster_transition_probs": {
+    "12": 0.55,
+    "13": 0.35,
+    "14": 0.25,
+    "15": 0.15,
+    "16": 0.1
+  },
+  "catchup_enabled": false,
+  "catchup_campaign_months": 12,
+  "catchup_7_11_to_dose1_prob": 0.12,
+  "catchup_12_23_to_dose1_prob": 0.08,
+  "dose1_relative_ve": 0.45,
+  "dose2_relative_ve": 1.0,
+  "booster_relative_ve": 1.1,
+  "max_direct_ve": 0.95,
+  "primary_waning_by_age": {
+    "24": 0.85,
+    "36": 0.7
+  },
+  "booster_waning_by_age": {
+    "24": 0.95,
+    "36": 0.8,
+    "48": 0.7
+  },
+  "carriage_reduction_by_group": {
+    "Program_Dose0": 0.0,
+    "Program_Dose1": 0.15,
+    "Program_Dose2": 0.34,
+    "Program_Booster": 0.4
+  },
+  "carriage_age_weights": {
+    "0_5": 0.0,
+    "6_17": 1.0,
+    "18_23": 0.8,
+    "24_59": 0.35
+  },
+  "mature_effective_dose_share": 0.88,
+  "carriage_to_herd_fraction": 0.0,
+  "mortality_accounting": "cause_deleted"
+}

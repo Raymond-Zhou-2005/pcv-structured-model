@@ -1,0 +1,12 @@
+AssumptionType,Check,Value
+Accounting,weight_sum_Meningitis,1.0000000000000004
+Accounting,weight_sum_Pneumonia,0.9999999999999996
+Accounting,weight_sum_Sepsis,0.9999999999999996
+Accounting,weight_sum_AOM,1.0000000000000004
+Accounting,horizon_prefix_12m,0.0
+Accounting,horizon_prefix_24m,0.0
+Accounting,horizon_prefix_36m,0.0
+Accounting,horizon_prefix_48m,0.0
+Accounting,horizon_prefix_60m,0.0
+Accounting,exact_vs_rk45_pcv13_dynamic_max_abs,0.5950217996505671
+Accounting,exact_vs_rk45_pcv13_dynamic_max_rel,0.0007545438777726362

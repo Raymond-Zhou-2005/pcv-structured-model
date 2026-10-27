@@ -1,0 +1,5 @@
+model_label,model_family,population_estimand,time_horizon_years,births_denominator,feature_summary
+Original cohort ODE + QALY_new,Closed birth-cohort,One Vietnamese birth cohort followed from birth to 59 months,5,1384610.0,Deterministic ODE with original total-IRR vaccine effect and QALY_new economics.
+Original cohort Markov + QALY_new,Closed birth-cohort,One Vietnamese birth cohort followed from birth to 59 months,5,1384610.0,Stochastic Markov/microsimulation counterpart with original QALY_new economics.
+Calendar PDE: on-schedule primary-series protection + IRR-decomposed herd,Calendar under-five PDE,Full 0-59 month calendar population with continuing births,10,13846100.0,"Baseline-only warm-up, continuing births, endpoint-specific VE, protection beginning after primary series, and herd multiplier inferred from annual IRR."
+Calendar PDE: delayed dose states + waning + carriage-informed herd,Calendar under-five PDE,Full 0-59 month calendar population with continuing births,10,13846100.0,"Adds mild birth seasonality, explicit dose states, delayed routine vaccination, dose-specific VE, waning, and carriage-informed herd build-up."

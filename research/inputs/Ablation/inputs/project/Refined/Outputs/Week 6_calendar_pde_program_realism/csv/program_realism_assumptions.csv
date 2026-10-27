@@ -1,0 +1,13 @@
+Parameter,Value,Interpretation
+birth_month_shares,0.080;0.074;0.078;0.082;0.086;0.091;0.094;0.092;0.087;0.083;0.078;0.075,Assumed mild seasonality; replace with verified Vietnam monthly births.
+routine_dose1_transition_probs,"{2: 0.65, 3: 0.57, 4: 0.67, 5: 0.6}",Delay around the 2-month target.
+routine_dose2_transition_probs,"{4: 0.7, 5: 0.45, 6: 0.3, 7: 0.2, 8: 0.1}",Delay around the 4-month target.
+routine_booster_transition_probs,"{12: 0.55, 13: 0.35, 14: 0.25, 15: 0.15, 16: 0.1}",Delay around the 12-month booster target.
+catchup_enabled,False,Off in central run because introduction catch-up policy was not specified.
+dose1_relative_ve,0.45,Partial direct protection after one dose.
+dose2_relative_ve,1.0,Primary-series direct protection equals the on-schedule endpoint VE.
+booster_relative_ve,1.1,"Booster restores protection, capped by max_direct_ve."
+primary_waning_by_age,"{24: 0.85, 36: 0.7}",Structural waning assumption after the primary series.
+booster_waning_by_age,"{24: 0.95, 36: 0.8, 48: 0.7}",Structural waning assumption after booster.
+carriage_reduction_by_group,"{'Program_Dose0': 0.0, 'Program_Dose1': 0.15, 'Program_Dose2': 0.34, 'Program_Booster': 0.4}",Carriage RCT-inspired build-up of herd protection.
+mature_effective_dose_share,0.88,Used to translate mature IRR into a mature herd target.

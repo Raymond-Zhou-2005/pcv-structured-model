@@ -1,0 +1,25 @@
+﻿key,doi,checked_date,exact_match,status,identity_status,pmid,year,volume,issue,pages,old_author_count,new_author_count,author_count_agrees,title_agrees_ignoring_format,primary_index_url
+Brisson2003Herd,10.1177/0272989X02239651,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,12583457,2003,23,1,76-82,2,2,True,True,https://europepmc.org/article/MED/12583457
+Jit2011Primer,10.2165/11539960-000000000-00000,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,21504239,2011,29,5,371-386,2,2,True,False,https://europepmc.org/article/MED/21504239
+Pitman2012DynamicTransmission,10.1016/j.jval.2012.06.011,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,22999132,2012,15,6,828-834,7,8,False,True,https://europepmc.org/article/MED/22999132
+Caro2012ModelingOverview,10.1016/j.jval.2012.06.012,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,22999128,2012,15,6,796-803,4,5,False,True,https://europepmc.org/article/MED/22999128
+Husereau2022CHEERS,10.1016/j.jval.2021.10.008,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,35031088,2022,25,1,10-31,15,15,True,True,https://europepmc.org/article/MED/35031088
+Lai2023ChinaPCV13,10.1016/j.lanwpc.2022.100666,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,36785861,2023,32,,100666,10,10,True,True,https://europepmc.org/article/MED/36785861
+SmithVaughan2023VietnamCarriage,10.1016/j.lanwpc.2022.100651,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,36785850,2023,32,,100651,19,19,True,True,https://europepmc.org/article/MED/36785850
+Tao2026VietnamCarriageReview,10.1016/j.lanwpc.2026.101799,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,41625295,2026,66,,101799,13,13,True,True,https://europepmc.org/article/MED/41625295
+Truong2026VietnamEffectiveness,10.1016/j.vaccine.2026.128349,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,41702352,2026,77,,128349,15,15,True,True,https://europepmc.org/article/MED/41702352
+Foutel2022,10.1007/s00285-022-01794-4,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,36169721,2022,85,4,43,12,12,True,True,https://europepmc.org/article/MED/36169721
+Hurtado2021,10.1080/17513758.2021.1912418,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,33847236,2021,15,sup1,S248-S272,2,2,True,True,https://europepmc.org/article/MED/33847236
+Tian2006,10.1080/07362990600632045,2026-10-12,False,Exact DOI not found in queried index,Verified against manually inspected publisher/author primary record,,,,,,,,,,
+Do2025,10.1093/jacamr/dlaf006,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,39958872,2025,7,1,dlaf006,11,11,True,True,https://europepmc.org/article/MED/39958872
+Adigweme2023,10.1016/S1473-3099(22)00734-4,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,36638819,2023,23,5,609-620,17,17,True,True,https://europepmc.org/article/MED/36638819
+Bennett2025,10.1016/S1473-3099(24)00665-0,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,39706204,2025,25,4,457-470,119,68,False,True,https://europepmc.org/article/MED/39706204
+Wahl2018,10.1016/S2214-109X(18)30247-X,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,29903376,2018,6,7,e744-e757,13,13,True,True,https://europepmc.org/article/MED/29903376
+Edmond2010,10.1016/S1473-3099(10)70048-7,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,20417414,2010,10,5,317-328,6,6,True,True,https://europepmc.org/article/MED/20417414
+Mai2022,10.9745/GHSP-D-21-00482,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,35487560,2022,10,2,e2100482,10,10,True,True,https://europepmc.org/article/MED/35487560
+Bennett2000,10.1001/archpedi.154.1.43,2026-10-12,False,Exact DOI not found in queried index,Verified against manually inspected publisher/author primary record,,,,,,,,,,
+Oh1996,10.1016/s0149-2918(96)80188-3,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,8851461,1996,18,1,160-182,1,6,False,True,https://europepmc.org/article/MED/8851461
+Oostenbrink2002,10.1016/s0895-4356(02)00448-1,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,12384194,2002,55,8,791-799,3,3,True,False,https://europepmc.org/article/MED/12384194
+Dilok2019,10.1016/j.vaccine.2019.06.015,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,31280944,2019,37,32,4551-4560,7,7,True,True,https://europepmc.org/article/MED/31280944
+Pham2013,10.2185/jrm.2876,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,25649134,2013,8,2,212-221,5,5,True,True,https://europepmc.org/article/MED/25649134
+vanHoek2012,10.1016/j.vaccine.2012.10.017,2026-10-12,True,Exact DOI identity match,Exact DOI identity match,23084850,2012,30,50,7205-7213,5,5,True,True,https://europepmc.org/article/MED/23084850

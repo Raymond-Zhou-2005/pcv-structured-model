@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its generated research outputs, cite this version and the relevant original data sources."
+type: software
+title: "Structured PCV programme analysis"
+authors:
+  - family-names: Zhou
+    given-names: Ruimeng
+version: v1.0.0
+date-released: 2026-10-28
+repository-code: "https://github.com/Raymond-Zhou-2005/pcv-structured-model"
+url: "https://github.com/Raymond-Zhou-2005/pcv-structured-model/releases/tag/v1.0.0"
+license: MIT
+abstract: "Reproducible age-calendar vaccination modelling methods and a deterministic pneumococcal conjugate vaccine scenario application. Author-owned software is MIT-licensed; original data and prose are CC BY 4.0, with third-party exceptions defined in LICENSES.md."
+keywords:
+  - pneumococcal conjugate vaccine
+  - age-structured model
+  - Markov model
+  - partial differential equation
+  - reproducibility

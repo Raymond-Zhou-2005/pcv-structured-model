@@ -1,0 +1,8 @@
+{
+  "scenario_name": "nv_CFR_1p25",
+  "warmup_months": 60,
+  "warmup_mode": "baseline_only_no_vaccination",
+  "warmup_alive_after_age_shift": 6707812.483449065,
+  "warmup_preexisting_sequelae_total": 391.4757495877136,
+  "retain_preexisting_sequelae": false
+}

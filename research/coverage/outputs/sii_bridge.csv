@@ -1,0 +1,4 @@
+endpoint,pcv13_direct_ve,sii_relative_multiplier,sii_direct_ve,status
+ipd,0.602,0.8203164085517026,0.49383047794812496,retained immunogenicity proxy; original row-level weighting unavailable
+pneumonia,0.19,0.8203164085517026,0.1558601176248235,retained immunogenicity proxy; original row-level weighting unavailable
+aom,0.46,0.8203164085517026,0.3773455479337832,retained immunogenicity proxy; original row-level weighting unavailable

@@ -1,0 +1,8 @@
+{
+  "scenario_name": "pcv13_D1W0G0",
+  "warmup_months": 60,
+  "warmup_mode": "baseline_only_no_vaccination",
+  "warmup_alive_after_age_shift": 6709032.283927146,
+  "warmup_preexisting_sequelae_total": 394.855422495949,
+  "retain_preexisting_sequelae": false
+}

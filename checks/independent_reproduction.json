@@ -1,0 +1,109 @@
+{
+  "status": "passed",
+  "executed_from": "independent repository copy under task Temp",
+  "commands": [
+    "python -B reproduce.py"
+  ],
+  "old_closed_cohort_replicates_rerun": false,
+  "scientific_results_compared": {
+    "check_count": 807,
+    "passed": 807,
+    "failed": [],
+    "run_state_arrays": 144,
+    "bitwise_equal_state_arrays": 144,
+    "reference_table_comparisons": [
+      {
+        "path": "research/inputs/Final/outputs/accounting_migration.csv",
+        "rows": 7,
+        "max_absolute_numeric_difference": 1.8189894035458565e-12
+      },
+      {
+        "path": "research/inputs/Final/outputs/factorial.csv",
+        "rows": 37,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/inputs/Final/outputs/herd_contributions.csv",
+        "rows": 24,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/inputs/Final/outputs/interactions.csv",
+        "rows": 189,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/inputs/Final/outputs/schedules.csv",
+        "rows": 27,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/inputs/Final/outputs/sensitivity.csv",
+        "rows": 60,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/inputs/Final/outputs/shapley.csv",
+        "rows": 81,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/inputs/Final/outputs/stable.csv",
+        "rows": 18,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/outputs/aggregation.csv",
+        "rows": 2,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/outputs/aom.csv",
+        "rows": 20,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/outputs/ctmc.csv",
+        "rows": 20,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/outputs/manufactured.csv",
+        "rows": 6,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/outputs/mortality_brackets.csv",
+        "rows": 16,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "research/outputs/refinement.csv",
+        "rows": 20,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "revision/outputs/ctmc_absorbing_event.csv",
+        "rows": 4,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "revision/outputs/ctmc_absorbing_replicates.csv",
+        "rows": 4000,
+        "max_absolute_numeric_difference": 0.0
+      },
+      {
+        "path": "revision/outputs/ctmc_variability.csv",
+        "rows": 20,
+        "max_absolute_numeric_difference": 0.0
+      }
+    ],
+    "numeric_tolerance": {
+      "relative": 1e-12,
+      "absolute": 1e-07
+    },
+    "exclusions": "Execution times; CSV floating point roundtrip differences below tolerance. Reference tests do not prove empirical input validity."
+  },
+  "runtime_note": "293.568 seconds on the reference environment; descriptive, not a cross-machine benchmark",
+  "package_scope": "Scientific source and runtime paths are repository relative; historical metadata paths are provenance only"
+}

@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-28",
+  "scope": "Public release copy only; original Main_Revision remains unchanged",
+  "authorization": "Author explicitly approved public GitHub publication, MIT for original code, CC BY 4.0 for original data/text, and confirmed authority to share inherited aggregate inputs.",
+  "privacy_transformations": [
+    {
+      "path": "research/inputs/Ablation/inputs/project/Parameters 1.15.xlsx",
+      "original_sha256": "e84b5731ec8c2f36b63701acf4730f16be8eb413e2a9fdc4ff0d7d6989206206",
+      "published_sha256": "0e5dbbfed64845dd44b93da9ff4a724b6f244f0caf75d5783e7da7b04706af2c",
+      "changed_zip_members": [
+        "xl/workbook.xml",
+        "docProps/core.xml"
+      ],
+      "transformation": "Removed creator/lastModifiedBy and embedded local absolute path metadata; all other ZIP members including every worksheet retained byte-for-byte."
+    }
+  ],
+  "provenance": "checks/import_manifest.json retains historical import hashes. release_manifest.json records current publication hashes. No scientific cell values, model parameters, code, numerical results or figure content were changed.",
+  "prepublication_scan": "No private key, GitHub/API token, patient records or private correspondence detected in release payload; reference metadata and licence-header contacts are public source information."
+}

@@ -1,0 +1,6 @@
+{
+  "E_X_squared": 0.25240041800000007,
+  "E_X_squared_exact": 0.2525,
+  "square_E_X": 0.25,
+  "explanation": "E[X^2] != E[X]^2; this is an illustrative closure counterexample."
+}

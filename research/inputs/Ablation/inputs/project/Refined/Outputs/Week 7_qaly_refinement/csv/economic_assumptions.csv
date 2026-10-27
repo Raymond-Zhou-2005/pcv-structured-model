@@ -1,0 +1,12 @@
+parameter,value,interpretation
+economic_scope,mixed comparison with explicit estimand labels,Original QALY_new rows are closed-cohort 5-year results; calendar PDE rows are 10-year full under-five calendar-program results.
+standardized_reporting,"per 100,000 births or recorded births",Used to make cohort and calendar estimates easier to compare; raw totals should still be interpreted within each estimand.
+calendar_discount_rate,0.03,Used for newly computed calendar-PDE costs and QALY losses by program year.
+calendar_avg_u5_death_age_years,2.5,Neutral under-five average age at pneumococcal death when age-specific death outputs are unavailable.
+on_schedule_calendar_vaccine_costing,"on-time doses at 2, 4, 12 months",Program-enrolled live births receive scheduled doses if dose month falls inside the 10-year recorded horizon.
+delayed_dose_calendar_vaccine_costing,model-tracked delayed dose transitions,"Dose counts are re-simulated with explicit dose states, transition probabilities, mortality, and age transport."
+wastage_costing,procurement only,"Wastage inflates vaccine procurement cost, not service delivery or adverse-event counts."
+range_parser_correction_for_calendar_economics,positive midpoint parser,"Calendar-PDE economic calculations locally correct hyphenated ranges such as 680-1,360; original imported QALY_new summaries are left as previously generated."
+pcv10sii_price,1.941747572815534,Retains QALY_new assumption: PCV10-SII uses the PCV10 price row when no separate row is available.
+pcv10_price,1.941747572815534,Aligned vaccine price used for PCV10-GSK.
+pcv13_price,4.22,Vaccine price used for PCV13.

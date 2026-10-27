@@ -1,0 +1,3 @@
+# Frozen source/data hashes must survive Windows and Unix checkouts unchanged.
+# Disable automatic line-ending conversion; text remains readable/diffable.
+* -text

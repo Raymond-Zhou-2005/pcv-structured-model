@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "path": "inputs\\Ablation\\inputs\\project\\QALY_new.py",
+      "sha256": "c14149779b8cbc8c9f747e3671daa856a8bb6091fe57ee92af8371dd813471af"
+    },
+    {
+      "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 4_calendar_original.py",
+      "sha256": "06775151766ceb098f929105c55263c4573bec8de82ea2e85961638a11573828"
+    },
+    {
+      "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 5_calendar_pde_original.py",
+      "sha256": "966336f0bf3b963c4b38350588e1551630e4897e4e337f87026f0c5828abad93"
+    },
+    {
+      "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 5_calendar_pde_refined.py",
+      "sha256": "2b7325a9d78844d797fd97aafc26b33be9bed29202ffa818d189f0eb95d6ebd6"
+    },
+    {
+      "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 6_calendar_pde_program_realism.py",
+      "sha256": "fe50388d9710a1b87acbd6ac733dbdb50c2a10c608eff99dff7affe0df9e870e"
+    },
+    {
+      "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 7_qaly_refinement_impact.py",
+      "sha256": "52277a2354c92a99e631167c3b817334b08ae5441cb991fe17b7ff9e76fbba0a"
+    },
+    {
+      "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 8 +\\03_cleanroom_models\\calendar_pde_cleanroom.py",
+      "sha256": "562931d381b022bb86ea164b7dd93c95cc979ab34d7766da513eeb9dcf6648f2"
+    },
+    {
+      "path": "inputs\\Ablation\\src\\run_ablation.py",
+      "sha256": "697abeab0a88e7127fadfd6acd3be11c52ce1ec028f31c2574fe83c76bef0490"
+    },
+    {
+      "path": "inputs\\Final\\src\\analyze.py",
+      "sha256": "40a78a63d42034614ec72dd1b46e440142d67921e3a5dfeb291eeabd2117f900"
+    }
+  ],
+  "elapsed_seconds": 108.59525728225708,
+  "checks": 750,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "psa": false
+}

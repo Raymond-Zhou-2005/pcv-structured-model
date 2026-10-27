@@ -1,0 +1,22 @@
+[
+  {
+    "path": "inputs\\Final\\outputs\\runs\\pcv13_D1W1G1\\parameters.json",
+    "sha256": "5ff008cc54e2322ba5abeced0334ccbcf4ef60e0cde874a93283a0523754e6f0"
+  },
+  {
+    "path": "inputs\\Final\\outputs\\runs\\pcv13_D1W1G1\\economic_parameters.json",
+    "sha256": "1d297cc94c688a9eb4488bbd0b81a8f0f17a01dc8d7d7f6162bf5d92504778f8"
+  },
+  {
+    "path": "inputs\\Ablation\\inputs\\project\\QALY_new.py",
+    "sha256": "c14149779b8cbc8c9f747e3671daa856a8bb6091fe57ee92af8371dd813471af"
+  },
+  {
+    "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 7_qaly_refinement_impact.py",
+    "sha256": "52277a2354c92a99e631167c3b817334b08ae5441cb991fe17b7ff9e76fbba0a"
+  },
+  {
+    "path": "inputs\\Ablation\\inputs\\project\\Refined\\Week 4_calendar_original.py",
+    "sha256": "06775151766ceb098f929105c55263c4573bec8de82ea2e85961638a11573828"
+  }
+]

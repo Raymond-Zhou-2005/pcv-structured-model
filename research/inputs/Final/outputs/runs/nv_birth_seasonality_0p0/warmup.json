@@ -1,0 +1,8 @@
+{
+  "scenario_name": "nv_birth_seasonality_0p0",
+  "warmup_months": 60,
+  "warmup_mode": "baseline_only_no_vaccination",
+  "warmup_alive_after_age_shift": 6704474.593400912,
+  "warmup_preexisting_sequelae_total": 395.1170032380539,
+  "retain_preexisting_sequelae": false
+}

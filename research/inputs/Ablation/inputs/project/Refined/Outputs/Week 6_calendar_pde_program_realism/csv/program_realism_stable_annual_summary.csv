@@ -1,0 +1,5 @@
+Scenario,Stable_Year,Meningitis_Annual,Pneumo_Sev_Annual,Pneumo_NonSev_Annual,Sepsis_Annual,AOM_Annual,Disease_Deaths_Annual,Alive_End_Stable_Year,All_Cause_Deaths_End_Stable_Year
+baseline,10,818.0,46914.0,73687.0,8444.0,195947.0,1369.0,6776967.0,430178.0
+pcv10_gsk_rollout_to_stable,10,237.0,12518.0,19663.0,2380.0,55331.0,376.0,6780544.0,422416.0
+pcv13_rollout_to_stable,10,208.0,10514.0,16514.0,2067.0,45896.0,322.0,6780739.0,421909.0
+pcv10sii_rollout_to_stable,10,201.0,10552.0,16575.0,2020.0,45513.0,318.0,6780757.0,421502.0

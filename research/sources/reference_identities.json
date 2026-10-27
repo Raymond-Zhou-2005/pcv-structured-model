@@ -1,0 +1,3978 @@
+[
+  {
+    "key": "Brisson2003Herd",
+    "doi": "10.1177/0272989X02239651",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "12583457",
+    "title": "Economic evaluation of vaccination programs: the impact of herd-immunity.",
+    "author_list": [
+      {
+        "fullName": "Brisson M",
+        "lastName": "Brisson",
+        "firstName": "M",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Immunisation Division, PHLS Communicable Disease Surveillance Centre, London NW9 5EQ, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Edmunds WJ",
+        "lastName": "Edmunds",
+        "firstName": "W J",
+        "initials": "WJ"
+      }
+    ],
+    "journal": "Medical decision making : an international journal of the Society for Medical Decision Making",
+    "year": "2003",
+    "volume": "23",
+    "issue": "1",
+    "pages": "76-82",
+    "primary_index_url": "https://europepmc.org/article/MED/12583457",
+    "old_title": "Economic evaluation of vaccination programs: the impact of herd-immunity.",
+    "old_author_count": 2,
+    "new_author_count": 2,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Jit2011Primer",
+    "doi": "10.2165/11539960-000000000-00000",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "21504239",
+    "title": "Modelling the epidemiology of infectious diseases for decision analysis: a primer.",
+    "author_list": [
+      {
+        "fullName": "Jit M",
+        "lastName": "Jit",
+        "firstName": "Mark",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6658-8255"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Modelling and Economics Unit, Centre for Infections, Health Protection Agency, London, UK. mark.jit@hpa.org.uk"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Brisson M",
+        "lastName": "Brisson",
+        "firstName": "Marc",
+        "initials": "M"
+      }
+    ],
+    "journal": "PharmacoEconomics",
+    "year": "2011",
+    "volume": "29",
+    "issue": "5",
+    "pages": "371-386",
+    "primary_index_url": "https://europepmc.org/article/MED/21504239",
+    "old_title": "Modelling the Epidemiology of Infectious Diseases for Decision Analysis",
+    "old_author_count": 2,
+    "new_author_count": 2,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": false,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Pitman2012DynamicTransmission",
+    "doi": "10.1016/j.jval.2012.06.011",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "22999132",
+    "title": "Dynamic transmission modeling: a report of the ISPOR-SMDM Modeling Good Research Practices Task Force--5.",
+    "author_list": [
+      {
+        "fullName": "Pitman R",
+        "lastName": "Pitman",
+        "firstName": "Richard",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Oxford Outcomes, Oxford, UK. Richard.Pitman@oxfordoutcomes.com"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Fisman D",
+        "lastName": "Fisman",
+        "firstName": "David",
+        "initials": "D"
+      },
+      {
+        "fullName": "Zaric GS",
+        "lastName": "Zaric",
+        "firstName": "Gregory S",
+        "initials": "GS",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6924-9013"
+        }
+      },
+      {
+        "fullName": "Postma M",
+        "lastName": "Postma",
+        "firstName": "Maarten",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6306-3653"
+        }
+      },
+      {
+        "fullName": "Kretzschmar M",
+        "lastName": "Kretzschmar",
+        "firstName": "Mirjam",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4394-7697"
+        }
+      },
+      {
+        "fullName": "Edmunds J",
+        "lastName": "Edmunds",
+        "firstName": "John",
+        "initials": "J"
+      },
+      {
+        "fullName": "Brisson M",
+        "lastName": "Brisson",
+        "firstName": "Marc",
+        "initials": "M"
+      },
+      {
+        "collectiveName": "ISPOR-SMDM Modeling Good Research Practices Task Force"
+      }
+    ],
+    "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+    "year": "2012",
+    "volume": "15",
+    "issue": "6",
+    "pages": "828-834",
+    "primary_index_url": "https://europepmc.org/article/MED/22999132",
+    "old_title": "Dynamic Transmission Modeling: A Report of the ISPOR-SMDM Modeling Good Research Practices Task Force-5",
+    "old_author_count": 7,
+    "new_author_count": 8,
+    "author_count_agrees": false,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Caro2012ModelingOverview",
+    "doi": "10.1016/j.jval.2012.06.012",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "22999128",
+    "title": "Modeling good research practices--overview: a report of the ISPOR-SMDM Modeling Good Research Practices Task Force--1.",
+    "author_list": [
+      {
+        "fullName": "Caro JJ",
+        "lastName": "Caro",
+        "firstName": "J Jaime",
+        "initials": "JJ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5470-3754"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Faculty of Medicine, McGill University, QC, Montreal, Canada. jaime.caro@mcgill.ca"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Briggs AH",
+        "lastName": "Briggs",
+        "firstName": "Andrew H",
+        "initials": "AH",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0777-1997"
+        }
+      },
+      {
+        "fullName": "Siebert U",
+        "lastName": "Siebert",
+        "firstName": "Uwe",
+        "initials": "U",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6425-7671"
+        }
+      },
+      {
+        "fullName": "Kuntz KM",
+        "lastName": "Kuntz",
+        "firstName": "Karen M",
+        "initials": "KM"
+      },
+      {
+        "collectiveName": "ISPOR-SMDM Modeling Good Research Practices Task Force"
+      }
+    ],
+    "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+    "year": "2012",
+    "volume": "15",
+    "issue": "6",
+    "pages": "796-803",
+    "primary_index_url": "https://europepmc.org/article/MED/22999128",
+    "old_title": "Modeling Good Research Practices—Overview: A Report of the ISPOR-SMDM Modeling Good Research Practices Task Force-1",
+    "old_author_count": 4,
+    "new_author_count": 5,
+    "author_count_agrees": false,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Husereau2022CHEERS",
+    "doi": "10.1016/j.jval.2021.10.008",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "35031088",
+    "title": "Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 Explanation and Elaboration: A Report of the ISPOR CHEERS II Good Practices Task Force.",
+    "author_list": [
+      {
+        "fullName": "Husereau D",
+        "lastName": "Husereau",
+        "firstName": "Don",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "University of Ottawa, School of Epidemiology and Public Health, Ottawa, Ontario, Canada and Institute of Health Economics, Edmonton, Alberta, Canada (Husereau). Electronic address: donh@donhusereau.com."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Drummond M",
+        "lastName": "Drummond",
+        "firstName": "Michael",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centre for Health Economics, University of York, York, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Augustovski F",
+        "lastName": "Augustovski",
+        "firstName": "Federico",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Health Technology Assessment and Health Economics Department of the Institute for Clinical Effectiveness and Health Policy (IECS- CONICET), Buenos Aires; University of Buenos Aires, Buenos Aires; CONICET (National Scientific and Technical Research Council), Buenos Aires, Argentina."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "de Bekker-Grob E",
+        "lastName": "de Bekker-Grob",
+        "firstName": "Esther",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Erasmus School of Health Policy & Management, Erasmus University Rotterdam, Rotterdam, The Netherlands."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Briggs AH",
+        "lastName": "Briggs",
+        "firstName": "Andrew H",
+        "initials": "AH",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0777-1997"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "London School of Hygiene and Tropical Medicine, London, England, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Carswell C",
+        "lastName": "Carswell",
+        "firstName": "Chris",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Adis Journals, Springer Nature, Auckland, New Zealand."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Caulley L",
+        "lastName": "Caulley",
+        "firstName": "Lisa",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Otolaryngology - Head & Neck Surgery, University of Ottawa, Ontario, Canada; Clinical Epidemiology Program and Center for Journalology, Ottawa Hospital Research Institute, Ontario, Canada; Department of Epidemiology, Erasmus University Medical Center Rotterdam, Rotterdam, The Netherlands."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chaiyakunapruk N",
+        "lastName": "Chaiyakunapruk",
+        "firstName": "Nathorn",
+        "initials": "N",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4572-8794"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pharmacotherapy, College of Pharmacy, University of Utah, Salt Lake City, UT, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Greenberg D",
+        "lastName": "Greenberg",
+        "firstName": "Dan",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Health Policy and Management, School of Public Health, Faculty of Health Sciences, Ben-Gurion University of the Negev, Be'er-Sheva, Israel."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Loder E",
+        "lastName": "Loder",
+        "firstName": "Elizabeth",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Harvard Medical School, Boston, MA, USA; The BMJ, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mauskopf J",
+        "lastName": "Mauskopf",
+        "firstName": "Josephine",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6098-5548"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "RTI Health Solutions, RTI International, Research Triangle Park, NC, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mullins CD",
+        "lastName": "Mullins",
+        "firstName": "C Daniel",
+        "initials": "CD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Pharmacy, University of Maryland Baltimore, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Petrou S",
+        "lastName": "Petrou",
+        "firstName": "Stavros",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3121-6050"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Nuffield Department of Primary Care Health Sciences, University of Oxford, Oxford, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pwu RF",
+        "lastName": "Pwu",
+        "firstName": "Raoh-Fang",
+        "initials": "RF",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0113-6917"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Hepatitis C Program Office, Ministry of Health and Welfare, Taipei City, Taiwan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Staniszewska S",
+        "lastName": "Staniszewska",
+        "firstName": "Sophie",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7723-9074"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Warwick Research in Nursing, University of Warwick Warwick Medical School, Warwick, UK."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "Value in health : the journal of the International Society for Pharmacoeconomics and Outcomes Research",
+    "year": "2022",
+    "volume": "25",
+    "issue": "1",
+    "pages": "10-31",
+    "primary_index_url": "https://europepmc.org/article/MED/35031088",
+    "old_title": "Consolidated Health Economic Evaluation Reporting Standards (CHEERS) 2022 Explanation and Elaboration: A Report of the ISPOR CHEERS II Good Practices Task Force.",
+    "old_author_count": 15,
+    "new_author_count": 15,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Lai2023ChinaPCV13",
+    "doi": "10.1016/j.lanwpc.2022.100666",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "36785861",
+    "title": "Estimating national, regional and provincial cost-effectiveness of introducing childhood 13-valent pneumococcal conjugate vaccination in China: a modelling analysis.",
+    "author_list": [
+      {
+        "fullName": "Lai X",
+        "lastName": "Lai",
+        "firstName": "Xiaozhen",
+        "initials": "X",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "China Center for Health Development Studies, Peking University, Beijing, China."
+            },
+            {
+              "affiliation": "Department of Health Policy and Management, School of Public Health, Peking University, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Garcia C",
+        "lastName": "Garcia",
+        "firstName": "Cristina",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA."
+            },
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wu D",
+        "lastName": "Wu",
+        "firstName": "Dan",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Immunization Program, Chinese Center for Disease Control and Prevention, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Knoll MD",
+        "lastName": "Knoll",
+        "firstName": "Maria Deloria",
+        "initials": "MD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA."
+            },
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zhang H",
+        "lastName": "Zhang",
+        "firstName": "Haijun",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9321-6924"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "China Center for Health Development Studies, Peking University, Beijing, China."
+            },
+            {
+              "affiliation": "Department of Health Policy and Management, School of Public Health, Peking University, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Xu T",
+        "lastName": "Xu",
+        "firstName": "Tingting",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Health Management and Policy, School of Public Health, Capital Medical University, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jing R",
+        "lastName": "Jing",
+        "firstName": "Rize",
+        "initials": "R",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1469-909X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Public Administration and Policy, Renmin University of China, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yin Z",
+        "lastName": "Yin",
+        "firstName": "Zundong",
+        "initials": "Z",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Immunization Program, Chinese Center for Disease Control and Prevention, Beijing, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Wahl B",
+        "lastName": "Wahl",
+        "firstName": "Brian",
+        "initials": "B",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA."
+            },
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Fang H",
+        "lastName": "Fang",
+        "firstName": "Hai",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "China Center for Health Development Studies, Peking University, Beijing, China."
+            },
+            {
+              "affiliation": "Peking University Health Science Center, Chinese Center for Disease Control and Prevention Joint Research Center for Vaccine Economics, Beijing, China."
+            },
+            {
+              "affiliation": "Institute for Global Health and Development, Peking University, Beijing, China."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "The Lancet regional health. Western Pacific",
+    "year": "2023",
+    "volume": "32",
+    "issue": null,
+    "pages": "100666",
+    "primary_index_url": "https://europepmc.org/article/MED/36785861",
+    "old_title": "Estimating national, regional and provincial cost-effectiveness of introducing childhood 13-valent pneumococcal conjugate vaccination in China: a modelling analysis",
+    "old_author_count": 10,
+    "new_author_count": 10,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "SmithVaughan2023VietnamCarriage",
+    "doi": "10.1016/j.lanwpc.2022.100651",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "36785850",
+    "title": "Effect of different schedules of ten-valent pneumococcal conjugate vaccine on pneumococcal carriage in Vietnamese infants: results from a randomised controlled trial.",
+    "author_list": [
+      {
+        "fullName": "Smith-Vaughan H",
+        "lastName": "Smith-Vaughan",
+        "firstName": "Heidi",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3706-7052"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Temple B",
+        "lastName": "Temple",
+        "firstName": "Beth",
+        "initials": "B",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4885-9848"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia."
+            },
+            {
+              "affiliation": "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, UK."
+            },
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Trang Dai VT",
+        "lastName": "Trang Dai",
+        "firstName": "Vo Thi",
+        "initials": "VT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology and Immunology, Pasteur Institute of Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hoan PT",
+        "lastName": "Hoan",
+        "firstName": "Pham Thi",
+        "initials": "PT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology and Immunology, Pasteur Institute of Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Loc Thuy HN",
+        "lastName": "Loc Thuy",
+        "firstName": "Ho Nguyen",
+        "initials": "HN",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology and Immunology, Pasteur Institute of Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Phan TV",
+        "lastName": "Phan",
+        "firstName": "Thanh V",
+        "initials": "TV",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology and Immunology, Pasteur Institute of Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bright K",
+        "lastName": "Bright",
+        "firstName": "Kathryn",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Toan NT",
+        "lastName": "Toan",
+        "firstName": "Nguyen Trong",
+        "initials": "NT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Disease Control and Prevention, Pasteur Institute of Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Uyen DY",
+        "lastName": "Uyen",
+        "firstName": "Doan Y",
+        "initials": "DY",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Disease Control and Prevention, Pasteur Institute of Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen CD",
+        "lastName": "Nguyen",
+        "firstName": "Cattram Duong",
+        "initials": "CD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            },
+            {
+              "affiliation": "Department of Paediatrics, The University of Melbourne, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Beissbarth J",
+        "lastName": "Beissbarth",
+        "firstName": "Jemima",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1154-230X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ortika BD",
+        "lastName": "Ortika",
+        "firstName": "Belinda Daniela",
+        "initials": "BD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nation ML",
+        "lastName": "Nation",
+        "firstName": "Monica Larissa",
+        "initials": "ML",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dunne EM",
+        "lastName": "Dunne",
+        "firstName": "Eileen Margaret",
+        "initials": "EM",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-5542-0780"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            },
+            {
+              "affiliation": "Department of Paediatrics, The University of Melbourne, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hinds J",
+        "lastName": "Hinds",
+        "firstName": "Jason",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute for Infection and Immunity, St George's, University of London, London, UK."
+            },
+            {
+              "affiliation": "BUGS Bioscience, London Bioscience Innovation Centre, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lai J",
+        "lastName": "Lai",
+        "firstName": "Jana",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Menzies School of Health Research, Charles Darwin University, Darwin, NT, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Satzke C",
+        "lastName": "Satzke",
+        "firstName": "Catherine",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            },
+            {
+              "affiliation": "Department of Paediatrics, The University of Melbourne, Melbourne, VIC, Australia."
+            },
+            {
+              "affiliation": "Department of Microbiology and Immunology, The University of Melbourne at the Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Huu TN",
+        "lastName": "Huu",
+        "firstName": "Tran Ngoc",
+        "initials": "TN",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Disease Control and Prevention, Pasteur Institute of Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mulholland K",
+        "lastName": "Mulholland",
+        "firstName": "Kim",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Infectious Disease Epidemiology, London School of Hygiene & Tropical Medicine, London, UK."
+            },
+            {
+              "affiliation": "Infection and Immunity, Murdoch Children's Research Institute, Melbourne, VIC, Australia."
+            },
+            {
+              "affiliation": "Department of Paediatrics, The University of Melbourne, Melbourne, VIC, Australia."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "The Lancet regional health. Western Pacific",
+    "year": "2023",
+    "volume": "32",
+    "issue": null,
+    "pages": "100651",
+    "primary_index_url": "https://europepmc.org/article/MED/36785850",
+    "old_title": "Effect of different schedules of ten-valent pneumococcal conjugate vaccine on pneumococcal carriage in Vietnamese infants: results from a randomised controlled trial",
+    "old_author_count": 19,
+    "new_author_count": 19,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Tao2026VietnamCarriageReview",
+    "doi": "10.1016/j.lanwpc.2026.101799",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "41625295",
+    "title": "Prevalence and serotype distribution of nasopharyngeal carriage of &lt;i&gt;Streptococcus pneumoniae&lt;/i&gt; in Vietnam: a systematic review and meta-analysis.",
+    "author_list": [
+      {
+        "fullName": "Tao X",
+        "lastName": "Tao",
+        "firstName": "Xuanchen",
+        "initials": "X",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4704-8258"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre for Immunisation Research and Surveillance, Kids Research, Sydney Children's Hospital Network, Westmead, New South Wales, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sharma K",
+        "lastName": "Sharma",
+        "firstName": "Ketaki",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre for Immunisation Research and Surveillance, Kids Research, Sydney Children's Hospital Network, Westmead, New South Wales, Australia."
+            },
+            {
+              "affiliation": "Children's Hospital at Westmead Clinical School, Faculty of Medicine and Health, The University of Sydney, Westmead, New South Wales, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "King C",
+        "lastName": "King",
+        "firstName": "Catherine",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre for Immunisation Research and Surveillance, Kids Research, Sydney Children's Hospital Network, Westmead, New South Wales, Australia."
+            },
+            {
+              "affiliation": "Sydney Infectious Diseases Institute, Faculty of Medicine and Health, The University of Sydney, Sydney, New South Wales, Australia."
+            },
+            {
+              "affiliation": "School of Public Health, Faculty of Medicine and Health, The University of Sydney, Camperdown, New South Wales, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen TT",
+        "lastName": "Nguyen",
+        "firstName": "Toan Trong",
+        "initials": "TT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Clinical Research Center, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen TA",
+        "lastName": "Nguyen",
+        "firstName": "Thu-Anh",
+        "initials": "TA",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "School of Public Health, Faculty of Medicine and Health, The University of Sydney, Camperdown, New South Wales, Australia."
+            },
+            {
+              "affiliation": "The University of Sydney Vietnam Institute, Ho Chi Minh City, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dang HTT",
+        "lastName": "Dang",
+        "firstName": "Huyen Thi Thanh",
+        "initials": "HTT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The University of Sydney Vietnam Institute, Ho Chi Minh City, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Duong LT",
+        "lastName": "Duong",
+        "firstName": "Linh Thuy",
+        "initials": "LT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The University of Sydney Vietnam Institute, Ho Chi Minh City, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Duong THM",
+        "lastName": "Duong",
+        "firstName": "Thi Huynh Mai",
+        "initials": "THM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Clinical Research Center, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Williams PC",
+        "lastName": "Williams",
+        "firstName": "Phoebe Cm",
+        "initials": "PC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2250-0594"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre for Immunisation Research and Surveillance, Kids Research, Sydney Children's Hospital Network, Westmead, New South Wales, Australia."
+            },
+            {
+              "affiliation": "School of Public Health, Faculty of Medicine and Health, The University of Sydney, Camperdown, New South Wales, Australia."
+            },
+            {
+              "affiliation": "Department of Infectious Diseases, Sydney Children's Hospital Network, Randwick, New South Wales, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jayasinghe S",
+        "lastName": "Jayasinghe",
+        "firstName": "Sanjay",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre for Immunisation Research and Surveillance, Kids Research, Sydney Children's Hospital Network, Westmead, New South Wales, Australia."
+            },
+            {
+              "affiliation": "Children's Hospital at Westmead Clinical School, Faculty of Medicine and Health, The University of Sydney, Westmead, New South Wales, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Temple B",
+        "lastName": "Temple",
+        "firstName": "Beth",
+        "initials": "B",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4885-9848"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Global and Tropical Health Division, Menzies School of Health Research, Charles Darwin University, Darwin, Northern Territory, Australia."
+            },
+            {
+              "affiliation": "New Vaccines, Infection, Immunity and Global Health, Murdoch Children's Research Institute, Parkville, Victoria, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mulholland K",
+        "lastName": "Mulholland",
+        "firstName": "Kim",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "New Vaccines, Infection, Immunity and Global Health, Murdoch Children's Research Institute, Parkville, Victoria, Australia."
+            },
+            {
+              "affiliation": "Department of Paediatrics, The University of Melbourne, Parkville, Victoria, Australia."
+            },
+            {
+              "affiliation": "Department of Infectious Disease Epidemiology, London School of Hygiene and Tropical Medicine, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Macartney K",
+        "lastName": "Macartney",
+        "firstName": "Kristine",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4675-0232"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre for Immunisation Research and Surveillance, Kids Research, Sydney Children's Hospital Network, Westmead, New South Wales, Australia."
+            },
+            {
+              "affiliation": "Children's Hospital at Westmead Clinical School, Faculty of Medicine and Health, The University of Sydney, Westmead, New South Wales, Australia."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "The Lancet regional health. Western Pacific",
+    "year": "2026",
+    "volume": "66",
+    "issue": null,
+    "pages": "101799",
+    "primary_index_url": "https://europepmc.org/article/MED/41625295",
+    "old_title": "Prevalence and serotype distribution of nasopharyngeal carriage of Streptococcus pneumoniae in Vietnam: a systematic review and meta-analysis",
+    "old_author_count": 13,
+    "new_author_count": 13,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Truong2026VietnamEffectiveness",
+    "doi": "10.1016/j.vaccine.2026.128349",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "41702352",
+    "title": "Effectiveness of pneumococcal conjugate vaccines against invasive pneumococcal disease in Vietnamese children prior to national introduction: A matched case-control study.",
+    "author_list": [
+      {
+        "fullName": "Truong HC",
+        "lastName": "Truong",
+        "firstName": "Hieu Cong",
+        "initials": "HC",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department for Disease Control and Prevention, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam; Institute of Health and Society, Université catholique de Louvain, Brussels, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Pham QD",
+        "lastName": "Pham",
+        "firstName": "Quang Duy",
+        "initials": "QD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Planning Division, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Phan TV",
+        "lastName": "Phan",
+        "firstName": "Thanh Van",
+        "initials": "TV",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology and Immunology, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vo DTT",
+        "lastName": "Vo",
+        "firstName": "Dai Thi Trang",
+        "initials": "DTT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology and Immunology, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen PD",
+        "lastName": "Nguyen",
+        "firstName": "Phuc Duy",
+        "initials": "PD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department for Disease Control and Prevention, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen HT",
+        "lastName": "Nguyen",
+        "firstName": "Hung Thanh",
+        "initials": "HT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Directorial Board, Children's Hospital 1, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Le NNT",
+        "lastName": "Le",
+        "firstName": "Nhan Nguyen Thanh",
+        "initials": "NNT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Technical Referral Support Department, Children's Hospital 1, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Trinh TH",
+        "lastName": "Trinh",
+        "firstName": "Tung Huu",
+        "initials": "TH",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Directorial Board, Children's Hospital 2, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen QD",
+        "lastName": "Nguyen",
+        "firstName": "Qui Dinh",
+        "initials": "QD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infectious Diseases Department, Children's Hospital 2, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen NT",
+        "lastName": "Nguyen",
+        "firstName": "Nam Tran",
+        "initials": "NT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Directorial Board, City Children's Hospital, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lam TT",
+        "lastName": "Lam",
+        "firstName": "Trinh Tuyet",
+        "initials": "TT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Technical Referral Support Department, City Children's Hospital, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Soetewey A",
+        "lastName": "Soetewey",
+        "firstName": "Antoine",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8159-0804"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Hautes Études Commerciales Liège, University of Liège, Liège, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen TV",
+        "lastName": "Nguyen",
+        "firstName": "Trung Vu",
+        "initials": "TV",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Directorial Board, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen TV",
+        "lastName": "Nguyen",
+        "firstName": "Thuong Vu",
+        "initials": "TV",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department for Disease Control and Prevention, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam; Directorial Board, Pasteur Institute in Ho Chi Minh City, Ho Chi Minh City, Viet Nam. Electronic address: thuongnv@pasteurhcm.edu.vn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Speybroeck N",
+        "lastName": "Speybroeck",
+        "firstName": "Niko",
+        "initials": "N",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Health and Society, Université catholique de Louvain, Brussels, Belgium. Electronic address: niko.speybroeck@uclouvain.be."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "Vaccine",
+    "year": "2026",
+    "volume": "77",
+    "issue": null,
+    "pages": "128349",
+    "primary_index_url": "https://europepmc.org/article/MED/41702352",
+    "old_title": "Effectiveness of pneumococcal conjugate vaccines against invasive pneumococcal disease in Vietnamese children prior to national introduction: A matched case-control study",
+    "old_author_count": 15,
+    "new_author_count": 15,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Foutel2022",
+    "doi": "10.1007/s00285-022-01794-4",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "36169721",
+    "title": "From individual-based epidemic models to McKendrick-von Foerster PDEs: a guide to modeling and inferring COVID-19 dynamics.",
+    "author_list": [
+      {
+        "fullName": "Foutel-Rodier F",
+        "lastName": "Foutel-Rodier",
+        "firstName": "Félix",
+        "initials": "F",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-2751-1324"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Département de Mathématiques, Université du Québec á Montréal, Montréal, QC, Canada. felix.foutel-rodier@college-de-france.fr."
+            },
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France. felix.foutel-rodier@college-de-france.fr."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Blanquart F",
+        "lastName": "Blanquart",
+        "firstName": "François",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infection, Antimicrobials, Modeling, Evolution UMR 1137, Université de Paris, INSERM, Paris, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Courau P",
+        "lastName": "Courau",
+        "firstName": "Philibert",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Czuppon P",
+        "lastName": "Czuppon",
+        "firstName": "Peter",
+        "initials": "P",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-1462-7237"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France."
+            },
+            {
+              "affiliation": "Institute for Evolution and Biodiversity, University of Münster, 48149, Münster, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Duchamps JJ",
+        "lastName": "Duchamps",
+        "firstName": "Jean-Jil",
+        "initials": "JJ",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Laboratoire de mathématiques de Besançon UMR 6623, Université Bourgogne Franche-Comté, CNRS, F-25000, Besançon, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gamblin J",
+        "lastName": "Gamblin",
+        "firstName": "Jasmine",
+        "initials": "J",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0162-518X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kerdoncuff É",
+        "lastName": "Kerdoncuff",
+        "firstName": "Élise",
+        "initials": "É",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9294-3708"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France."
+            },
+            {
+              "affiliation": "Institut de Systématique, Biodiversité, Évolution UMR 7205, Muséum National d'Histoire Naturelle, CNRS, Paris, France."
+            },
+            {
+              "affiliation": "Department of Molecular and Cell Biology, University of California, Berkeley, California, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kulathinal R",
+        "lastName": "Kulathinal",
+        "firstName": "Rob",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Biology, Temple University, Philadelphia, PA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Régnier L",
+        "lastName": "Régnier",
+        "firstName": "Léo",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-3792-1570"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France."
+            },
+            {
+              "affiliation": "Laboratoire de Physique Théorique de la Matiére Condensée, CNRS/Sorbonne University, Paris, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vuduc L",
+        "lastName": "Vuduc",
+        "firstName": "Laura",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France."
+            },
+            {
+              "affiliation": "Université Paris-Saclay, Centrale Supélec, MICS Lab Gif-sur-Yvette, Berkeley, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lambert A",
+        "lastName": "Lambert",
+        "firstName": "Amaury",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "SMILE Group, Center for Interdisciplinary Research in Biology UMR 7241, Collège de France, CNRS, INSERM U 1050, PSL Research University, Paris, France."
+            },
+            {
+              "affiliation": "Institut de Biologie de l'ENS, École Normale Supérieure, CNRS UMR 8197 INSERM U 1024, Paris, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Schertzer E",
+        "lastName": "Schertzer",
+        "firstName": "Emmanuel",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0313-283X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Faculty of Mathematics, University of Vienna, Oskar-Morgenstern-Platz 1, 1090, Wien, Austria."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "Journal of mathematical biology",
+    "year": "2022",
+    "volume": "85",
+    "issue": "4",
+    "pages": "43",
+    "primary_index_url": "https://europepmc.org/article/MED/36169721",
+    "old_title": "From individual-based epidemic models to McKendrick-von Foerster PDEs: a guide to modeling and inferring COVID-19 dynamics",
+    "old_author_count": 12,
+    "new_author_count": 12,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Hurtado2021",
+    "doi": "10.1080/17513758.2021.1912418",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "33847236",
+    "title": "Building mean field ODE models using the generalized linear chain trick & Markov chain theory.",
+    "author_list": [
+      {
+        "fullName": "Hurtado PJ",
+        "lastName": "Hurtado",
+        "firstName": "Paul J",
+        "initials": "PJ",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-8499-5986"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "University of Nevada, Reno (UNR), Reno, NV, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Richards C",
+        "lastName": "Richards",
+        "firstName": "Cameron",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1620-9998"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "University of Nevada, Reno (UNR), Reno, NV, USA."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "Journal of biological dynamics",
+    "year": "2021",
+    "volume": "15",
+    "issue": "sup1",
+    "pages": "S248-S272",
+    "primary_index_url": "https://europepmc.org/article/MED/33847236",
+    "old_title": "Building mean field ODE models using the generalized linear chain trick &amp; Markov chain theory",
+    "old_author_count": 2,
+    "new_author_count": 2,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Tian2006",
+    "doi": "10.1080/07362990600632045",
+    "checked_date": "2026-10-12",
+    "exact_match": false,
+    "status": "Exact DOI not found in queried index",
+    "manual_primary_crosscheck": {
+      "reference_key": "Tian2006",
+      "doi": "10.1080/07362990600632045",
+      "primary_url": "https://people.nmsu.edu/jtian/publications/2006-3.pdf",
+      "publisher_url": "https://www.tandfonline.com/doi/abs/10.1080/07362990600632045",
+      "identity_checked": "Jianjun Paul Tian andD.Kannan;Stochastic Analysis and Applications24(3):685-702,2006",
+      "qualification": "Publisher online posting2007 differs from printed issue year2006; retain issue year2006"
+    },
+    "identity_status": "Verified against manually inspected publisher/author primary record"
+  },
+  {
+    "key": "Do2025",
+    "doi": "10.1093/jacamr/dlaf006",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "39958872",
+    "title": "Characteristics and antimicrobial susceptibility of bacteria causing acute otitis media in children at Vietnam National Children's Hospital: a cross-sectional study.",
+    "author_list": [
+      {
+        "fullName": "Đỗ HĐ",
+        "lastName": "Đỗ",
+        "firstName": "Hồng Điệp",
+        "initials": "HĐ",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Ear - Nose - Throat, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Trần MĐ",
+        "lastName": "Trần",
+        "firstName": "Minh Điển",
+        "initials": "MĐ",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Board of Director, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyễn TX",
+        "lastName": "Nguyễn",
+        "firstName": "Tuyết Xương",
+        "initials": "TX",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Ear - Nose - Throat, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Thủy Phùng TB",
+        "lastName": "Thủy Phùng",
+        "firstName": "Thị Bích",
+        "initials": "TB",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Molecular Biology for Infectious Diseases, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ngọc Hoàng TB",
+        "lastName": "Ngọc Hoàng",
+        "firstName": "Thị Bích",
+        "initials": "TB",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liên Phạm TL",
+        "lastName": "Liên Phạm",
+        "firstName": "Thị Lan",
+        "initials": "TL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Training and Research Institute for Child Health, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyen M",
+        "lastName": "Nguyen",
+        "firstName": "Minh",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "GSK, Ho Chi Minh City, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "DeAngelis E",
+        "lastName": "DeAngelis",
+        "firstName": "Elena",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "GSK, Ho Chi Minh City, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Thân HT",
+        "lastName": "Thân",
+        "firstName": "Hữu Tiệp",
+        "initials": "HT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Ear - Nose - Throat, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nguyễn KT",
+        "lastName": "Nguyễn",
+        "firstName": "Khắc Trưởng",
+        "initials": "KT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Ear - Nose - Throat, Vietnam National Children's Hospital, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Guzman-Holst A",
+        "lastName": "Guzman-Holst",
+        "firstName": "Adriana",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "GSK, Wavre, Belgium."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "JAC-antimicrobial resistance",
+    "year": "2025",
+    "volume": "7",
+    "issue": "1",
+    "pages": "dlaf006",
+    "primary_index_url": "https://europepmc.org/article/MED/39958872",
+    "old_title": "Characteristics and antimicrobial susceptibility of bacteria causing acute otitis media in children at Vietnam National Children’s Hospital: a cross-sectional study",
+    "old_author_count": 11,
+    "new_author_count": 11,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Adigweme2023",
+    "doi": "10.1016/S1473-3099(22)00734-4",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "36638819",
+    "title": "Immunogenicity and safety of a 10-valent pneumococcal conjugate vaccine administered as a 2 + 1 schedule to healthy infants in The Gambia: a single-centre, double-blind, active-controlled, randomised, phase 3 trial.",
+    "author_list": [
+      {
+        "fullName": "Adigweme I",
+        "lastName": "Adigweme",
+        "firstName": "Ikechukwu",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Futa A",
+        "lastName": "Futa",
+        "firstName": "Ahmed",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Saidy-Jah E",
+        "lastName": "Saidy-Jah",
+        "firstName": "Ebrima",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Edem B",
+        "lastName": "Edem",
+        "firstName": "Bassey",
+        "initials": "B",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Akpalu E",
+        "lastName": "Akpalu",
+        "firstName": "Edem",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dibbasey T",
+        "lastName": "Dibbasey",
+        "firstName": "Tida",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sethna V",
+        "lastName": "Sethna",
+        "firstName": "Vistasp",
+        "initials": "V",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Serum Institute of India, Pune, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dhere R",
+        "lastName": "Dhere",
+        "firstName": "Rajeev",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Serum Institute of India, Pune, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kampmann B",
+        "lastName": "Kampmann",
+        "firstName": "Beate",
+        "initials": "B",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6546-4709"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia; The Vaccine Centre, London School of Hygiene & Tropical Medicine, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bengt C",
+        "lastName": "Bengt",
+        "firstName": "Christopher",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0008-9983-887X"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Great Ormond Street Institute of Child Health Biomedical Research Centre, University College London, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sirr J",
+        "lastName": "Sirr",
+        "firstName": "Jake",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Great Ormond Street Institute of Child Health Biomedical Research Centre, University College London, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hosken N",
+        "lastName": "Hosken",
+        "firstName": "Nancy",
+        "initials": "N",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "PATH, Seattle, WA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Goldblatt D",
+        "lastName": "Goldblatt",
+        "firstName": "David",
+        "initials": "D",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0769-5242"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Great Ormond Street Institute of Child Health Biomedical Research Centre, University College London, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Antony K",
+        "lastName": "Antony",
+        "firstName": "Kalpana",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "PATH, Seattle, WA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Alderson MR",
+        "lastName": "Alderson",
+        "firstName": "Mark R",
+        "initials": "MR",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "PATH, Seattle, WA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lamola S",
+        "lastName": "Lamola",
+        "firstName": "Steve",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "PATH, Seattle, WA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Clarke E",
+        "lastName": "Clarke",
+        "firstName": "Ed",
+        "initials": "E",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7785-0340"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Medical Research Council Unit The Gambia at the London School of Hygiene & Tropical Medicine, Banjul, The Gambia; The Vaccine Centre, London School of Hygiene & Tropical Medicine, London, UK. Electronic address: ed.clarke@lshtm.ac.uk."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "The Lancet. Infectious diseases",
+    "year": "2023",
+    "volume": "23",
+    "issue": "5",
+    "pages": "609-620",
+    "primary_index_url": "https://europepmc.org/article/MED/36638819",
+    "old_title": "Immunogenicity and safety of a 10-valent pneumococcal conjugate vaccine administered as a 2 + 1 schedule to healthy infants in The Gambia: a single-centre, double-blind, active-controlled, randomised, phase 3 trial",
+    "old_author_count": 17,
+    "new_author_count": 17,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Bennett2025",
+    "doi": "10.1016/S1473-3099(24)00665-0",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "39706204",
+    "title": "Global impact of ten-valent and 13-valent pneumococcal conjugate vaccines on invasive pneumococcal disease in all ages (the PSERENADE project): a global surveillance analysis.",
+    "author_list": [
+      {
+        "fullName": "Bennett JC",
+        "lastName": "Bennett",
+        "firstName": "Julia C",
+        "initials": "JC",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-2559-2922"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA. Electronic address: jbenne63@jhu.edu."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Deloria Knoll M",
+        "lastName": "Deloria Knoll",
+        "firstName": "Maria",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9041-2671"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA. Electronic address: mknoll2@jhu.edu."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kagucia EW",
+        "lastName": "Kagucia",
+        "firstName": "Eunice W",
+        "initials": "EW",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Epidemiology and Demography Department, KEMRI-Wellcome Trust Research Programme, Centre for Geographic Medicine Coast, Kilifi, Kenya."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Garcia Quesada M",
+        "lastName": "Garcia Quesada",
+        "firstName": "Maria",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0206-7597"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Zeger SL",
+        "lastName": "Zeger",
+        "firstName": "Scott L",
+        "initials": "SL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hetrich MK",
+        "lastName": "Hetrich",
+        "firstName": "Marissa K",
+        "initials": "MK",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yang Y",
+        "lastName": "Yang",
+        "firstName": "Yangyupei",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6011-4152"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Herbert C",
+        "lastName": "Herbert",
+        "firstName": "Carly",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "UMass Chan Medical School, Worcester, MA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ogyu A",
+        "lastName": "Ogyu",
+        "firstName": "Anju",
+        "initials": "A",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-7055-5509"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cohen AL",
+        "lastName": "Cohen",
+        "firstName": "Adam L",
+        "initials": "AL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Immunizations, Vaccines and Biologicals, WHO, Geneva, Switzerland; Division of Bacterial Diseases, National Center for Immunizations and Respiratory Diseases, Centers for Disease Control and Prevention, Atlanta, GA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Yildirim I",
+        "lastName": "Yildirim",
+        "firstName": "Inci",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, Yale New Haven Children's Hospital, New Haven, CT, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Winje BA",
+        "lastName": "Winje",
+        "firstName": "Brita A",
+        "initials": "BA",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Faculty of Health Sciences, Oslo Metropolitan University, Oslo, Norway."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "von Gottberg A",
+        "lastName": "von Gottberg",
+        "firstName": "Anne",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centre for Respiratory Diseases and Meningitis, National Institute for Communicable Diseases of the National Health Laboratory Service, Johannesburg, South Africa; School of Pathology, Faculty of Health Sciences, University of the Witwatersrand, Johannesburg, South Africa."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Viriot D",
+        "lastName": "Viriot",
+        "firstName": "Delphine",
+        "initials": "D",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "French Public Health Agency, Saint-Maurice, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "van der Linden M",
+        "lastName": "van der Linden",
+        "firstName": "Mark",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Reference Laboratory for Streptococci, Department of Medical Microbiology, University Hospital RWTH Aachen, Aachen, Germany."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Valentiner-Branth P",
+        "lastName": "Valentiner-Branth",
+        "firstName": "Palle",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infectious Disease Epidemiology and Prevention, Statens Serum Institut, Copenhagen, Denmark."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Suga S",
+        "lastName": "Suga",
+        "firstName": "Shigeru",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Infectious Disease Center and Department of Clinical Research, National Hospital Organization Mie Hospital, Tsu, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Steens A",
+        "lastName": "Steens",
+        "firstName": "Anneke",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centre for Infectious Disease Control, National Institute for Public Health and the Environment, Bilthoven, Netherlands."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Skoczynska A",
+        "lastName": "Skoczynska",
+        "firstName": "Anna",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Reference Centre for Bacterial Meningitis, National Medicines Institute, Warsaw, Poland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sinkovec Zorko N",
+        "lastName": "Sinkovec Zorko",
+        "firstName": "Nadja",
+        "initials": "N",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Communicable Diseases Centre, National Institute of Public Health, Ljubljana, Slovenia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Scott JA",
+        "lastName": "Scott",
+        "firstName": "J Anthony",
+        "initials": "JA",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Epidemiology and Demography Department, KEMRI-Wellcome Trust Research Programme, Centre for Geographic Medicine Coast, Kilifi, Kenya."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Savulescu C",
+        "lastName": "Savulescu",
+        "firstName": "Camelia",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Epidemiology Department, Epiconcept, Paris, France."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Savrasova L",
+        "lastName": "Savrasova",
+        "firstName": "Larisa",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Public Health, Riga Stradins University, Riga, Latvia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Sanz JC",
+        "lastName": "Sanz",
+        "firstName": "Juan Carlos",
+        "initials": "JC",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Regional Public Health Laboratory, General Directorate of Public Health, Madrid, Spain."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Russell F",
+        "lastName": "Russell",
+        "firstName": "Fiona",
+        "initials": "F",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centre for International Child Health, WHO Collaborating Centre for Research and Training in Child and Neonatal Health, University of Melbourne, Parkville, VIC, Australia; Murdoch Children's Research Institute, Parkville, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ricketson LJ",
+        "lastName": "Ricketson",
+        "firstName": "Leah J",
+        "initials": "LJ",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, University of Calgary, Calgary, AB, Canada."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Puentes R",
+        "lastName": "Puentes",
+        "firstName": "Rodrigo",
+        "initials": "R",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8607-2467"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Instituto de Salud Pública de Chile, Santiago, Chile."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nuorti JP",
+        "lastName": "Nuorti",
+        "firstName": "J Pekka",
+        "initials": "JP",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Health Security, Finnish Institute for Health and Welfare, Helsinki, Finland; Health Sciences Unit, Faculty of Social Sciences, Tampere University, Tampere, Finland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mereckiene J",
+        "lastName": "Mereckiene",
+        "firstName": "Jolita",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Health Protection Surveillance Centre, Dublin, Ireland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "McMahon K",
+        "lastName": "McMahon",
+        "firstName": "Kimberley",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centre for Disease Control, Department of Health and Community Services, Darwin, NT, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "McGeer A",
+        "lastName": "McGeer",
+        "firstName": "Allison",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Toronto Invasive Bacterial Diseases Network and Department of Laboratory Medicine and Pathobiology, University of Toronto, Toronto, ON, Canada."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mad'arová L",
+        "lastName": "Mad'arová",
+        "firstName": "Lucia",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Reference Centre for Pneumococcal and Haemophilus Diseases, Regional Authority of Public Health, Banská Bystrica, Slovakia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Mackenzie GA",
+        "lastName": "Mackenzie",
+        "firstName": "Grant A",
+        "initials": "GA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4994-2627"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Paediatrics, University of Melbourne, Parkville, VIC, Australia; Faculty of Infectious and Tropical Diseases, London School of Hygiene & Tropical Medicine, London, UK; Medical Research Council Unit The Gambia at London School of Hygiene & Tropical Medicine, Banjul, The Gambia; New Vaccines Group, Murdoch Children's Research Institute, Parkville, VIC, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "MacDonald L",
+        "lastName": "MacDonald",
+        "firstName": "Laura",
+        "initials": "L",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0972-6233"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Public Health Scotland, Glasgow, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lepp T",
+        "lastName": "Lepp",
+        "firstName": "Tiia",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Communicable Disease and Control and Health Protection, Public Health Agency of Sweden, Solna, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ladhani SN",
+        "lastName": "Ladhani",
+        "firstName": "Shamez N",
+        "initials": "SN",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Immunisation and Countermeasures Division, UK Health Security Agency, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kristinsson KG",
+        "lastName": "Kristinsson",
+        "firstName": "Karl G",
+        "initials": "KG",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Clinical Microbiology, Landspitali-The National University Hospital, Reykjavik, Iceland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kozakova J",
+        "lastName": "Kozakova",
+        "firstName": "Jana",
+        "initials": "J",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Institute of Public Health, Prague, Czech Republic."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Klein NP",
+        "lastName": "Klein",
+        "firstName": "Nicola P",
+        "initials": "NP",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Vaccine Study Center, Kaiser Permanente, Oakland, CA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Jayasinghe S",
+        "lastName": "Jayasinghe",
+        "firstName": "Sanjay",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Centre for Immunisation Research and Surveillance and Discipline of Child and Adolescent Health, Children's Hospital Westmead Clinical School, Faculty of Medicine and Health, University of Sydney, Westmead, NSW, Australia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ho PL",
+        "lastName": "Ho",
+        "firstName": "Pak-Leung",
+        "initials": "PL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology and Carol Yu Centre for Infection, Queen Mary Hospital, The University of Hong Kong, Hong Kong Special Administrative Region, China."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hilty M",
+        "lastName": "Hilty",
+        "firstName": "Markus",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Swiss National Reference Centre for Invasive Pneumococci, Institute for Infectious Diseases, University of Bern, Bern, Switzerland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Heyderman RS",
+        "lastName": "Heyderman",
+        "firstName": "Robert S",
+        "initials": "RS",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Malawi Liverpool Wellcome Programme, Blantyre, Malawi; NIHR Global Health Research Unit on Mucosal Pathogens, Division of Infection and Immunity, University College London, London, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hasanuzzaman M",
+        "lastName": "Hasanuzzaman",
+        "firstName": "Md",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Child Health Research Foundation, Dhaka, Bangladesh."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hammitt LL",
+        "lastName": "Hammitt",
+        "firstName": "Laura L",
+        "initials": "LL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA; Epidemiology and Demography Department, KEMRI-Wellcome Trust Research Programme, Centre for Geographic Medicine Coast, Kilifi, Kenya."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Guevara M",
+        "lastName": "Guevara",
+        "firstName": "Marcela",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-9242-6364"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "CIBER Epidemiology and Public Health, Madrid, Spain; Public Health Institute of Navarre-IdiSNA, Pamplona, Spain."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Grgic-Vitek M",
+        "lastName": "Grgic-Vitek",
+        "firstName": "Marta",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Communicable Diseases Centre, National Institute of Public Health, Ljubljana, Slovenia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Gierke R",
+        "lastName": "Gierke",
+        "firstName": "Ryan",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Bacterial Diseases, National Center for Immunizations and Respiratory Diseases, Centers for Disease Control and Prevention, Atlanta, GA, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Georgakopoulou T",
+        "lastName": "Georgakopoulou",
+        "firstName": "Theano",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department for Vaccine Preventable Diseases, National Public Health Organization, Athens, Greece."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Galloway Y",
+        "lastName": "Galloway",
+        "firstName": "Yvonne",
+        "initials": "Y",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Epidemiology Team, Institute of Environmental Science and Research, Wellington, New Zealand."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Diawara I",
+        "lastName": "Diawara",
+        "firstName": "Idrissa",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Mohammed VI University of Sciences and Health, Mohammed VI Higher Institute of Biosciences and Biotechnologies (UM6SS), Casablanca, Morocco; Infectious Diseases Research Unit, Mohammed VI Center for Research and Innovation (CM6RI), Rabat, Morocco."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Desmet S",
+        "lastName": "Desmet",
+        "firstName": "Stefanie",
+        "initials": "S",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology, Immunology and Transplantation, KU Leuven, Leuven, Belgium; National Reference Centre for Streptococcus Pneumoniae, University Hospitals Leuven, Leuven, Belgium."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "De Wals P",
+        "lastName": "De Wals",
+        "firstName": "Philippe",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Social and Preventive Medicine, Laval University, Quebec, QC, Canada."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Dagan R",
+        "lastName": "Dagan",
+        "firstName": "Ron",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "The Shraga Segal Department of Microbiology, Immunology and Genetics, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Colzani E",
+        "lastName": "Colzani",
+        "firstName": "Edoardo",
+        "initials": "E",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "European Centre for Disease Prevention and Control, Solna, Sweden."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Cohen C",
+        "lastName": "Cohen",
+        "firstName": "Cheryl",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centre for Respiratory Diseases and Meningitis, National Institute for Communicable Diseases of the National Health Laboratory Service, Johannesburg, South Africa; School of Public Health, Faculty of Health Sciences, University of the Witwatersrand, Johannesburg, South Africa."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ciruela P",
+        "lastName": "Ciruela",
+        "firstName": "Pilar",
+        "initials": "P",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "CIBER Epidemiology and Public Health, Madrid, Spain; Surveillance and Public Health Emergency Response, Public Health Agency of Catalonia, Barcelona, Spain."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chuluunbat U",
+        "lastName": "Chuluunbat",
+        "firstName": "Urtnasan",
+        "initials": "U",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Center of Communicable Diseases, Ministry of Health, Ulaanbaatar, Mongolia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chan G",
+        "lastName": "Chan",
+        "firstName": "Guanhao",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Singapore Ministry of Health, Communicable Diseases Division, Singapore."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Camilli R",
+        "lastName": "Camilli",
+        "firstName": "Romina",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Infectious Diseases, Italian National Institute of Health, Rome, Italy."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bruce MG",
+        "lastName": "Bruce",
+        "firstName": "Michael G",
+        "initials": "MG",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Arctic Investigations Program, Division of Infectious Disease Readiness and Innovation, National Center for Emerging and Zoonotic Infectious Diseases, Centers for Disease Control and Prevention, Anchorage, AK, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Brandileone MC",
+        "lastName": "Brandileone",
+        "firstName": "Maria-Cristina C",
+        "initials": "MC",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Laboratory for Meningitis and Pneumococcal Infections, Center of Bacteriology, Institute Adolfo Lutz, São Paulo, Brazil."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Bigogo G",
+        "lastName": "Bigogo",
+        "firstName": "Godfrey",
+        "initials": "G",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Centre for Global Health Research, Kenya Medical Research Institute, Kisumu, Kenya."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ampofo K",
+        "lastName": "Ampofo",
+        "firstName": "Krow",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Pediatric Infectious Diseases, Department of Pediatrics, University of Utah Health Sciences Center, Salt Lake City, UT, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "O'Brien KL",
+        "lastName": "O'Brien",
+        "firstName": "Katherine L",
+        "initials": "KL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Feikin DR",
+        "lastName": "Feikin",
+        "firstName": "Daniel R",
+        "initials": "DR",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Immunizations, Vaccines and Biologicals, WHO, Geneva, Switzerland."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hayford K",
+        "lastName": "Hayford",
+        "firstName": "Kyla",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "collectiveName": "PSERENADE Team"
+      }
+    ],
+    "journal": "The Lancet. Infectious diseases",
+    "year": "2025",
+    "volume": "25",
+    "issue": "4",
+    "pages": "457-470",
+    "primary_index_url": "https://europepmc.org/article/MED/39706204",
+    "old_title": "Global impact of ten-valent and 13-valent pneumococcal conjugate vaccines on invasive pneumococcal disease in all ages (the PSERENADE project): a global surveillance analysis",
+    "old_author_count": 119,
+    "new_author_count": 68,
+    "author_count_agrees": false,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Wahl2018",
+    "doi": "10.1016/S2214-109X(18)30247-X",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "29903376",
+    "title": "Burden of Streptococcus pneumoniae and Haemophilus influenzae type b disease in children in the era of conjugate vaccines: global, regional, and national estimates for 2000-15.",
+    "author_list": [
+      {
+        "fullName": "Wahl B",
+        "lastName": "Wahl",
+        "firstName": "Brian",
+        "initials": "B",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-0037-7364"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA. Electronic address: bwahl@jhu.edu."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "O'Brien KL",
+        "lastName": "O'Brien",
+        "firstName": "Katherine L",
+        "initials": "KL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Greenbaum A",
+        "lastName": "Greenbaum",
+        "firstName": "Adena",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Majumder A",
+        "lastName": "Majumder",
+        "firstName": "Anwesha",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Liu L",
+        "lastName": "Liu",
+        "firstName": "Li",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute for International Programs, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA; Department of International Health and Department of Population, Family and Reproductive Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chu Y",
+        "lastName": "Chu",
+        "firstName": "Yue",
+        "initials": "Y",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-8671-5362"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute for International Programs, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Lukšić I",
+        "lastName": "Lukšić",
+        "firstName": "Ivana",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Microbiology, Dr Andrija Štampar Institute of Public Health, Zagreb, Croatia."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Nair H",
+        "lastName": "Nair",
+        "firstName": "Harish",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-9432-9100"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Usher Institute of Population Health Sciences and Informatics, Medical School, University of Edinburgh, Edinburgh, UK; Public Health Foundation of India, New Delhi, India."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "McAllister DA",
+        "lastName": "McAllister",
+        "firstName": "David A",
+        "initials": "DA",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3550-1764"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute of Health and Wellbeing, University of Glasgow, Glasgow, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Campbell H",
+        "lastName": "Campbell",
+        "firstName": "Harry",
+        "initials": "H",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6169-6262"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Usher Institute of Population Health Sciences and Informatics, Medical School, University of Edinburgh, Edinburgh, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Rudan I",
+        "lastName": "Rudan",
+        "firstName": "Igor",
+        "initials": "I",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Usher Institute of Population Health Sciences and Informatics, Medical School, University of Edinburgh, Edinburgh, UK."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Black R",
+        "lastName": "Black",
+        "firstName": "Robert",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Institute for International Programs, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Knoll MD",
+        "lastName": "Knoll",
+        "firstName": "Maria Deloria",
+        "initials": "MD",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "International Vaccine Access Center, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "The Lancet. Global health",
+    "year": "2018",
+    "volume": "6",
+    "issue": "7",
+    "pages": "e744-e757",
+    "primary_index_url": "https://europepmc.org/article/MED/29903376",
+    "old_title": "Burden of Streptococcus pneumoniae and Haemophilus influenzae type b disease in children in the era of conjugate vaccines: global, regional, and national estimates for 2000–15",
+    "old_author_count": 13,
+    "new_author_count": 13,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Edmond2010",
+    "doi": "10.1016/S1473-3099(10)70048-7",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "20417414",
+    "title": "Global and regional risk of disabling sequelae from bacterial meningitis: a systematic review and meta-analysis.",
+    "author_list": [
+      {
+        "fullName": "Edmond K",
+        "lastName": "Edmond",
+        "firstName": "Karen",
+        "initials": "K",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Epidemiology and Population Health, London School of Hygiene and Tropical Medicine, London, UK. Karen.Edmond@lshtm.ac.uk"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Clark A",
+        "lastName": "Clark",
+        "firstName": "Andrew",
+        "initials": "A"
+      },
+      {
+        "fullName": "Korczak VS",
+        "lastName": "Korczak",
+        "firstName": "Viola S",
+        "initials": "VS",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-5031-4126"
+        }
+      },
+      {
+        "fullName": "Sanderson C",
+        "lastName": "Sanderson",
+        "firstName": "Colin",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4838-6112"
+        }
+      },
+      {
+        "fullName": "Griffiths UK",
+        "lastName": "Griffiths",
+        "firstName": "Ulla K",
+        "initials": "UK"
+      },
+      {
+        "fullName": "Rudan I",
+        "lastName": "Rudan",
+        "firstName": "Igor",
+        "initials": "I",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6993-6884"
+        }
+      }
+    ],
+    "journal": "The Lancet. Infectious diseases",
+    "year": "2010",
+    "volume": "10",
+    "issue": "5",
+    "pages": "317-328",
+    "primary_index_url": "https://europepmc.org/article/MED/20417414",
+    "old_title": "Global and regional risk of disabling sequelae from bacterial meningitis: a systematic review and meta-analysis",
+    "old_author_count": 6,
+    "new_author_count": 6,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Mai2022",
+    "doi": "10.9745/GHSP-D-21-00482",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "35487560",
+    "title": "Cost of Delivering Tetanus Toxoid and Tetanus-Diphtheria Vaccination in Vietnam and the Budget Impact of Proposed Changes to the Schedule.",
+    "author_list": [
+      {
+        "fullName": "Mai VQ",
+        "lastName": "Mai",
+        "firstName": "Vu Quynh",
+        "initials": "VQ",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center for Population Health Sciences, Hanoi University of Public Health, Hanoi, Vietnam. vqm@huph.edu.vn."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Boonstoppel L",
+        "lastName": "Boonstoppel",
+        "firstName": "Laura",
+        "initials": "L",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ThinkWell, Washington, DC, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Vaughan K",
+        "lastName": "Vaughan",
+        "firstName": "Kelsey",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0009-0002-0603-7368"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ThinkWell, Washington, DC, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Schutte C",
+        "lastName": "Schutte",
+        "firstName": "Carl",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Genesis Analytics, Johannesburg, South Africa."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Ozaltin A",
+        "lastName": "Ozaltin",
+        "firstName": "Annette",
+        "initials": "A",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "ThinkWell, Washington, DC, USA."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Hong DT",
+        "lastName": "Hong",
+        "firstName": "Duong Thi",
+        "initials": "DT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Institute of Hygiene and Epidemiology, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Khanh NM",
+        "lastName": "Khanh",
+        "firstName": "Nguyen Mai",
+        "initials": "NM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "National Institute of Hygiene and Epidemiology, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Thang HM",
+        "lastName": "Thang",
+        "firstName": "Hoang Manh",
+        "initials": "HM",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center for Population Health Sciences, Hanoi University of Public Health, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Anh TT",
+        "lastName": "Anh",
+        "firstName": "Tran Tuan",
+        "initials": "TT",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center for Population Health Sciences, Hanoi University of Public Health, Hanoi, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Van Minh H",
+        "lastName": "Van Minh",
+        "firstName": "Hoang",
+        "initials": "H",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Hanoi University of Public Health, Hanoi, Vietnam."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "Global health, science and practice",
+    "year": "2022",
+    "volume": "10",
+    "issue": "2",
+    "pages": "e2100482",
+    "primary_index_url": "https://europepmc.org/article/MED/35487560",
+    "old_title": "Cost of Delivering Tetanus Toxoid and Tetanus-Diphtheria Vaccination in Vietnam and the Budget Impact of Proposed Changes to the Schedule",
+    "old_author_count": 10,
+    "new_author_count": 10,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Bennett2000",
+    "doi": "10.1001/archpedi.154.1.43",
+    "checked_date": "2026-10-12",
+    "exact_match": false,
+    "status": "Exact DOI not found in queried index",
+    "manual_primary_crosscheck": {
+      "reference_key": "Bennett2000",
+      "doi": "10.1001/archpedi.154.1.43",
+      "primary_url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/348465",
+      "primary_index_url": "https://pubmed.ncbi.nlm.nih.gov/10632249/",
+      "identity_checked": "Bennett JE, Sumner W2nd, Downs SM, Jaffe DM;2000;154(1):43-48",
+      "numeric_claim_checked": "Utility0.9941 local infection;0.9921 hospitalization;0.9768 meningitis with recovery;0.3903 severe brain damage",
+      "does_not_establish": "Validated utilities for inpatient pneumonia, sepsis or hemiplegia and their acute duration mapping"
+    },
+    "identity_status": "Verified against manually inspected publisher/author primary record"
+  },
+  {
+    "key": "Oh1996",
+    "doi": "10.1016/s0149-2918(96)80188-3",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "8851461",
+    "title": "A cost-utility analysis of second-line antibiotics in the treatment of acute otitis media in children.",
+    "author_list": [
+      {
+        "fullName": "Oh PI",
+        "lastName": "Oh",
+        "firstName": "P I",
+        "initials": "PI",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Division of Clinical Pharmacology, University of Toronto, Ontario, Canada."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Maerov P",
+        "lastName": "Maerov",
+        "firstName": "P",
+        "initials": "P"
+      },
+      {
+        "fullName": "Pritchard D",
+        "lastName": "Pritchard",
+        "firstName": "D",
+        "initials": "D"
+      },
+      {
+        "fullName": "Knowles SR",
+        "lastName": "Knowles",
+        "firstName": "S R",
+        "initials": "SR"
+      },
+      {
+        "fullName": "Einarson TR",
+        "lastName": "Einarson",
+        "firstName": "T R",
+        "initials": "TR"
+      },
+      {
+        "fullName": "Shear NH",
+        "lastName": "Shear",
+        "firstName": "N H",
+        "initials": "NH"
+      }
+    ],
+    "journal": "Clinical therapeutics",
+    "year": "1996",
+    "volume": "18",
+    "issue": "1",
+    "pages": "160-182",
+    "primary_index_url": "https://europepmc.org/article/MED/8851461",
+    "old_title": "A cost-utility analysis of second-line antibiotics in the treatment of acute otitis media in children",
+    "old_author_count": 1,
+    "new_author_count": 6,
+    "author_count_agrees": false,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Oostenbrink2002",
+    "doi": "10.1016/s0895-4356(02)00448-1",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "12384194",
+    "title": "The EQ-5D and the Health Utilities Index for permanent sequelae after meningitis: a head-to-head comparison.",
+    "author_list": [
+      {
+        "fullName": "Oostenbrink R",
+        "lastName": "Oostenbrink",
+        "firstName": "Rianne",
+        "initials": "R",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Sophia Children's Hospital Rotterdam, Room Sp 1545, Dr Molewaterplein 60, The Netherlands. oostenbrink@alkg.azr.nl"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "A Moll HA",
+        "lastName": "A Moll",
+        "firstName": "Henriëtte A",
+        "initials": "HA"
+      },
+      {
+        "fullName": "Essink-Bot ML",
+        "lastName": "Essink-Bot",
+        "firstName": "Marie-Louise",
+        "initials": "ML",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-4650-5886"
+        }
+      }
+    ],
+    "journal": "Journal of clinical epidemiology",
+    "year": "2002",
+    "volume": "55",
+    "issue": "8",
+    "pages": "791-799",
+    "primary_index_url": "https://europepmc.org/article/MED/12384194",
+    "old_title": "The EQ-5D and the Health Utilities Index for permanent sequelae after meningitis",
+    "old_author_count": 3,
+    "new_author_count": 3,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": false,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Dilok2019",
+    "doi": "10.1016/j.vaccine.2019.06.015",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "31280944",
+    "title": "An updated cost-effectiveness analysis of pneumococcal conjugate vaccine among children in Thailand.",
+    "author_list": [
+      {
+        "fullName": "Dilokthornsakul P",
+        "lastName": "Dilokthornsakul",
+        "firstName": "Piyameth",
+        "initials": "P",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6981-1771"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center of Pharmaceutical Outcomes Research, Department of Pharmacy Practice, Faculty of Pharmaceutical Sciences, Naresuan University, Phitsanulok, Thailand. Electronic address: piyamethd@nu.ac.th."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kengkla K",
+        "lastName": "Kengkla",
+        "firstName": "Kirati",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6726-5706"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center of Health Outcomes Research and Therapeutic Safety (Cohorts), School of Pharmaceutical Sciences, University of Phayao, Thailand."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Saokaew S",
+        "lastName": "Saokaew",
+        "firstName": "Surasak",
+        "initials": "S",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-1382-0660"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center of Health Outcomes Research and Therapeutic Safety (Cohorts), School of Pharmaceutical Sciences, University of Phayao, Thailand; Department of Pharmacotherapy, College of Pharmacy, University of Utah, Salt Lake City, UT, USA; Unit of Excellence on Clinical Outcomes Research and Innovation (UNICORN), School of Pharmaceutical​ Sciences, University of Phayao, Phayao, Thailand."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Permsuwan U",
+        "lastName": "Permsuwan",
+        "firstName": "Unchalee",
+        "initials": "U",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0002-6909-2789"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Faculty of Pharmacy, Department of Pharmaceutical Care, Chiang Mai University, Thailand."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Techasaensiri C",
+        "lastName": "Techasaensiri",
+        "firstName": "Chonnamet",
+        "initials": "C",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Pediatrics, Faculty of Medicine Ramathibodi Hospital, Mahidol University, Bangkok, Thailand."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chotpitayasunondh T",
+        "lastName": "Chotpitayasunondh",
+        "firstName": "Tawee",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Queen Sirikit National Institute of Child Health (Children's Hospital), Ministry of Public Health, Bangkok, Thailand."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Chaiyakunapruk N",
+        "lastName": "Chaiyakunapruk",
+        "firstName": "Nathorn",
+        "initials": "N",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4572-8794"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Center of Pharmaceutical Outcomes Research, Department of Pharmacy Practice, Faculty of Pharmaceutical Sciences, Naresuan University, Phitsanulok, Thailand; Department of Pharmacotherapy, College of Pharmacy, University of Utah, Salt Lake City, UT, USA. Electronic address: nathorn.chaiyakunapruk@monash.edu."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "Vaccine",
+    "year": "2019",
+    "volume": "37",
+    "issue": "32",
+    "pages": "4551-4560",
+    "primary_index_url": "https://europepmc.org/article/MED/31280944",
+    "old_title": "An updated cost-effectiveness analysis of pneumococcal conjugate vaccine among children in Thailand",
+    "old_author_count": 7,
+    "new_author_count": 7,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "Pham2013",
+    "doi": "10.2185/jrm.2876",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "25649134",
+    "title": "Out-of-pocket Costs of Disabilities and Their Association with Household Socioeconomic Status Among School-aged Children in Vietnam.",
+    "author_list": [
+      {
+        "fullName": "Pham HL",
+        "lastName": "Pham",
+        "firstName": "Hong-Luu",
+        "initials": "HL",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Health Promotion, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University, Japan ; National Institute of Labor Protection, Vietnam."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Kizuki M",
+        "lastName": "Kizuki",
+        "firstName": "Masashi",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Health Promotion, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Takano T",
+        "lastName": "Takano",
+        "firstName": "Takehito",
+        "initials": "T",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Health Promotion, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Seino K",
+        "lastName": "Seino",
+        "firstName": "Kaoruko",
+        "initials": "K",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-3145-6396"
+        },
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of International Health and Medicine, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University, Japan."
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Watanabe M",
+        "lastName": "Watanabe",
+        "firstName": "Masafumi",
+        "initials": "M",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Department of Health Promotion, Graduate School of Medical and Dental Sciences, Tokyo Medical and Dental University, Japan."
+            }
+          ]
+        }
+      }
+    ],
+    "journal": "Journal of rural medicine : JRM",
+    "year": "2013",
+    "volume": "8",
+    "issue": "2",
+    "pages": "212-221",
+    "primary_index_url": "https://europepmc.org/article/MED/25649134",
+    "old_title": "Out-of-pocket Costs of Disabilities and Their Association with Household Socioeconomic Status Among School-aged Children in Vietnam",
+    "old_author_count": 5,
+    "new_author_count": 5,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  },
+  {
+    "key": "vanHoek2012",
+    "doi": "10.1016/j.vaccine.2012.10.017",
+    "checked_date": "2026-10-12",
+    "exact_match": true,
+    "status": "Exact DOI identity match",
+    "pmid": "23084850",
+    "title": "The cost-effectiveness of a 13-valent pneumococcal conjugate vaccination for infants in England.",
+    "author_list": [
+      {
+        "fullName": "van Hoek AJ",
+        "lastName": "van Hoek",
+        "firstName": "Albert Jan",
+        "initials": "AJ",
+        "authorAffiliationDetailsList": {
+          "authorAffiliation": [
+            {
+              "affiliation": "Immunisation, Hepatitis and Blood Safety Department, Health Protection Services, Colindale, Health Protection Agency, London NW9 5EQ, UK. albertjan.vanhoek@hpa.org.uk"
+            }
+          ]
+        }
+      },
+      {
+        "fullName": "Choi YH",
+        "lastName": "Choi",
+        "firstName": "Yoon Hong",
+        "initials": "YH"
+      },
+      {
+        "fullName": "Trotter C",
+        "lastName": "Trotter",
+        "firstName": "Caroline",
+        "initials": "C",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0003-4000-2708"
+        }
+      },
+      {
+        "fullName": "Miller E",
+        "lastName": "Miller",
+        "firstName": "Elizabeth",
+        "initials": "E"
+      },
+      {
+        "fullName": "Jit M",
+        "lastName": "Jit",
+        "firstName": "Mark",
+        "initials": "M",
+        "authorId": {
+          "type": "ORCID",
+          "value": "0000-0001-6658-8255"
+        }
+      }
+    ],
+    "journal": "Vaccine",
+    "year": "2012",
+    "volume": "30",
+    "issue": "50",
+    "pages": "7205-7213",
+    "primary_index_url": "https://europepmc.org/article/MED/23084850",
+    "old_title": "The cost-effectiveness of a 13-valent pneumococcal conjugate vaccination for infants in England",
+    "old_author_count": 5,
+    "new_author_count": 5,
+    "author_count_agrees": true,
+    "title_agrees_ignoring_format": true,
+    "identity_status": "Exact DOI identity match"
+  }
+]

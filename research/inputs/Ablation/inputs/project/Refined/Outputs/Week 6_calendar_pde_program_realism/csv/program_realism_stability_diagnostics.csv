@@ -1,0 +1,5 @@
+Scenario,Previous_Year,Compare_Year,New_Meningitis_Delta,New_Meningitis_Pct_Change,New_Pneumo_Sev_Delta,New_Pneumo_Sev_Pct_Change,New_Pneumo_NonSev_Delta,New_Pneumo_NonSev_Pct_Change,New_Sepsis_Delta,New_Sepsis_Pct_Change,New_AOM_Delta,New_AOM_Pct_Change,New_Deaths_Pneumo_Delta,New_Deaths_Pneumo_Pct_Change,Stock_Alive_Delta,Stock_Alive_Pct_Change,MaxAbsPctChange_FlowsAndAlive
+baseline,9,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+pcv10_gsk_rollout_to_stable,9,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,9.0,0.00013273288907143758,0.00013273288907143758
+pcv13_rollout_to_stable,9,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,15.0,0.00022121531565065915,0.00022121531565065915
+pcv10sii_rollout_to_stable,9,10,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

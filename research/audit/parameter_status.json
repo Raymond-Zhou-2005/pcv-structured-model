@@ -1,0 +1,632 @@
+[
+  {
+    "parameter": "birth_cohort",
+    "subkey": "",
+    "value": 1384610,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "u5_mortality_rate",
+    "subkey": "",
+    "value": 20.0,
+    "status": "Frozen all-cause inputs; reconciled by declared allocation"
+  },
+  {
+    "parameter": "neonatal_mortality_rate",
+    "subkey": "",
+    "value": 10.3,
+    "status": "Frozen all-cause inputs; reconciled by declared allocation"
+  },
+  {
+    "parameter": "inc_pneumonia",
+    "subkey": "",
+    "value": 1771,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "inc_meningitis",
+    "subkey": "",
+    "value": 12,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "inc_sepsis",
+    "subkey": "",
+    "value": 124,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "inc_aom_all",
+    "subkey": "",
+    "value": 9570,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "prop_pneumo_severe",
+    "subkey": "",
+    "value": 0.389,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "prop_aom_spn",
+    "subkey": "",
+    "value": 0.303,
+    "status": "Unverified attribution proxy; primary detection denominators differ"
+  },
+  {
+    "parameter": "cfr_pneumo_severe",
+    "subkey": "",
+    "value": 0.014241,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "cfr_meningitis",
+    "subkey": "",
+    "value": 0.032258,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "cfr_sepsis",
+    "subkey": "",
+    "value": 0.08,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "prob_cog",
+    "subkey": "",
+    "value": 0.016,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "prob_epi",
+    "subkey": "",
+    "value": 0.022,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "prob_hemi",
+    "subkey": "",
+    "value": 0.032,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "prob_hear",
+    "subkey": "",
+    "value": 0.046,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "prob_cochlear_implant",
+    "subkey": "",
+    "value": 0.025,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "prob_special_education",
+    "subkey": "",
+    "value": 0.2574,
+    "status": "Transferred / inherited; exact national estimate unverified"
+  },
+  {
+    "parameter": "vaccine_coverage",
+    "subkey": "",
+    "value": 0.9,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-GSK / 0",
+    "value": 0.59,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-GSK / 1",
+    "value": 0.49,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-GSK / 2",
+    "value": 0.39,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-GSK / 3",
+    "value": 0.32,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-GSK / 4",
+    "value": 0.28,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-GSK / 5",
+    "value": 0.26,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV13 / 0",
+    "value": 0.54,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV13 / 1",
+    "value": 0.38,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV13 / 2",
+    "value": 0.32,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV13 / 3",
+    "value": 0.2864333333333333,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV13 / 4",
+    "value": 0.2528666666666667,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV13 / 5",
+    "value": 0.2193,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-SII / 0",
+    "value": 0.2211,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-SII / 1",
+    "value": 0.2211,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-SII / 2",
+    "value": 0.2211,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-SII / 3",
+    "value": 0.2211,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-SII / 4",
+    "value": 0.2211,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_irrs",
+    "subkey": " / PCV10-SII / 5",
+    "value": 0.2211,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 0",
+    "value": 0.08,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 1",
+    "value": 0.074,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 2",
+    "value": 0.078,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 3",
+    "value": 0.082,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 4",
+    "value": 0.086,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 5",
+    "value": 0.091,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 6",
+    "value": 0.094,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 7",
+    "value": 0.092,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 8",
+    "value": 0.087,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 9",
+    "value": 0.083,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 10",
+    "value": 0.078,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "birth_month_shares",
+    "subkey": " / 11",
+    "value": 0.075,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "warmup_months",
+    "subkey": "",
+    "value": 60,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "record_months",
+    "subkey": "",
+    "value": 120,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "age_bins",
+    "subkey": "",
+    "value": 60,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_schedule_months",
+    "subkey": " / 0",
+    "value": 2,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_schedule_months",
+    "subkey": " / 1",
+    "value": 4,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_schedule_months",
+    "subkey": " / 2",
+    "value": 12,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "direct_protection_start_month",
+    "subkey": "",
+    "value": 4,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV10-GSK / ipd",
+    "value": 0.5,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV10-GSK / pneumonia",
+    "value": 0.22,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV10-GSK / aom",
+    "value": 0.53,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV13 / ipd",
+    "value": 0.602,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV13 / pneumonia",
+    "value": 0.19,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV13 / aom",
+    "value": 0.46,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV10-SII / ipd",
+    "value": 0.49383047794812496,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV10-SII / pneumonia",
+    "value": 0.1558601176248235,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "vaccine_direct_effectiveness",
+    "subkey": " / PCV10-SII / aom",
+    "value": 0.3773455479337832,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "pcv10_sii_relative_ve_assumption",
+    "subkey": "",
+    "value": "central_weighted_gmc",
+    "status": "Retained summary multiplier; original row-level derivation unavailable"
+  },
+  {
+    "parameter": "pcv10_sii_relative_ve_multiplier",
+    "subkey": "",
+    "value": 0.8203164085517026,
+    "status": "Retained summary multiplier; original row-level derivation unavailable"
+  },
+  {
+    "parameter": "routine_dose1_transition_probs",
+    "subkey": " / 2",
+    "value": 0.65,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose1_transition_probs",
+    "subkey": " / 3",
+    "value": 0.57,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose1_transition_probs",
+    "subkey": " / 4",
+    "value": 0.67,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose1_transition_probs",
+    "subkey": " / 5",
+    "value": 0.6,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose2_transition_probs",
+    "subkey": " / 4",
+    "value": 0.7,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose2_transition_probs",
+    "subkey": " / 5",
+    "value": 0.45,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose2_transition_probs",
+    "subkey": " / 6",
+    "value": 0.3,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose2_transition_probs",
+    "subkey": " / 7",
+    "value": 0.2,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_dose2_transition_probs",
+    "subkey": " / 8",
+    "value": 0.1,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_booster_transition_probs",
+    "subkey": " / 12",
+    "value": 0.55,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_booster_transition_probs",
+    "subkey": " / 13",
+    "value": 0.35,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_booster_transition_probs",
+    "subkey": " / 14",
+    "value": 0.25,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_booster_transition_probs",
+    "subkey": " / 15",
+    "value": 0.15,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "routine_booster_transition_probs",
+    "subkey": " / 16",
+    "value": 0.1,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "catchup_enabled",
+    "subkey": "",
+    "value": false,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "catchup_campaign_months",
+    "subkey": "",
+    "value": 12,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "catchup_7_11_to_dose1_prob",
+    "subkey": "",
+    "value": 0.12,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "catchup_12_23_to_dose1_prob",
+    "subkey": "",
+    "value": 0.08,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "dose1_relative_ve",
+    "subkey": "",
+    "value": 0.45,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "dose2_relative_ve",
+    "subkey": "",
+    "value": 1.0,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "booster_relative_ve",
+    "subkey": "",
+    "value": 1.1,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "max_direct_ve",
+    "subkey": "",
+    "value": 0.95,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "primary_waning_by_age",
+    "subkey": " / 24",
+    "value": 0.85,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "primary_waning_by_age",
+    "subkey": " / 36",
+    "value": 0.7,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "booster_waning_by_age",
+    "subkey": " / 24",
+    "value": 0.95,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "booster_waning_by_age",
+    "subkey": " / 36",
+    "value": 0.8,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "booster_waning_by_age",
+    "subkey": " / 48",
+    "value": 0.7,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_reduction_by_group",
+    "subkey": " / Program_Dose0",
+    "value": 0.0,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_reduction_by_group",
+    "subkey": " / Program_Dose1",
+    "value": 0.15,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_reduction_by_group",
+    "subkey": " / Program_Dose2",
+    "value": 0.34,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_reduction_by_group",
+    "subkey": " / Program_Booster",
+    "value": 0.4,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_age_weights",
+    "subkey": " / 0_5",
+    "value": 0.0,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_age_weights",
+    "subkey": " / 6_17",
+    "value": 1.0,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_age_weights",
+    "subkey": " / 18_23",
+    "value": 0.8,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_age_weights",
+    "subkey": " / 24_59",
+    "value": 0.35,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "mature_effective_dose_share",
+    "subkey": "",
+    "value": 0.88,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "carriage_to_herd_fraction",
+    "subkey": "",
+    "value": 1.0,
+    "status": "Structural / illustrative; not independently calibrated"
+  },
+  {
+    "parameter": "mortality_accounting",
+    "subkey": "",
+    "value": "cause_deleted",
+    "status": "Structural / illustrative; not independently calibrated"
+  }
+]

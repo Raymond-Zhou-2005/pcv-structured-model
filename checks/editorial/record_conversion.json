@@ -1,0 +1,20 @@
+{
+  "source": "D:\\DKU\\Research\\PCV\\Revised_Draft\\Teacher_Revision\\appendix.tex",
+  "source_sha256": "a0d1bfc11be229f6a3e00740f461c393a465db903d40d9a11d0e8bb48d8ee51b",
+  "output_sha256": "1c72e9b393ffc9ed51ee32febfa0999f89b67219ca674c0d48bc75560ce096c1",
+  "checks": {
+    "all_15_sections": true,
+    "all_table_labels": true,
+    "table_count": 46,
+    "all_citation_keys": true,
+    "citation_keys": 13,
+    "all_nine_figures_linked": true,
+    "no_pdf_embeds": true,
+    "no_citation_loss": true,
+    "table_cell_text_exact": true,
+    "math_exact_after_whitespace_normalization": true
+  },
+  "numeric_table_tokens": 4482,
+  "math_expressions": 102,
+  "tool_version": "pandoc.exe 3.6.3"
+}

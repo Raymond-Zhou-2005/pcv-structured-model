@@ -1,0 +1,70 @@
+{
+  "checked_date": "2026-10-12",
+  "interpretation": "Primary record checks supporting exact identities and the limited numeric claims listed below; omitted parameters remain unverified.",
+  "records": [
+    {
+      "reference_key": "Do2025",
+      "doi": "10.1093/jacamr/dlaf006",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11826232/",
+      "numeric_claim_checked": "482 children aged at most five with acute suppurative AOM; culture-related proportion 30.1%; combined detection 41.1%",
+      "does_not_establish": "National causal attribution theta=0.303 or a viral endpoint"
+    },
+    {
+      "reference_key": "Mai2022",
+      "doi": "10.9745/GHSP-D-21-00482",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9053159/",
+      "numeric_claim_checked": "TT fiscal delivery unit costs in its 2017 setting: facility1.76, outreach3.86, school1.49 USD",
+      "does_not_establish": "Infant-PCV service delivery cost2.10 USD in2024"
+    },
+    {
+      "reference_key": "Adigweme2023",
+      "doi": "10.1016/S1473-3099(22)00734-4",
+      "primary_url": "https://discovery.ucl.ac.uk/id/eprint/10163857/1/1-s2.0-S1473309922007344-main.pdf",
+      "numeric_claim_checked": "Gambian trial assesses serotype-specific post-booster GMCs and immunogenicity",
+      "does_not_establish": "Unique endpoint clinical VE ratio0.8203164085517026 or complete Vietnam serotype weighting"
+    },
+    {
+      "reference_key": "Bennett2000",
+      "doi": "10.1001/archpedi.154.1.43",
+      "primary_url": "https://jamanetwork.com/journals/jamapediatrics/fullarticle/348465",
+      "primary_index_url": "https://pubmed.ncbi.nlm.nih.gov/10632249/",
+      "identity_checked": "Bennett JE, Sumner W2nd, Downs SM, Jaffe DM;2000;154(1):43-48",
+      "numeric_claim_checked": "Utility0.9941 local infection;0.9921 hospitalization;0.9768 meningitis with recovery;0.3903 severe brain damage",
+      "does_not_establish": "Validated utilities for inpatient pneumonia, sepsis or hemiplegia and their acute duration mapping"
+    },
+    {
+      "reference_key": "Tian2006",
+      "doi": "10.1080/07362990600632045",
+      "primary_url": "https://people.nmsu.edu/jtian/publications/2006-3.pdf",
+      "publisher_url": "https://www.tandfonline.com/doi/abs/10.1080/07362990600632045",
+      "identity_checked": "Jianjun Paul Tian andD.Kannan;Stochastic Analysis and Applications24(3):685-702,2006",
+      "qualification": "Publisher online posting2007 differs from printed issue year2006; retain issue year2006"
+    },
+    {
+      "reference_key": "Oh1996",
+      "doi": "10.1016/S0149-2918(96)80188-3",
+      "primary_url": "https://pubmed.ncbi.nlm.nih.gov/8851461/",
+      "identity_checked": "Six authors:Oh PI,Maerov P,Pritchard D,Knowles SR,Einarson TR,Shear NH"
+    },
+    {
+      "reference_key": "Oostenbrink2002",
+      "doi": "10.1016/S0895-4356(02)00448-1",
+      "primary_url": "https://pubmed.ncbi.nlm.nih.gov/12384194/",
+      "identity_checked": "Full title ends:a head-to-head comparison;second author shown asHenriette A A Moll onPubMed",
+      "qualification": "EuropePMC andCrossref parsing incorrectly storeA Moll as family name;prefer primaryPubMed spelling"
+    },
+    {
+      "reference_key": "Jit2011Primer",
+      "doi": "10.2165/11539960-000000000-00000",
+      "primary_url": "https://pubmed.ncbi.nlm.nih.gov/21504239/",
+      "identity_checked": "Full title ends:a primer"
+    },
+    {
+      "reference_key": "Bennett2025",
+      "doi": "10.1016/S1473-3099(24)00665-0",
+      "primary_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11947069/",
+      "identity_checked": "Second author isMaria Deloria Knoll;collaboratingPSERENADE team members are listed separately from the named byline",
+      "qualification": "Crossref119-author vsEuropePMC68-entry author counts differ because of group-member handling;do not treat every count difference as a wrong paper"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "run_kind": "new reconstruction from frozen legacy code, not recovered original raw outputs",
+  "script_sha256": "94792c42727ac51bf019bdf32a371832f03981f3d81a35bb7185650de2d43daa",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "checks": 186,
+  "passed": 186,
+  "exact_rk45_max_abs": 1.57344236834615,
+  "exact_rk45_max_scaled": 0.0009985980288189423,
+  "week4_max_monthly_abs": 0.0,
+  "calendar_main_results_changed": false,
+  "psa_not_rerun": true
+}
