@@ -1,74 +1,58 @@
 # Data and code availability
 
-## Manuscript statement
+## Version map
 
-All aggregate model inputs, run-level simulated states, disease-event and
-economic outputs, source and transformation ledgers, figure and table source
-data, and author-generated analysis and verification code underlying the
-reported results are publicly available at
-https://github.com/Raymond-Zhou-2005/pcv-structured-model, release **v1.0.0**
-(2026-10-28). The fixed snapshot is
-https://github.com/Raymond-Zhou-2005/pcv-structured-model/tree/v1.0.0.
-The repository includes the manuscript source, dependency versions, seed rules
-and instructions for reproducing the analyses. It contains aggregate scenario
-constants and simulated outputs; no individual patient records are included.
-Original published sources and input transformations are identified in the
-parameter ledger and manuscript bibliography. Original code is licensed under
-MIT, and author-owned original data and prose under CC BY 4.0; third-party
-rights and notices are retained as described in `LICENSES.md`. Unavailable
-original local cost records are represented only by disclosed scenario
-constants and are not claimed as newly collected or independently accessed data.
+The aggregate inputs, 144 application configurations and retained numerical
+results are publicly available in
+[pcv-structured-model, v1.0.0](https://github.com/Raymond-Zhou-2005/pcv-structured-model/tree/v1.0.0).
+The public main branch also includes later platform diagnostics.
 
-No DOI has been assigned to this software/data snapshot. The code citation
-record is `CITATION.cff`; it does not represent an accepted journal article.
+The **v1.0.1** release incorporates the 2026-11-03-r1 manuscript and figure
+revision, source data, saved-trajectory CFR translation audit, dependency records
+and file hashes. Its fixed public archive is
+[v1.0.1](https://github.com/Raymond-Zhou-2005/pcv-structured-model/releases/tag/v1.0.1).
+The simulation inputs and outcomes remain unchanged from v1.0.0.
+The current `release_manifest.json` identifies the exact files. The original
+Overleaf PDF is retained as `manuscript_overleaf.pdf`; the publication PDF only
+updates its availability paragraph to this release.
 
-## What supports the results
+## Reuse and scope
 
-| Required material | Location |
+Author-owned software is licensed under MIT; original data, figures and prose
+are licensed under CC BY 4.0. Third-party rights and notices are retained in
+`LICENSES.md`. The shared numerical materials contain aggregate scenario
+constants and simulated outputs. Published sources and transformations are
+identified in the parameter ledger and manuscript bibliography.
+
+Original unavailable local administrative cost records are represented by
+explicit scenario constants. The repository distinguishes source identity,
+arithmetic reconstruction and independent parameter validation. The source
+ledger retains the evidence status of every flattened input.
+
+## Reproduction map
+
+| Material | Location |
 |---|---|
-| Figure/table-to-source-data and generation-script mapping | `docs/artifact_map.csv` |
-| Units, denominators, array definitions, seeds and estimands | `docs/data_dictionary.md` |
-| Complete parameter/source/transformation ledger and qualifications | `research/sources/parameter_sources.csv` |
-| Current 144 configurations and run-level records | `research/inputs/Final/outputs/` |
+| Main manuscript and six publication figures | `paper/` |
+| Figure/table data and script mapping | `docs/artifact_map.csv` |
+| Units, denominator, array layout and seeds | `docs/data_dictionary.md` |
+| Input, source and transformation ledger | `research/sources/parameter_sources.csv` |
+| 144 saved configurations and outputs | `research/inputs/Final/outputs/` |
 | Mathematical and historical controlled checks | `research/outputs/`, `research/coverage/outputs/`, `revision/outputs/` |
-| Complete analysis and figure regeneration | `python reproduce.py` after installing `requirements.txt` with Python 3.12 |
-| Retained-output validation | `python reproduce.py --stage check` |
-| Main manuscript and publication figures | `paper/` and release download assets |
-| Current file integrity | `release_manifest.json` |
+| CFR translation and revised-asset checks | `checks/revision_20261103/` |
+| Numerical reference checks | `checks/verification.json` |
+| File integrity | `release_manifest.json` |
 
-The repository records computational reproducibility and the evidence limits of
-the scenario inputs. It does not establish independent national calibration,
-validate every transferred cost or utility constant, or provide the missing
-joint calendar-model parameter PSA.
+After installing `requirements-lock.txt`, run `python verify_release.py` to
+verify the downloaded archive and `python reproduce.py --stage check` to check
+retained outputs and reconstruct the CFR diagnostic. `python reproduce.py`
+reruns the complete default numerical and plotting pipeline. The optional
+`--with-cohort` regenerates the historical closed-cohort repetitions.
 
-## Sharing status and remaining submission tasks
+The recorded reference environment is Windows x86-64 / CPython 3.12.14.
+Historical Windows and Linux results and their limits are retained in
+`checks/portability/README.md`. A new manuscript or figure revision does not
+change the status of those earlier platform tests.
 
-The depositor approved public upload and the specified licences, and confirmed
-permission to share inherited aggregate inputs on 2026-10-28. That
-representation is distinct from an independent legal audit. The original source
-rights remain applicable. Third-party publication identities are documented;
-full-text articles and original unavailable administrative records are not
-represented as deposited datasets.
-
-The [PLOS data policy](https://journals.plos.org/globalpublichealth/s/data-availability)
-requires the data and metadata needed to replicate reported findings and a
-specific availability statement. The
-[PLOS code policy](https://journals.plos.org/globalpublichealth/s/materials-software-and-code-sharing)
-expects reusable, documented author-generated code and encourages an open
-licence and persistent identifier. The paths above provide the sharing map;
-the GitHub release fixes a version but is not a DOI archive.
-
-For stronger long-term preservation, deposit the exact release in a repository
-such as Zenodo and add its actual DOI to the manuscript and citation metadata.
-No archive record or DOI is fabricated here. This is a preservation improvement,
-not evidence of PLOS acceptance. Complete authorship, affiliations, funding,
-competing interests and acknowledgment permissions still require the authors'
-confirmation in the manuscript and submission form.
-
-The review manuscript has page numbers, continuous line numbers and double
-spacing. The retained TIFF figures are single-page RGB, LZW-compressed,
-600 dpi and below 10 MB each. Some original canvas widths and small plot labels
-still need adjustment to the final production limits (maximum 7.5-inch width,
-8–12-point Arial/Times/Symbol text). PLOS waives these formatting requirements
-before provisional Editorial Accept; this repository does not certify those
-figures as production-approved. See the [PLOS figure specifications](https://journals.plos.org/globalpublichealth/s/figures).
+The software citation record is `CITATION.cff`. A persistent archive DOI can be
+added after an actual deposit; none has been assigned to this release.

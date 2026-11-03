@@ -11,6 +11,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from matplotlib.ticker import FuncFormatter
 from PIL import Image
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -20,7 +21,7 @@ PRODUCTS=['PCV10-GSK','PCV13','PCV10-SII']
 COLORS=['#0072B2','#009E73','#D55E00']
 CHECKS=[]
 plt.rcParams.update({'font.family':'Arial','font.size':9,'axes.labelsize':9,
-    'axes.titlesize':10,'legend.fontsize':8,'xtick.labelsize':8,'ytick.labelsize':8,
+    'axes.titlesize':9.5,'legend.fontsize':8.3,'xtick.labelsize':8.3,'ytick.labelsize':8.3,
     'axes.spines.top':False,'axes.spines.right':False,'pdf.fonttype':42,'ps.fonttype':42,
     'savefig.facecolor':'white'})
 
@@ -31,7 +32,7 @@ def check(name,passed,detail=''):
 def save(fig,number):
     FIG.mkdir(exist_ok=True)
     for suffix,kwargs in [('pdf',{}),('png',{'dpi':200}),('tif',{'dpi':600,'pil_kwargs':{'compression':'tiff_lzw'}})]:
-        fig.savefig(FIG/f'Fig{number}.{suffix}',bbox_inches='tight',**kwargs)
+        fig.savefig(FIG/f'Fig{number}.{suffix}',**kwargs)
     with Image.open(FIG/f'Fig{number}.tif') as im:
         im.convert('RGB').save(FIG/f'Fig{number}.tif',compression='tiff_lzw',dpi=(600,600))
     plt.close(fig)
@@ -40,20 +41,26 @@ def figure1():
     c=pd.read_csv(DATA/'ctmc.csv');m=pd.read_csv(DATA/'manufactured.csv')
     r=pd.read_csv(DATA/'refinement.csv')
     check('CTMC_ODE_matches_exponential',np.max(abs(c.exact-c.ode))<1e-10)
-    fig,axs=plt.subplots(1,3,figsize=(9.0,3.25),layout='constrained')
+    fig=plt.figure(figsize=(7.4,6.3),layout='constrained')
+    gs=fig.add_gridspec(2,2,height_ratios=[1.05,1])
+    axs=[fig.add_subplot(gs[0,0]),fig.add_subplot(gs[0,1]),fig.add_subplot(gs[1,:])]
     state_colors=['#0072B2','#E69F00','#009E73','#CC79A7','#666666']
     for state,g in c.groupby('state'):
         axs[0].plot(g.month,g.exact,'o-',ms=3,lw=1.3,color=state_colors[int(state)],label=f'State {state}')
         axs[0].plot(g.month,g.ode,'x',ms=4,mew=.8,color='black')
     handles,labels=axs[0].get_legend_handles_labels()
     handles.append(Line2D([],[],color='black',marker='x',ls='none',ms=4));labels.append('ODE')
-    axs[0].legend(handles,labels,ncol=2,frameon=False,fontsize=7.3,loc='upper right')
+    axs[0].legend(handles,labels,ncol=2,frameon=False,fontsize=8.3,loc='upper right')
     axs[0].set(xlabel='Time (months)',ylabel='State probability',title='A  Matched CTMC and ODE',ylim=(-.025,1.025))
-    axs[1].loglog(m.h,m.L1_density_error,'o-',color='#0072B2',ms=4,label='Cell-mass $L^1$ error')
+    axs[1].loglog(m.h,m.L1_density_error,'o-',color='#0072B2',ms=4,label='Cell-mass L1 error')
     axs[1].loglog(m.h,m.total_error,'s-',color='#D55E00',ms=4,label='Population error')
-    axs[1].set(xlabel='Step $h$ (months)',ylabel='Absolute error (children)',title='B  Manufactured transport')
-    axs[1].legend(frameon=False,loc='upper left',fontsize=7.5)
+    axs[1].set(xlabel='Step h (months)',ylabel='Absolute error (children)',title='B  Manufactured transport')
+    axs[1].legend(frameon=False,loc='upper left',fontsize=8.3)
+    axs[1].yaxis.set_major_formatter(FuncFormatter(lambda value,pos:f'{value:.0e}'))
+    axs[1].yaxis.set_minor_formatter(FuncFormatter(lambda value,pos:''))
     ticks=[1/16,1/8,1/4,1/2,1]
+    axs[1].set_xticks([1/32]+ticks,labels=['1/32','1/16','1/8','1/4','1/2','1'])
+    axs[1].xaxis.set_minor_formatter(FuncFormatter(lambda value,pos:''))
     for vaccine,color in zip(PRODUCTS,COLORS):
         q=r[r.vaccine==vaccine].sort_values('h')
         check('five_grids_'+vaccine,list(q.k)==[16,8,4,2,1])
@@ -62,9 +69,9 @@ def figure1():
         check('refinement_error_identity_'+vaccine,np.max(abs(expected-q.qalys_gained_per100k_relative_error_to_k16))<1e-12)
         axs[2].plot(q.h,q.qalys_gained_per100k,'o-',color=color,lw=1.5,ms=4,label=vaccine)
     axs[2].set_xscale('log',base=2)
-    axs[2].set(xticks=ticks,xticklabels=['1/16','1/8','1/4','1/2','1'],xlabel='Step $h$ (months)',
+    axs[2].set(xticks=ticks,xticklabels=['1/16','1/8','1/4','1/2','1'],xlabel='Step h (months)',
         ylabel='QALYs gained / 100,000 births',title='C  Programme QALY gains',ylim=(1395,1630))
-    axs[2].legend(frameon=False,loc='center',bbox_to_anchor=(.48,.4),fontsize=7.7)
+    axs[2].legend(frameon=False,loc='center left',bbox_to_anchor=(.02,.30),fontsize=8.3)
     for ax in axs:ax.grid(axis='y',lw=.35,color='#dddddd')
     r[(r.vaccine.isin(PRODUCTS))&(r.k==16)][['vaccine','h','cases_averted_per100k','deaths_averted_per100k','qalys_gained_per100k']].to_csv(DATA/'finest_grid_results.csv',index=False)
     save(fig,1)
@@ -89,7 +96,9 @@ def figure2():
         check('aggregation_C_'+str(i),abs(c-df.C.iloc[i])<1e-12)
         check('aggregation_r_'+str(i),abs(rel-df.r.iloc[i])<1e-12)
         check('aggregation_H_'+str(i),abs(h-df.H_ipd.iloc[i])<1e-12)
-    fig,axs=plt.subplots(1,3,figsize=(9.0,3.35),layout='constrained',gridspec_kw={'width_ratios':[1.05,1.05,1.]})
+    fig=plt.figure(figsize=(7.4,6.2),layout='constrained')
+    gs=fig.add_gridspec(2,2,height_ratios=[1,1.05])
+    axs=[fig.add_subplot(gs[0,0]),fig.add_subplot(gs[0,1]),fig.add_subplot(gs[1,:])]
     labels=['Non-programme','No dose','One dose','Two doses','Booster']
     for i,ax in enumerate(axs[:2]):
         ages=np.argmax(a[i],axis=1)
@@ -98,12 +107,12 @@ def figure2():
         ax.set(xlim=(-2,61),ylim=(-.7,4.8),xlabel='Age (months)',title=f'{chr(65+i)}  Configuration {chr(65+i)}',
             xticks=[0,12,24,36,48,60],yticks=range(5),yticklabels=labels if i==0 else ['']*5)
         ax.grid(axis='y',lw=.45,color='#dddddd')
-    axs[0].text(.02,.98,'Each marker: 10,000 children',transform=axs[0].transAxes,ha='left',va='top',fontsize=7.7)
+    axs[0].text(.02,.98,'Each marker: 10,000 children',transform=axs[0].transAxes,ha='left',va='top',fontsize=8.3)
     axs[2].bar([0,1],df.one_month_cases,color=[COLORS[0],COLORS[2]],width=.58)
     for i,row in df.iterrows():
-        axs[2].text(i,row.one_month_cases+2,f'{row.one_month_cases:.2f}\n$H_{{IPD}}$ = {row.H_ipd:.4f}',ha='center',va='bottom',fontsize=8)
+        axs[2].text(i,row.one_month_cases+2,f'{row.one_month_cases:.2f}\nIPD H = {row.H_ipd:.4f}',ha='center',va='bottom',fontsize=8.3)
     axs[2].set(xticks=[0,1],xticklabels=['Configuration A','Configuration B'],ylim=(0,126),
-        ylabel='Expected one-month disease episodes',title='C  Same totals, different outcomes')
+        ylabel='Expected disease episodes\nin one month',title='C  Same totals, different outcomes')
     delta=100*(df.one_month_cases.iloc[1]/df.one_month_cases.iloc[0]-1)
     check('aggregation_reported_case_decrement',round(delta,2)==-7.36,delta)
     axs[2].text(.5,.96,f'B relative to A: {delta:.2f}%',transform=axs[2].transAxes,ha='center',va='top',fontsize=8)
@@ -119,7 +128,7 @@ def figure6():
         'herd_strength':'Herd strength','delay_probability':'Dose opportunity',
         'birth_seasonality':'Uniform births','healthcare_perspective':'Restricted healthcare'}
     labels=[short[p]+('' if p in ['birth_seasonality','healthcare_perspective'] else f' ×{v:g}') for p,v in params]
-    fig=plt.figure(figsize=(9.2,6.0),layout='constrained')
+    fig=plt.figure(figsize=(7.4,6.8),layout='constrained')
     gs=fig.add_gridspec(2,2,height_ratios=[3.0,1.35],wspace=.07,hspace=.08)
     axs=[fig.add_subplot(gs[i,j]) for i,j in [(0,0),(0,1),(1,0),(1,1)]]
     for ax,metric,title in zip(axs[:2],['qalys_gained_per100k','incremental_costs_per100k'],['A  QALY-gain sensitivity','B  Net-cost sensitivity']):
@@ -135,25 +144,26 @@ def figure6():
         ax.axvline(0,color='#777777',lw=.7)
         ax.set(yticks=range(len(params)),yticklabels=labels,ylim=(len(params)-.4,-.7),title=title,
             xlabel='Change / |full111 baseline| (%)')
-        ax.tick_params(axis='y',labelsize=7.8)
+        ax.tick_params(axis='y',labelsize=8.3)
         ax.grid(axis='y',color='#e7e7e7',lw=.4)
+    axs[1].tick_params(axis='y',labelleft=False)
     q=aom[aom.vaccine=='PCV13'].sort_values('aom_fraction')
     axs[2].scatter(q.incremental_costs_per100k/1e6,range(len(q)),color=COLORS[1],s=27,zorder=3)
     for i,row in enumerate(q.itertuples()):
         axs[2].annotate(f'{row.incremental_costs_per100k/1e6:.3f}',(row.incremental_costs_per100k/1e6,i),
-            xytext=(6,0),textcoords='offset points',va='center',fontsize=7.8)
+            xytext=(6,0),textcoords='offset points',va='center',fontsize=8.3)
     axs[2].set(yticks=range(len(q)),yticklabels=[f'θ = {x:g}' for x in q.aom_fraction],
         ylim=(len(q)-.4,-.6),xlim=(-6.9,-2.1),title='C  AOM attribution: PCV13',
-        xlabel='Incremental cost (million scenario USD / 100,000 births)')
+        xlabel='Incremental cost (million scenario USD\nper 100,000 births)')
     names={'cause_deleted':'Cause-deleted','historical_inherited':'Inherited',
-        'historical_neonatal_conditioned':'Neonatal-conditioned','zero_background':'Zero background'}
+        'historical_neonatal_conditioned':'Neonatal-\nconditioned','zero_background':'Zero background'}
     q=mort[mort.vaccine=='PCV13']
     corrected=float(q[q.background=='cause_deleted'].qalys_gained_per100k.iloc[0])
     axs[3].axvline(corrected,color='#999999',lw=.7,ls='--')
     axs[3].scatter(q.qalys_gained_per100k,range(len(q)),s=27,color=COLORS[1],zorder=3)
     for i,row in enumerate(q.itertuples()):
         axs[3].annotate(f'{row.qalys_gained_per100k:,.2f}',(row.qalys_gained_per100k,i),
-            xytext=(6,0),textcoords='offset points',va='center',fontsize=7.8,
+            xytext=(6,0),textcoords='offset points',va='center',fontsize=8.3,
             bbox={'facecolor':'white','edgecolor':'none','pad':.3})
     axs[3].set(yticks=range(len(q)),yticklabels=[names[x] for x in q.background],ylim=(len(q)-.5,-.5),
         xlim=(1515,1532),title='D  Mortality accounting: PCV13',xlabel='QALYs gained / 100,000 births')

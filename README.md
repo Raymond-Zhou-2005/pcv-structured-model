@@ -5,14 +5,18 @@ The manuscript links continuous-time probability dynamics, cohort ODEs and
 age–calendar transport under matched conditions, then illustrates the structure
 with three separately evaluated PCV product scenarios.
 
-Repository: [Raymond-Zhou-2005/pcv-structured-model](https://github.com/Raymond-Zhou-2005/pcv-structured-model).
-The manuscript-linked snapshot is **v1.0.0 (2026-10-28)**. Use the
-[fixed release and download assets](https://github.com/Raymond-Zhou-2005/pcv-structured-model/releases/tag/v1.0.0)
-for the manuscript PDF, Overleaf source and complete research package; the
-[versioned repository](https://github.com/Raymond-Zhou-2005/pcv-structured-model/tree/v1.0.0)
-exposes the individual files. No article acceptance, publication DOI or archive
-DOI is asserted. Complete author, affiliation, funding and competing-interest
-declarations in the review manuscript still require author confirmation.
+The manuscript-linked version is **v1.0.1 (2026-11-03)**:
+[fixed release and download assets](https://github.com/Raymond-Zhou-2005/pcv-structured-model/releases/tag/v1.0.1).
+It incorporates the 2026-11-03-r1 manuscript, mathematical arguments,
+publication-sized figures and saved-trajectory CFR audit. The 144 simulation
+inputs and numerical outcomes are retained from v1.0.0.
+
+`manuscript.pdf` is the publication-aligned PDF; only its availability paragraph
+has changed since the reviewed manuscript. `manuscript_overleaf.pdf` preserves
+the exact author-provided Overleaf export, including its original availability
+wording. Research prose, main tables and figure contents are retained.
+`paper/main.tex`, the Overleaf download and `manuscript.pdf` use the same release
+identifiers. Original v1.0.0 assets remain available under their unchanged tag.
 
 ## Quick start
 
@@ -25,7 +29,9 @@ established by these two runs. The original acceptance
 tolerances and scientific solver are unchanged; see
 [`checks/portability/README.md`](checks/portability/README.md) and the release's
 `validation.zip` for the retained diagnostics. Use tag `v1.0.0` for the exact
-manuscript-linked source; the default branch also contains subsequent audits.
+base numerical source; the default branch also contains subsequent audits.
+The present revision rechecks the retained outputs; it does not claim a new
+full 144-configuration simulation run.
 
 Python 3.12 was used for the recorded run. From a clean environment:
 
@@ -65,6 +71,17 @@ python reproduce.py --stage analysis
 python reproduce.py --with-cohort
 ```
 
+The saved-trajectory diagnostic can also be run on its own:
+
+```sh
+python checks/revision_20261103/cfr_translation_audit.py
+```
+
+It reconstructs monthly exposure and the case/fatal-event reward mapping from
+all 144 saved trajectories. It quantifies the inherited probability-to-hazard
+convention while keeping the simulated population and economic outputs fixed.
+It is included in the default and `--stage check` pipelines.
+
 The optional `--with-cohort` regenerates the retained 4,000-replicate discrete
 closed-cohort audit using seed 20261004. The default validates its stored
 replicate-level records instead. The constructed CTMC's 4,000 terminal samples
@@ -100,6 +117,7 @@ own recorded environments and are retained as provenance.
 | `figures/` | Six main figures and nine extended product/state figures |
 | `docs/` | Data definitions, research-record mapping, derivations and interpretation boundaries |
 | `checks/` | Import provenance, retained numerical reference tables and current validation |
+| `checks/revision_20261103/` | Revision audit, compilation, figure specifications and CFR translation diagnostics |
 | `paper/` | Frozen main-text LaTeX source and publication figures |
 
 The figure/table-to-input-and-script map is [docs/artifact_map.csv](docs/artifact_map.csv).

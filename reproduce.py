@@ -53,6 +53,7 @@ def main():
         refresh_plot_data()
         run('revision/plot_figures.py')
         run('plots.py')
+    run('checks/revision_20261103/cfr_translation_audit.py')
     run('verify.py')
     (ROOT/'checks/last_run.json').write_text(json.dumps(dict(
         stage=args.stage,with_cohort=args.with_cohort,elapsed_seconds=time.time()-start,

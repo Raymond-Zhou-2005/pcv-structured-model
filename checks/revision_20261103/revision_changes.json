@@ -1,0 +1,241 @@
+{
+  "revision": "2026-11-03-r1",
+  "base_public_release": "v1.0.0",
+  "base_worktree_commit": "6e9885d8c605a10fb2e73a27288c2d48d3968cdf",
+  "unchanged_baseline_files": 2023,
+  "changed_baseline_files": [
+    {
+      "path": "checks/last_run.json",
+      "before_sha256": "01c1220b795500e5959922744d724624dda5fe984f5a51eecc13894ecad66764",
+      "after_sha256": "548a2cbf5d08d5d48fe3115b9676e0c6c90ff72a6e76dacc11cf1400661c010d"
+    },
+    {
+      "path": "CITATION.cff",
+      "before_sha256": "dff9dff80b1d9f6fa7d63d68115a875b17d5449f97cc10783c90f9d2d3699c0d",
+      "after_sha256": "d1c199abccadd9fcc186555cad4feb93a15513ab41afbf700bd39dc604ba63a5"
+    },
+    {
+      "path": "docs/artifact_map.csv",
+      "before_sha256": "17029bca4e1a41a462e11886f75aad133c2aabc7a812bec5b7efb85607f69395",
+      "after_sha256": "d9f841453457669cbfb366ad9b76dac3874a3d7327880c288d4e3b96888b8f73"
+    },
+    {
+      "path": "docs/availability.md",
+      "before_sha256": "5b57a1e4ee2c230d8d8dbd70081d38b6da666b62711dc8f02733c5a3dc136117",
+      "after_sha256": "fd74c10e6ec0bcc91aa6ac6347892c64ee667a5fa1ee19f0ef406c6cdd320563"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "before_sha256": "f550acb484183e606cdfd7661bb11e4044507933333539b775fbca6cc456537e",
+      "after_sha256": "7401c4769783fbf39bcc83dbce17339da9f86c00a4738e863a4ee0f734dfeb64"
+    },
+    {
+      "path": "docs/extended_research_record.md",
+      "before_sha256": "c391f6b6cddf3c79648da62130a994ef4176f43d3e46a2f1308b0f057cb5b592",
+      "after_sha256": "b6aefba0f6aaf5e8c633c6c46bb145c4f445967db68b5490b2a59e3bfda2622a"
+    },
+    {
+      "path": "figures/Fig1.pdf",
+      "before_sha256": "540cc678ffea666f781fb594b8431ad54c96dfe6f1d3c4cc5bc5b4d8781dd039",
+      "after_sha256": "899c77d8418df8b2792025a91a81d43db012c322ac4768d20f7e2db36f53acb1"
+    },
+    {
+      "path": "figures/Fig1.png",
+      "before_sha256": "e6a20593bbe632fb792303b34d1d81b5c50923918ad9dc1ac5f32cc55d853e20",
+      "after_sha256": "bda9c7d8779b6c9db009c5b676c941a8883058bf79ef4082a2a1f591adb892e6"
+    },
+    {
+      "path": "figures/Fig1.tif",
+      "before_sha256": "19c39b1c09fb9028bc46c1e4790afce78acb7d1c63ffb5c09ef0a2274460154a",
+      "after_sha256": "d7fa8d04259df5512fbef3db82ca02ed2fc47f572acabad706f69be7a9d1fbd9"
+    },
+    {
+      "path": "figures/Fig2.pdf",
+      "before_sha256": "572bdcdb32f32e99154ec52687fee55e30f6c5a92adf867bdb9f3a481b523786",
+      "after_sha256": "ead3530576a7e3c19d46dc91f03763407408d49d8db15eb48ccccbbaa10db6d4"
+    },
+    {
+      "path": "figures/Fig2.png",
+      "before_sha256": "1bdffb871ab9c66fcc662e2bbf981c269ee007794d3d1cc9485dc5919970c549",
+      "after_sha256": "6bcf1e6e5c958012ad2e104a1a3d0be4503b60fd683846c777a48c0d6b119511"
+    },
+    {
+      "path": "figures/Fig2.tif",
+      "before_sha256": "f23050f214ef223aa3e8149a0defddeeb599826402cfe0874b5e2888aae956d1",
+      "after_sha256": "b6c5065da24053a2a27f7a5408158734e5513e0904682a41d2d21fdc457dd819"
+    },
+    {
+      "path": "figures/Fig3.pdf",
+      "before_sha256": "8c3531556710f8ee96a568b404218a702bef2c2d28814492f939d0c3a0d6a7c0",
+      "after_sha256": "6a354547f783a014dd41b8b4fe01f598feef603db88772b6fa1ca0b7228e22da"
+    },
+    {
+      "path": "figures/Fig3.png",
+      "before_sha256": "ea9f4596a9a0935b366116ecdd29e9c93b3da7c2a3e7841c2ee13d6a269f27f6",
+      "after_sha256": "05b8283282f02143f78aee01f87ea9570c68b5075aafe2ea1b5d4eafe0a4d6ee"
+    },
+    {
+      "path": "figures/Fig3.tif",
+      "before_sha256": "94854ddeeb15334d647def9dec1c77ed9a42e790cc0e53500668e76e25c11f51",
+      "after_sha256": "2f54c15b186fd977c4cfd7990e625a9fa9bd226906e2909df41131e7c242d974"
+    },
+    {
+      "path": "figures/Fig4.pdf",
+      "before_sha256": "a0bd9584736556d80be01c80e29f83517d4c1d879c375d90715007e362b56ed8",
+      "after_sha256": "29c0a11ff3ec40e8ca4d9c6bdd9836d84678941caeed4e79b6f68bbdde6c1c14"
+    },
+    {
+      "path": "figures/Fig4.png",
+      "before_sha256": "91fbf7a7c0fe4842d5595f5359eacdf7f11b13e0c1fd95ac806653d0d85ca027",
+      "after_sha256": "11ba02141966bcd20cd48ac4657e1f47748c523be6c5b4bda967088e6d64d059"
+    },
+    {
+      "path": "figures/Fig4.tif",
+      "before_sha256": "dc31b7e974098d583a47c261fbf4d3118848a49dcad2fcba0ade696e4cfb595f",
+      "after_sha256": "ab893f1fe36a300395b3707d29c7bcc0181d18ee2f9a6a7914693d552ab3ad28"
+    },
+    {
+      "path": "figures/Fig5.pdf",
+      "before_sha256": "db7e232695888883353a5f5f22e169011c4e4bf2e9d0a3fb00a390a7c3e5effa",
+      "after_sha256": "306f5b5dbc0ad1c6e54783fcbe0e164a41f1fa254cfb26a8f14595bf54fcac39"
+    },
+    {
+      "path": "figures/Fig5.png",
+      "before_sha256": "6a365cbfe29f98e0be9c10c195252df09dad4cec550d018ac5280cad49050763",
+      "after_sha256": "dc70a7f7b9ad8b402c5b4ace318f14cbe919e350ec358d505df18cbace8ad1d2"
+    },
+    {
+      "path": "figures/Fig5.tif",
+      "before_sha256": "c35afdacf76834e05ecd6ff47a7906963991f34934132152cdc1c9f6956e975c",
+      "after_sha256": "6ff04c11eb52b9a98694286dc4c109d16f0fc86031b7d0b7ba2c30e675007421"
+    },
+    {
+      "path": "figures/Fig6.pdf",
+      "before_sha256": "62bdf756b3e442ba815a94a6deaa8b428859cda41f3938bdfaf27e318ba4f06e",
+      "after_sha256": "925b0ff0005c2ab863992d899cb1456402b4fa498669eecf13f45dc3570bdada"
+    },
+    {
+      "path": "figures/Fig6.png",
+      "before_sha256": "6105a7510f90927f91d2247776195e746c1e9cd3c75d8ac95ee8bb3bb2a7ed62",
+      "after_sha256": "0b89858c640fc59794b0e711542b341d58c41eb5f2dba965ed329403161403e5"
+    },
+    {
+      "path": "figures/Fig6.tif",
+      "before_sha256": "f02f1dac2597cd465be9ee4de8f0614ba13aa32b75e3953d9155dfc08cf37f3c",
+      "after_sha256": "8120525a936f8d5feb7ec6ec40719a028e8f9095a6d680a31f535d1c534b2116"
+    },
+    {
+      "path": "manuscript.pdf",
+      "before_sha256": "924fb3d0c5a7afd2272995a3b595f406373ffad318ace0607127dcdf347b3a54",
+      "after_sha256": "deada0133d8d78fbe296f4e8eff528906074afa123f29a2a5f0a7cf94ac3b251"
+    },
+    {
+      "path": "package_release.py",
+      "before_sha256": "707f7a5173d8f567c77f56f99b35f17202e042520dfac511c5203dbd2e3fde67",
+      "after_sha256": "3c142385f4fcb3362a134c4dfefe3b70e91d825cf2ba8d8f37071418f87c83c4"
+    },
+    {
+      "path": "paper/figures/Fig1.pdf",
+      "before_sha256": "6aea0dc9c27555c60e22f55e6c89ca3b431f0277ab801485252b3ce2b8ee21c0",
+      "after_sha256": "899c77d8418df8b2792025a91a81d43db012c322ac4768d20f7e2db36f53acb1"
+    },
+    {
+      "path": "paper/figures/Fig2.pdf",
+      "before_sha256": "6090badabec26f8c7440b9959841cff58c5a823325172ba28d40698560b19da2",
+      "after_sha256": "ead3530576a7e3c19d46dc91f03763407408d49d8db15eb48ccccbbaa10db6d4"
+    },
+    {
+      "path": "paper/figures/Fig3.pdf",
+      "before_sha256": "87c2d27289224152ba2062498354c36504f632b6c68967d704ea93b0685ae45f",
+      "after_sha256": "6a354547f783a014dd41b8b4fe01f598feef603db88772b6fa1ca0b7228e22da"
+    },
+    {
+      "path": "paper/figures/Fig4.pdf",
+      "before_sha256": "00673feb272e3b2446de0e1818720b70dda331b39af02f48c39a694821dc5616",
+      "after_sha256": "29c0a11ff3ec40e8ca4d9c6bdd9836d84678941caeed4e79b6f68bbdde6c1c14"
+    },
+    {
+      "path": "paper/figures/Fig5.pdf",
+      "before_sha256": "eb12713983305abf787a28153805a2a34f57f576a2364f5131401e296c08c6eb",
+      "after_sha256": "306f5b5dbc0ad1c6e54783fcbe0e164a41f1fa254cfb26a8f14595bf54fcac39"
+    },
+    {
+      "path": "paper/figures/Fig6.pdf",
+      "before_sha256": "e31b8995ab1428b09e62ceb5a23b73ce39498b0b8878d385f01d35c7780880f0",
+      "after_sha256": "925b0ff0005c2ab863992d899cb1456402b4fa498669eecf13f45dc3570bdada"
+    },
+    {
+      "path": "paper/main.tex",
+      "before_sha256": "dc9f1beb57ca7880492b9a1bf0b5d1182dcba2ee1377836952f74d9084b9c5c4",
+      "after_sha256": "4226a917ec45247a984de4207d33607027e5ba9a2e9fe30b355ac9955eb4c1ff"
+    },
+    {
+      "path": "plots.py",
+      "before_sha256": "d39fcc7b6888199e0b134c8be404d2666694f6266a944c5273f513ecd399a7a2",
+      "after_sha256": "1a380093f827911d6d381656cc7c7ab11aee0a82282f19fe16e841cc1ba66c23"
+    },
+    {
+      "path": "README.md",
+      "before_sha256": "31fcbe7d2be20f7e1bc311a33ed5e88a34700162b2fa4f92d2292484ac403152",
+      "after_sha256": "f30ce76e7aa2709c73bebb53572f9b871515d1305a03c870eece57d3d774ef98"
+    },
+    {
+      "path": "reproduce.py",
+      "before_sha256": "6bc1e496b3668fa6f0baa38b14b70dc1aea1785f7e3207daf235c393200013de",
+      "after_sha256": "3f6348df905e06825b6fbf9ec24d020f8b67cb6312586720e63aa57334dcb9fc"
+    },
+    {
+      "path": "research/src/revised_plots.py",
+      "before_sha256": "f32f199a208320fbf4cd41daa9c7b20bffd3ab1a335b088e4290a6605dfb444d",
+      "after_sha256": "5bf508ef2b73307ba375e9b2740bf8d10d32a437e02eb336abba97fb87621011"
+    },
+    {
+      "path": "revision/plot_figures.py",
+      "before_sha256": "382e1da609fa0088c19c31dde7345dc275184d0c516f0f955fe18a5a6eeb87c9",
+      "after_sha256": "6bb04ff653f6ccc0ba9260327d63bac82a5b560aa8dd8e8ad1b42a05e083c2b9"
+    },
+    {
+      "path": "write_manifest.py",
+      "before_sha256": "418c32d5de017f6ecb0b7b18d415df16c5df3ffbbd3abaaa848884908628c64a",
+      "after_sha256": "d6a069de82f056f7d4542c7f89c34e1a268596e69710efa458621deebc45c9f3"
+    }
+  ],
+  "added_files": [
+    "checks/revision_20261103/anti_defensive_review.json",
+    "checks/revision_20261103/archive_compilation.json",
+    "checks/revision_20261103/archive_compile.log",
+    "checks/revision_20261103/archive_main.bbl",
+    "checks/revision_20261103/archive_main.log",
+    "checks/revision_20261103/archive_validation.json",
+    "checks/revision_20261103/cfr_translation_audit.json",
+    "checks/revision_20261103/cfr_translation_audit.py",
+    "checks/revision_20261103/cfr_translation_core.csv",
+    "checks/revision_20261103/cfr_translation_endpoints.csv",
+    "checks/revision_20261103/cfr_translation_extrema.csv",
+    "checks/revision_20261103/cfr_translation_reconstruction.csv",
+    "checks/revision_20261103/cfr_translation_runs.csv",
+    "checks/revision_20261103/compilation.json",
+    "checks/revision_20261103/compile.log",
+    "checks/revision_20261103/compile_manuscript.py",
+    "checks/revision_20261103/figure_qa.json",
+    "checks/revision_20261103/main.bbl",
+    "checks/revision_20261103/main.log",
+    "checks/revision_20261103/manuscript_changes.diff",
+    "checks/revision_20261103/revision_validation.json",
+    "checks/revision_20261103/validate_revision.py"
+  ],
+  "deleted_baseline_files": [],
+  "scientific_inputs_and_144_simulated_run_outputs_changed": false,
+  "full_144_ODE_rerun": false,
+  "checks_executed_this_revision": [
+    "saved-trajectory CFR reconstruction",
+    "811 retained-output regression checks",
+    "143 figure-data and 59 plotted-array identities",
+    "revised manuscript/figure/static/source-preservation checks",
+    "independent Overleaf compilation"
+  ],
+  "AI_disclosure_added": false,
+  "author_administrative_placeholders_removed": true,
+  "remote_GitHub_changed": false,
+  "compiler_environment_note": "The three requested warnings, overfull boxes and unresolved citations are absent. The older cached Tectonic lineno.sty emits a UTF-8 decoding warning; the rendered PDF contains no replacement glyph and this package-environment message is retained in both compile logs."
+}

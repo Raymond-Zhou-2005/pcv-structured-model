@@ -1,0 +1,766 @@
+{
+  "scope": "Six main figures; layout and typography only. Frozen numerical inputs and extended figures are retained.",
+  "contract": {
+    "archetype": "quantitative grids",
+    "backend": "Python/matplotlib",
+    "width_limit_inches": 7.5,
+    "height_limit_inches": 8.75,
+    "minimum_font_points": 8,
+    "maximum_font_points": 12,
+    "tiff_dpi": 600,
+    "tiff_mode": "RGB",
+    "tiff_compression": "tiff_lzw",
+    "tiff_size_limit_bytes": 10000000
+  },
+  "figures": {
+    "1": {
+      "claim": "Matched CTMC probabilities, transport errors and actual programme gains under grid refinement remain distinct verification layers.",
+      "pdf": {
+        "width_inches": 7.399999830457899,
+        "height_inches": 6.3000000847710504,
+        "min_font_points": 8.300000190734863,
+        "max_font_points": 9.5,
+        "fonts": [
+          "ArialMT"
+        ],
+        "vector_path_count": 191,
+        "image_count": 0
+      },
+      "tiff": {
+        "pixel_size": [
+          4440,
+          3780
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw",
+        "bytes": 906246
+      },
+      "visible_text_count": 52,
+      "outside_canvas_text": [],
+      "passed": true,
+      "sha256": {
+        "pdf": "899c77d8418df8b2792025a91a81d43db012c322ac4768d20f7e2db36f53acb1",
+        "png": "bda9c7d8779b6c9db009c5b676c941a8883058bf79ef4082a2a1f591adb892e6",
+        "tif": "d7fa8d04259df5512fbef3db82ca02ed2fc47f572acabad706f69be7a9d1fbd9"
+      },
+      "outside_pdf_spans": [],
+      "undrawn_outside_axis_ticks_excluded": 10
+    },
+    "2": {
+      "claim": "Matched age and dose marginals do not determine a joint age-dose distribution or its one-month output.",
+      "pdf": {
+        "width_inches": 7.399999830457899,
+        "height_inches": 6.1999999152289496,
+        "min_font_points": 8.0,
+        "max_font_points": 9.5,
+        "fonts": [
+          "ArialMT"
+        ],
+        "vector_path_count": 63,
+        "image_count": 0
+      },
+      "tiff": {
+        "pixel_size": [
+          4440,
+          3720
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw",
+        "bytes": 830238
+      },
+      "visible_text_count": 46,
+      "outside_canvas_text": [],
+      "passed": true,
+      "sha256": {
+        "pdf": "ead3530576a7e3c19d46dc91f03763407408d49d8db15eb48ccccbbaa10db6d4",
+        "png": "6bcf1e6e5c958012ad2e104a1a3d0be4503b60fd683846c777a48c0d6b119511",
+        "tif": "b6c5065da24053a2a27f7a5408158734e5513e0904682a41d2d21fdc457dd819"
+      },
+      "outside_pdf_spans": [],
+      "undrawn_outside_axis_ticks_excluded": 1
+    },
+    "6": {
+      "claim": "Twenty deterministic perturbations plus AOM and mortality accounting scenarios expose conditional sensitivity.",
+      "pdf": {
+        "width_inches": 7.399999830457899,
+        "height_inches": 6.8000000847710504,
+        "min_font_points": 8.300000190734863,
+        "max_font_points": 9.5,
+        "fonts": [
+          "ArialMT"
+        ],
+        "vector_path_count": 266,
+        "image_count": 0
+      },
+      "tiff": {
+        "pixel_size": [
+          4440,
+          4080
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw",
+        "bytes": 1007452
+      },
+      "visible_text_count": 65,
+      "outside_canvas_text": [],
+      "passed": true,
+      "sha256": {
+        "pdf": "925b0ff0005c2ab863992d899cb1456402b4fa498669eecf13f45dc3570bdada",
+        "png": "0b89858c640fc59794b0e711542b341d58c41eb5f2dba965ed329403161403e5",
+        "tif": "8120525a936f8d5feb7ec6ec40719a028e8f9095a6d680a31f535d1c534b2116"
+      },
+      "outside_pdf_spans": [],
+      "undrawn_outside_axis_ticks_excluded": 7
+    },
+    "3": {
+      "claim": "Age-calendar masses and their integrals expose programme evolution and the carriage-informed feedback.",
+      "pdf": {
+        "width_inches": 7.399999830457899,
+        "height_inches": 7.700000339084202,
+        "min_font_points": 8.0,
+        "max_font_points": 9.0,
+        "fonts": [
+          "ArialMT"
+        ],
+        "vector_path_count": 153,
+        "image_count": 6
+      },
+      "tiff": {
+        "pixel_size": [
+          4440,
+          4620
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw",
+        "bytes": 2063726
+      },
+      "visible_text_count": 130,
+      "outside_canvas_text": [],
+      "passed": true,
+      "sha256": {
+        "pdf": "6a354547f783a014dd41b8b4fe01f598feef603db88772b6fa1ca0b7228e22da",
+        "png": "05b8283282f02143f78aee01f87ea9570c68b5075aafe2ea1b5d4eafe0a4d6ee",
+        "tif": "2f54c15b186fd977c4cfd7990e625a9fa9bd226906e2909df41131e7c242d974"
+      },
+      "outside_pdf_spans": [],
+      "undrawn_outside_axis_ticks_excluded": 19
+    },
+    "4": {
+      "claim": "Matched factorial and herd counterfactuals separate mechanism decrements, interactions and indirect gains.",
+      "pdf": {
+        "width_inches": 7.399999830457899,
+        "height_inches": 7.399999830457899,
+        "min_font_points": 8.0,
+        "max_font_points": 9.0,
+        "fonts": [
+          "ArialMT"
+        ],
+        "vector_path_count": 221,
+        "image_count": 0
+      },
+      "tiff": {
+        "pixel_size": [
+          4440,
+          4440
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw",
+        "bytes": 1352762
+      },
+      "visible_text_count": 88,
+      "outside_canvas_text": [],
+      "passed": true,
+      "sha256": {
+        "pdf": "29c0a11ff3ec40e8ca4d9c6bdd9836d84678941caeed4e79b6f68bbdde6c1c14",
+        "png": "11ba02141966bcd20cd48ac4657e1f47748c523be6c5b4bda967088e6d64d059",
+        "tif": "ab893f1fe36a300395b3707d29c7bcc0181d18ee2f9a6a7914693d552ab3ad28"
+      },
+      "outside_pdf_spans": [],
+      "undrawn_outside_axis_ticks_excluded": 10
+    },
+    "5": {
+      "claim": "Nine hypothetical schedule/completion rules alter gains, episodes and incremental cost in the common programme implementation.",
+      "pdf": {
+        "width_inches": 7.399999830457899,
+        "height_inches": 4.600000169542101,
+        "min_font_points": 8.0,
+        "max_font_points": 9.0,
+        "fonts": [
+          "ArialMT"
+        ],
+        "vector_path_count": 155,
+        "image_count": 0
+      },
+      "tiff": {
+        "pixel_size": [
+          4440,
+          2760
+        ],
+        "mode": "RGB",
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw",
+        "bytes": 876796
+      },
+      "visible_text_count": 29,
+      "outside_canvas_text": [],
+      "passed": true,
+      "sha256": {
+        "pdf": "306f5b5dbc0ad1c6e54783fcbe0e164a41f1fa254cfb26a8f14595bf54fcac39",
+        "png": "dc70a7f7b9ad8b402c5b4ace318f14cbe919e350ec358d505df18cbace8ad1d2",
+        "tif": "6ff04c11eb52b9a98694286dc4c109d16f0fc86031b7d0b7ba2c30e675007421"
+      },
+      "outside_pdf_spans": [],
+      "undrawn_outside_axis_ticks_excluded": 6
+    }
+  },
+  "data_checks": {
+    "frozen_plot_inputs_unchanged": true,
+    "input_count": 24,
+    "input_sha256": {
+      "revision/data/aggregation.csv": "b90e4573211507812b8b75e4ef0311401eae7f1879ac633c89f136d71cb2361b",
+      "revision/data/aggregation_states.npz": "05aa29c932e5e7fd03399195ef854699917b22f1a1c22aa0bb6b96692a268bbd",
+      "revision/data/aom.csv": "6ff9c5dab4f6108169e237c4fe4dd23086238df6e6a6c34722356dd9d0f12a2d",
+      "revision/data/ctmc.csv": "cf9c540e2a3814e4693723bd8c78309668c6bb0f40a996d965dddea23279fb3c",
+      "revision/data/factorial.csv": "ea73884231cbf1c546c0dd5ae3534c6b9c7e1ab5c50a69f119acdfbddd6593c0",
+      "revision/data/finest_grid_results.csv": "939570c357b8fbafcb83569ed01995e6fa8279210fc6eeacadded2c12faf26ff",
+      "revision/data/manufactured.csv": "52ef41fce4f7228702af74ae0299ffdd66c8ed1f6504342885de5ae4e20ad669",
+      "revision/data/mortality_brackets.csv": "eb5007d91da4b7886aa857929593a24dd07ff64a4bd1b35b419b3637711c1e70",
+      "revision/data/parameters.json": "5ff008cc54e2322ba5abeced0334ccbcf4ef60e0cde874a93283a0523754e6f0",
+      "revision/data/refinement.csv": "14c1bc389296570af59d9ea815ecd5f332c731dd63da108fc46ddc33d85fe796",
+      "revision/data/sensitivity.csv": "2ce7268382aff4c331c60a0329a2a51f09174c7424a0b86ca78ffb3c4ae43b7d",
+      "research/inputs/Final/outputs/factorial.csv": "ea73884231cbf1c546c0dd5ae3534c6b9c7e1ab5c50a69f119acdfbddd6593c0",
+      "research/inputs/Final/outputs/shapley.csv": "bfa1e85327c92ba5786811566fc2e1f4db77585ac5b7697cc37e3e328c1e51bc",
+      "research/inputs/Final/outputs/herd_contributions.csv": "5aabec84d765fccf1050108e70e4a711ed4e26e168eced3d9ce528de469504a8",
+      "research/inputs/Final/outputs/schedules.csv": "e27ab766bdab581d72c3757d7865cf7a97a95ef4085648899c7a53199f857b08",
+      "research/inputs/Final/outputs/runs/no_vaccination/states.npz": "4772528fb7294755a98d41ef3178844ca85f13d1685b1dc615fdc00ba2651166",
+      "research/inputs/Final/outputs/runs/no_vaccination/monthly.csv": "ea817ff0c7210024db3947c5d0313ed19022c19dc9db751b8ef0902b9a9c3acd",
+      "research/inputs/Final/outputs/runs/no_vaccination/herd.csv": "62acc482bbe1d5d3d3c644f4792c30f98a6b3db086cacb61718cafa2a11a9e29",
+      "research/inputs/Final/outputs/runs/pcv13_D0W1G1/states.npz": "6af571707682f8a2443dc46b49c913e54543879be9eedf8061c9b58e8768595b",
+      "research/inputs/Final/outputs/runs/pcv13_D0W1G1/monthly.csv": "aa276c5870f500ac4a33ecd8e4a17c0624fe4966149ce9b54d0684a537b0f612",
+      "research/inputs/Final/outputs/runs/pcv13_D0W1G1/herd.csv": "8e1280cfb90d384af0f8db7dedd85a07ed659702858b1c2af659605783927371",
+      "research/inputs/Final/outputs/runs/pcv13_D1W1G1/states.npz": "90ecad33220c860cf41f0c70508502bb818c6c899ebbd86e16ddce0a29ad5731",
+      "research/inputs/Final/outputs/runs/pcv13_D1W1G1/monthly.csv": "c4d88b7fd917636152c7058a7935ace586d980006b241163158892d37d603998",
+      "research/inputs/Final/outputs/runs/pcv13_D1W1G1/herd.csv": "07c39fd72865321f99fdd7c13d4c29d06e14a55ca5a6ac1a9294a72c645a99b6"
+    },
+    "extended_figures_unchanged": true,
+    "extended_file_count": 27,
+    "existing_figure_data_checks": {
+      "count": 143,
+      "all_passed": true
+    },
+    "paper_main_pdfs_match_generated": true
+  },
+  "passed": true,
+  "canvas_qa_method": "Renderer extents for visible text and ticks selected by the actual axis draw update; out-of-view ticks are excluded, matching Matplotlib rendering. Independent PDF span extents are also checked.",
+  "visual_inspection": "All six PNG figures inspected: panel order, labels, legends, annotations and data marks retained without observed clipping or text collisions.",
+  "semantic_plot_checks": {
+    "count": 59,
+    "all_passed": true,
+    "checks": [
+      {
+        "check": "Fig3_no_vaccination_age_calendar_mass",
+        "passed": true,
+        "shape": [
+          60,
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_no_vaccination_alive_integral",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_no_vaccination_relative_proxy",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_no_vaccination_weighted_proxy",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_no_vaccination_H",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_no_vaccination_annual_events",
+        "passed": true,
+        "shape": [
+          10
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D0W1G1_age_calendar_mass",
+        "passed": true,
+        "shape": [
+          60,
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D0W1G1_alive_integral",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D0W1G1_relative_proxy",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D0W1G1_weighted_proxy",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D0W1G1_H",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D0W1G1_annual_events",
+        "passed": true,
+        "shape": [
+          10
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D1W1G1_age_calendar_mass",
+        "passed": true,
+        "shape": [
+          60,
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D1W1G1_alive_integral",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D1W1G1_relative_proxy",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D1W1G1_weighted_proxy",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D1W1G1_H",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_pcv13_D1W1G1_annual_events",
+        "passed": true,
+        "shape": [
+          10
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_full111_dose_integral_0",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_full111_dose_integral_1",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_full111_dose_integral_2",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_full111_dose_integral_3",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_full111_dose_integral_4",
+        "passed": true,
+        "shape": [
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig3_full111_at_least_two_doses",
+        "passed": true,
+        "shape": [
+          60,
+          120
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_cases_averted_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_cases_averted_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_cases_averted_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_deaths_averted_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_deaths_averted_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_deaths_averted_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_qalys_gained_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_qalys_gained_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_qalys_gained_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_incremental_costs_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_incremental_costs_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_incremental_costs_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          8
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_Shapley_D",
+        "passed": true,
+        "shape": [
+          3
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_Shapley_W",
+        "passed": true,
+        "shape": [
+          3
+        ],
+        "max_abs_difference": 1.7763568394002505e-15
+      },
+      {
+        "check": "Fig4_Shapley_G",
+        "passed": true,
+        "shape": [
+          3
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_paired_herd_direct_only_qalys_gained_per100k",
+        "passed": true,
+        "shape": [
+          3
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig4_paired_herd_indirect_qalys_gained_per100k",
+        "passed": true,
+        "shape": [
+          3
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_qalys_gained_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_qalys_gained_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_qalys_gained_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_qalys_gained_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_qalys_gained_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_qalys_gained_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_cases_averted_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_cases_averted_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_cases_averted_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_cases_averted_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_cases_averted_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_cases_averted_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_incremental_costs_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_incremental_costs_per100k_PCV10-GSK",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_incremental_costs_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_incremental_costs_per100k_PCV13",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_incremental_costs_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      },
+      {
+        "check": "Fig5_nine_rules_incremental_costs_per100k_PCV10-SII",
+        "passed": true,
+        "shape": [
+          9
+        ],
+        "max_abs_difference": 0.0
+      }
+    ],
+    "note": "These are plotted-array identities, not independent research samples or external validation."
+  },
+  "reproduction_commands": [
+    "python -B revision/plot_figures.py",
+    "python -B plots.py --only-main"
+  ]
+}

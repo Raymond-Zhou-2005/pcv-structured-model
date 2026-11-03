@@ -1,0 +1,11 @@
+{
+  "release": "v1.0.1",
+  "reviewed_revision": "2026-11-03-r1",
+  "research_text_before_availability_unchanged": true,
+  "ethics_and_bibliography_unchanged": true,
+  "reviewed_tex_sha256_after_newline_normalization": "e7116b27b9b20ff377c15fbf04efc3bcef0332d28a2f1cdb12725b1650f61958",
+  "publication_tex_sha256": "4c6cbb637c4432d55a4f7d2f3f41397544771657f7f24ce8802ce3740e906471",
+  "exact_overleaf_export_sha256": "870e68e81a25b5433572ced38b6c10fb18915b2967d079f0044032365f4a15f4",
+  "only_paper_change": "Data/code availability release URL and version; all research text, numbers and figures retained",
+  "full_simulation_rerun": false
+}

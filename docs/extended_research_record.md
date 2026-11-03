@@ -19,6 +19,25 @@ For a bounded weight $`w`$ and state weights $`\rho`$, let $`D(A)=\sum_g\int wA_
 ```
 Clipping is Lipschitz. Thus the nonlocal multiplier is locally Lipschitz on this set. For bounded locally Lipschitz rates, the characteristic integral operator obeys a difference estimate of the form $`\|\mathcal T A-\mathcal T B\|_{C([0,T];L^1)}\le TL_F\|A-B\|_{C([0,T];L^1)}`$ on a suitably bounded invariant neighbourhood. For sufficiently small $`T`$ it is a contraction. Fixed birth data and bounded linear interface maps preserve the estimate; successive characteristic strips extend the solution while the denominator bound and coefficient bounds persist. The proof establishes local uniqueness under these assumptions. It does not guarantee global continuation across vanishing weighted population, arbitrary discontinuous feedback or newly specified policies.
 
+### Revision: explicit local neighbourhood and density counterexample
+
+The current manuscript makes the local fixed-point construction explicit.
+Assume a bounded strongly continuous positive transport evolution with the fixed
+dose interfaces, and initial weighted mass D0 > 0. The reaction-free evolution
+z(t) has weighted mass at least 3D0/4 for sufficiently short time. A closed
+non-negative path tube of radius R < D0/(4 ||w|| infinity) around z then has
+weighted mass at least D0/2. Bounded reaction coefficients give a self-map bound
+C0 T, and variation of constants gives the contraction bound C1 T exp(C1 T).
+Taking time small enough for both bounds proves the stated local result.
+The manuscript gives the ratio inequality and continuation conditions explicitly.
+
+The aggregation proposition now uses normalised indicator densities on two
+disjoint intervals of positive length. Swapping their assignments between two
+states preserves both marginals. A nonzero interval-averaged cross-difference
+gives a nonzero reward difference. This places the diagnostic construction in
+the same L1 space as the main density formulation. The saved numerical figure
+continues to represent monthly bin masses.
+
 ## S2. Why a finite stochastic interacting model is not exactly its mean equation
 
 For $`X=N^{-1}\operatorname{Binomial}(N,p)`$, $`\mathbb E[X^2]=p^2+p(1-p)/N`$. With $`N=100`$ and $`p=0.5`$, this is 0.2525, whereas $`(\mathbb E[X])^2=0.25`$. Consequently, replacing a nonlinear random feedback by the feedback at the mean can discard covariance terms. The continuous-time chain verification in the main text uses externally specified rates; the PCV herd functional is deterministic population feedback. No exact finite-particle expectation equivalence is asserted between them.
@@ -1646,3 +1665,47 @@ Previous and revised Deaths averted per 100,000 births. Changes use the absolute
 Previous and revised ICER (scenario USD/QALY) in scenario USD per QALY. Changes use the absolute previous denominator. A dash denotes an undefined ratio or percentage at a zero denominator.
 
 </div>
+
+## S16. Probability-to-hazard conversion, nominal CFR and sequela-source semantics
+
+This added audit describes the frozen calculation precisely without changing its coefficients, trajectories or economic results. For a state-specific monthly disease probability $`p`$ and nominal case-fatality input $`f`$, the implementation separately constructs the episode intensity $`\lambda=-\log(1-p)`$ and disease-death intensity $`\mu=-\log(1-fp)`$. Its episode and death rewards are integrated against the same alive-state exposure. Consequently their ratio is $`f_{\mathrm{eff}}=\mu/\lambda`$, which is generally different from $`f`$. For $`0<p<1`$ and $`0<f<1`$, convexity of $`-\log(1-p)`$ gives $`\mu<f\lambda`$. The frozen CFR is therefore a nominal parameter in a probability conversion; it is not exactly the conditional episode-to-death proportion of a joint disease-course model. In the small-probability limit, $`f_{\mathrm{eff}}/f=1-(1-f)p/2+O(p^2)`$.
+
+Pneumonia episodes are split into severe and non-severe rewards using the fixed severe fraction $`s`$. The death-probability conversion uses $`p\,s\,f_{\mathrm{sev}}`$, whereas the severe-episode intensity is $`s\lambda`$. Its effective severe CFR is therefore $`\mu/(s\lambda)`$. Meningitis and sepsis use the unsplit expression above; AOM has no disease-death reward in this audit. No new clinical CFR evidence is inferred from these mathematical relationships.
+
+#### Frozen-exposure diagnostic and reconstruction checks.
+
+The executable [CFR translation audit](../checks/revision_20261103/cfr_translation_audit.py) reads all 144 saved configurations: 120 monthly states per configuration, each with five alive dose states and 60 attained-age bins. It freezes the stored endpoint-specific $`H`$ and target $`H^*`$ values, including the fixed-target direct-VE perturbations, and rebuilds the original monthly coefficients in memory. For saved post-birth, post-dose state $`A`$, the one-month constant-coefficient exposure is
+
+``` math
+E=A\frac{1-e^{-\mu_{\rm all}}}{\mu_{\rm all}},
+\qquad E=A\quad\text{when }\mu_{\rm all}=0.
+```
+
+The audit uses `expm1` for this expression and to recover $`p=-\operatorname{expm1}(-\lambda)`$, then `log1p` to reconstruct the component death intensities. These stable functions are confined to the diagnostic; they do not replace the frozen solver's arithmetic. The original aggregate death coefficient is used for the direct saved-flow reconstruction. Across 207,360 monthly comparisons for six disease/death rewards and six incident-sequela rewards, the largest absolute discrepancy was $`1.054\times10^{-10}`$ events and the largest relative discrepancy at a nonzero reference was $`5.4985\times10^{-13}`$. All 1,728 configuration-by-metric checks met the unchanged $`\mathrm{rtol}=10^{-12}`$, $`\mathrm{atol}=10^{-7}`$ criteria; none failed. The separate stable reconstruction of component death hazards differs from the original summed death coefficient by at most $`1.627\times10^{-16}`$ per state-month; cumulative reconstructed component deaths differ from the saved total by at most $`3.810\times10^{-8}`$ events. Input and model-source SHA-256 values are verified unchanged before and after the audit. The audit's 2,595 checks are identities and reconstruction checks, not independent observations or a new full trajectory rerun.
+
+#### Magnitude under the saved trajectories.
+
+For each state and month with positive exposure and episode probability, the relative difference $`f_{\mathrm{eff}}/f-1`$ has the following extrema over all 144 configurations. For severe pneumonia, $`f_{\mathrm{eff}}`$ is defined relative to severe episodes and $`f`$ is the nominal severe CFR. These are dimensionless ratios, not percentage points.
+
+| Endpoint | Minimum $`f_{\mathrm{eff}}/f-1`$ | Maximum $`f_{\mathrm{eff}}/f-1`$ |
+|:---|---:|---:|
+| Meningitis | $`-1.9657010\times10^{-5}`$ | $`-1.7127199\times10^{-7}`$ |
+| Severe pneumonia | $`-2.2897325\times10^{-3}`$ | $`-3.0116278\times10^{-5}`$ |
+| Sepsis | $`-1.4852824\times10^{-4}`$ | $`-1.6824814\times10^{-6}`$ |
+
+Replacing only the death reward by $`f\lambda E`$ on the same frozen exposures, while retaining the original trajectories, gives the diagnostic totals below over the 120-month recorded window. The denominator is 13,846,100 gross recorded-window births. The frozen death column uses the component-hazard reconstruction; it agrees with the saved totals to numerical precision. The percentage column is the hypothetical reward increase relative to the reconstructed frozen death reward.
+
+| Configuration | Frozen disease-death reward | CFR-times-episode reward on the same exposure | Difference | Relative increase (%) | Difference per 100,000 recorded-window births |
+|:---|---:|---:|---:|---:|---:|
+| No vaccination | 13,737.60998 | 13,746.52425 | 8.91427 | 0.064890 | 0.064381 |
+| PCV10-GSK, D/W/G=111 | 5,865.58364 | 5,867.65475 | 2.07111 | 0.035310 | 0.014958 |
+| PCV13, D/W/G=111 | 5,350.78557 | 5,352.61724 | 1.83167 | 0.034232 | 0.013229 |
+| PCV10-SII, D/W/G=111 | 4,937.68391 | 4,939.29781 | 1.61390 | 0.032685 | 0.011656 |
+
+Across all 144 configurations the hypothetical increase ranges from 0.014384% to 0.081108%, or 0.003353 to 0.100562 deaths per 100,000 recorded-window births. The configurations include repeated trajectories with valuation-only perturbations; these ranges do not describe independent empirical samples. Replacing a death hazard in a complete model would also change survival, future exposure and indirect-protection feedback. These frozen-exposure differences therefore do not estimate the effect of a fully revised model, its QALYs or its costs.
+
+#### Nominal-CFR sequela sources.
+
+The incident meningitis sequela-source proxy uses $`(1-f)\lambda E`$ before multiplying by the outcome-specific sequela probabilities. It is not algebraically identical to $`(\lambda-\mu)E`$. The latter minus the former is $`E(f\lambda-\mu)`$. Summed over the recorded window, this source difference is 0.002979 individuals for no vaccination, 0.000712 for PCV10-GSK full111, 0.000638 for PCV13 full111 and 0.000523 for PCV10-SII full111; over all 144 configurations it ranges from 0.000202 to 0.004654 individuals. These are differences between two source conventions, before outcome-specific sequela probabilities and downstream survival adjustments. They are not observed survivor counts or a recomputation of sequela stocks, QALYs or costs. The source and death-reward conventions remain disclosed approximations rather than a jointly calibrated clinical progression model.
+
+Full precision, extreme-cell locations, endpoint totals and strict reconstruction residuals are available in [the audit JSON](../checks/revision_20261103/cfr_translation_audit.json), [all configurations](../checks/revision_20261103/cfr_translation_runs.csv), [the four core configurations](../checks/revision_20261103/cfr_translation_core.csv), [endpoint totals](../checks/revision_20261103/cfr_translation_endpoints.csv), [extreme cells](../checks/revision_20261103/cfr_translation_extrema.csv) and [reconstruction checks](../checks/revision_20261103/cfr_translation_reconstruction.csv). Reproduce the audit from the repository root with `python checks/revision_20261103/cfr_translation_audit.py`.

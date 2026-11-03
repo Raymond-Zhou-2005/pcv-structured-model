@@ -13,7 +13,7 @@ def application_figures(app, figdir, save):
     f=pd.read_csv(app/'factorial.csv'); sh=pd.read_csv(app/'shapley.csv')
     herd=pd.read_csv(app/'herd_contributions.csv')
     order=[(0,0,0),(1,0,0),(0,1,0),(0,0,1),(1,1,0),(1,0,1),(0,1,1),(1,1,1)]
-    fig,axs=plt.subplots(2,3,figsize=(7.2,5.8),layout='constrained')
+    fig,axs=plt.subplots(3,2,figsize=(7.4,7.4),layout='constrained')
     metrics=['cases_averted_per100k','deaths_averted_per100k','qalys_gained_per100k','incremental_costs_per100k']
     titles=['A   Cases averted','B   Deaths averted','C   QALYs gained','D   Incremental cost']
     for ax,metric,title in zip(axs.flat,metrics,titles):
@@ -24,35 +24,35 @@ def application_figures(app, figdir, save):
             ax.plot(range(8),100*(y-baseline)/abs(baseline),'o-',color=col,lw=1.25,ms=3,label=v)
         ax.axhline(0,color='#888888',lw=.5)
         ax.set(xticks=range(8),xticklabels=[''.join(map(str,b)) for b in order],title=title,xlabel='DWG configuration',ylabel='Change / |000| (%)')
-        ax.tick_params(axis='x',rotation=60,labelsize=7)
-    ax=axs[1,1]
+        ax.tick_params(axis='x',labelsize=8.3)
+    ax=axs[2,0]
     bottom=np.zeros(3)
     for factor,col,label in [('D','#56B4E9','Delayed / incomplete'),('W','#CC79A7','Attained-age waning'),('G','#E69F00','Gradual herd build-up')]:
         y=np.array([-float(sh[(sh.vaccine==v)&(sh.factor==factor)&(sh.metric=='qalys_gained_per100k')].shapley_delta.iloc[0]) for v in PRODUCTS])
         ax.bar(range(3),y,bottom=bottom,color=col,label=label,width=.6)
         bottom+=y
-    ax.set(xticks=range(3),xticklabels=['GSK','PCV13','SII'],ylabel='QALY decrement / 100,000 births',title='E   Shapley allocation, 111 − 000')
-    ax.legend(fontsize=6.3,frameon=False,loc='upper left')
-    ax=axs[1,2]
+    ax.set(xticks=range(3),xticklabels=['GSK','PCV13','SII'],ylabel='QALY decrement\nper 100,000 births',title='E   Shapley allocation, 111 − 000')
+    ax.legend(fontsize=8.3,frameon=False,loc='upper left')
+    ax=axs[2,1]
     off=[]; indirect=[]
     for v in PRODUCTS:
         q=herd[(herd.vaccine==v)&(herd.D==1)&(herd.W==1)&(herd.G==1)].iloc[0]
         off.append(q.direct_only_qalys_gained_per100k);indirect.append(q.indirect_qalys_gained_per100k)
     ax.bar(range(3),off,color='#777777',label='Herd off',width=.6)
     ax.bar(range(3),indirect,bottom=off,color='#009E73',label='Paired indirect contribution',width=.6)
-    ax.set(xticks=range(3),xticklabels=['GSK','PCV13','SII'],ylabel='QALY gain / 100,000 births',title='F   Full 111: paired herd contrast')
-    ax.legend(fontsize=6.3,frameon=False,loc='upper center',bbox_to_anchor=(.5,-.18))
+    ax.set(xticks=range(3),xticklabels=['GSK','PCV13','SII'],ylabel='QALY gain\nper 100,000 births',title='F   Full 111: paired herd contrast',ylim=(0,2350))
+    ax.legend(fontsize=8.3,frameon=False,loc='upper left')
     fig.legend(*axs[0,0].get_legend_handles_labels(),loc='outside lower center',ncol=3,frameon=False)
     save(fig,4)
     s=pd.read_csv(app/'schedules.csv')
     strategies=list(s.strategy.unique())
     names={'delayed':'Delayed / incomplete','dose1_only':'One dose only','completion_catchup':'Completion recovery'}
-    fig,axs=plt.subplots(1,3,figsize=(7.2,4.3),layout='constrained',sharey=True)
+    fig,axs=plt.subplots(1,3,figsize=(7.4,4.6),layout='constrained',sharey=True)
     for ax,metric,title,scale in zip(axs,['qalys_gained_per100k','cases_averted_per100k','incremental_costs_per100k'],['A   QALYs gained','B   Cases averted','C   Incremental cost'],[1,1,1e6]):
         for i,(v,col) in enumerate(zip(PRODUCTS,COLORS)):
             y=np.array([s[(s.vaccine==v)&(s.strategy==z)][metric].iloc[0]/scale for z in strategies])
             ax.plot(y,np.arange(len(strategies))+.13*(i-1),'o-',lw=1,ms=3,color=col,label=v)
-        ax.set(yticks=np.arange(len(strategies)),yticklabels=[names.get(z,z) for z in strategies],title=title,xlabel='Per 100,000 births'+(' (million USD)' if scale==1e6 else ''))
+        ax.set(yticks=np.arange(len(strategies)),yticklabels=[names.get(z,z).replace('Delayed / incomplete','Delayed /\nincomplete').replace('Completion recovery','Completion\nrecovery') for z in strategies],title=title,xlabel='Per 100,000 births'+('\n(million scenario USD)' if scale==1e6 else ''))
         ax.invert_yaxis(); ax.grid(axis='x',color='#dddddd',lw=.4)
     fig.legend(*axs[0].get_legend_handles_labels(),loc='outside lower center',ncol=3,frameon=False)
     save(fig,5)

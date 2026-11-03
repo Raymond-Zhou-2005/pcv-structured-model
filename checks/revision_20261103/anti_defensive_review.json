@@ -1,0 +1,23 @@
+{
+  "skill": "anti-defensive-writing",
+  "source": "https://raw.githubusercontent.com/Kiterlin/anti-defensive-writing/f516147d017a3fe43ae99192cb89d8261b0c8679/SKILL.md",
+  "commit": "f516147d017a3fe43ae99192cb89d8261b0c8679",
+  "skill_sha256": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1",
+  "installed_globally": false,
+  "scope": "Manuscript-wide prose revision; numerical claims and necessary mathematical/evidence conditions retained.",
+  "screening": {
+    "pattern": "\\b(?:no|not|neither|cannot)\\b",
+    "before": 98,
+    "after": 32,
+    "interpretation": "Mechanical screening counts; necessary qualifications and mathematical negations are included, so the counts are not a quality score."
+  },
+  "changes": [
+    "Lead with positive scope and explicit method contribution",
+    "Clarify stochastic verification versus deterministic PCV application",
+    "Consolidate repeated model-family, calibration and scenario disclaimers",
+    "Preserve SII, AOM, cost-year, attained-age waning and PSA qualifications",
+    "Retain citation keys and their scientific subject matter"
+  ],
+  "AI_disclosure_added": false,
+  "author_declaration_placeholders_removed": true
+}

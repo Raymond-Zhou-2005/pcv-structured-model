@@ -1,5 +1,21 @@
 # Data definitions and estimands
 
+## CFR translation diagnostic in the local revision
+
+Case and fatal-event rewards share the saved monthly alive exposure. The
+inherited probability transformation uses lambda = -log(1-p) and
+mu = -log(1-p*f), so their ratio is an effective fatal-event coefficient,
+mu/lambda. For pneumonia, f is the severe fraction times the severe-case CFR;
+the effective CFR among severe episodes therefore uses severity*lambda as its
+denominator. Meningitis sequela sources retain (1-CFR)*episode rewards as a
+separate coefficient convention.
+
+`checks/revision_20261103/cfr_translation_audit.py` reconstructs these quantities
+from the 144 saved trajectories and reports their differences without changing
+the population trajectories, sequela stocks, QALYs or costs. It is a fixed-exposure
+reward diagnostic; changing the underlying death hazards would require a full
+alternative simulation.
+
 ## Current open-population application
 
 `research/inputs/Final/outputs/runs/<scenario>/` contains a complete model run.

@@ -5,10 +5,10 @@ title: "Structured PCV programme analysis"
 authors:
   - family-names: Zhou
     given-names: Ruimeng
-version: v1.0.0
-date-released: 2026-10-28
+version: v1.0.1
+date-released: 2026-11-03
 repository-code: "https://github.com/Raymond-Zhou-2005/pcv-structured-model"
-url: "https://github.com/Raymond-Zhou-2005/pcv-structured-model/releases/tag/v1.0.0"
+url: "https://github.com/Raymond-Zhou-2005/pcv-structured-model/releases/tag/v1.0.1"
 license: MIT
 abstract: "Reproducible age-calendar vaccination modelling methods and a deterministic pneumococcal conjugate vaccine scenario application. Author-owned software is MIT-licensed; original data and prose are CC BY 4.0, with third-party exceptions defined in LICENSES.md."
 keywords:

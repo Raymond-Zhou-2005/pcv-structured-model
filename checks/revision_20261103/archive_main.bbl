@@ -1,0 +1,207 @@
+\begin{thebibliography}{10}
+
+\bibitem{Hurtado2021}
+Hurtado PJ, Richards C.
+\newblock Building mean field ODE models using the generalized linear chain
+  trick \& Markov chain theory.
+\newblock Journal of Biological Dynamics. 2021;15(sup1):S248-72.
+\newblock \href {http://dx.doi.org/10.1080/17513758.2021.1912418}
+  {doi:10.1080/17513758.2021.1912418}.
+
+\bibitem{Foutel2022}
+Foutel-Rodier F, Blanquart F, Courau P, Czuppon P, Duchamps JJ, Gamblin J,
+  et~al.
+\newblock From individual-based epidemic models to McKendrick-von Foerster
+  PDEs: a guide to modeling and inferring COVID-19 dynamics.
+\newblock Journal of Mathematical Biology. 2022;85(4):43.
+\newblock \href {http://dx.doi.org/10.1007/s00285-022-01794-4}
+  {doi:10.1007/s00285-022-01794-4}.
+
+\bibitem{Brisson2003Herd}
+Brisson M, Edmunds WJ.
+\newblock Economic evaluation of vaccination programs: the impact of
+  herd-immunity.
+\newblock Medical decision making : an international journal of the Society for
+  Medical Decision Making. 2003;23(1):76-82.
+\newblock \href {http://dx.doi.org/10.1177/0272989X02239651}
+  {doi:10.1177/0272989X02239651}.
+
+\bibitem{Jit2011Primer}
+Jit M, Brisson M.
+\newblock Modelling the epidemiology of infectious diseases for decision
+  analysis: a primer.
+\newblock PharmacoEconomics. 2011;29(5):371-86.
+\newblock Available from: \url{https://pubmed.ncbi.nlm.nih.gov/21504239/}.
+  \href {http://dx.doi.org/10.2165/11539960-000000000-00000}
+  {doi:10.2165/11539960-000000000-00000}.
+
+\bibitem{SmithVaughan2023VietnamCarriage}
+Smith-Vaughan H, Temple B, Trang~Dai VT, Hoan PT, Loc~Thuy HN, Phan TV, et~al.
+\newblock Effect of different schedules of ten-valent pneumococcal conjugate
+  vaccine on pneumococcal carriage in Vietnamese infants: results from a
+  randomised controlled trial.
+\newblock The Lancet Regional Health - Western Pacific. 2023;32:100651.
+\newblock \href {http://dx.doi.org/10.1016/j.lanwpc.2022.100651}
+  {doi:10.1016/j.lanwpc.2022.100651}.
+
+\bibitem{Bennett2025}
+Bennett JC, Deloria~Knoll M, Kagucia EW, Garcia~Quesada M, Zeger SL, Hetrich
+  MK, et~al.
+\newblock Global impact of ten-valent and 13-valent pneumococcal conjugate
+  vaccines on invasive pneumococcal disease in all ages (the PSERENADE
+  project): a global surveillance analysis.
+\newblock The Lancet Infectious Diseases. 2025;25(4):457-70.
+\newblock \href {http://dx.doi.org/10.1016/s1473-3099(24)00665-0}
+  {doi:10.1016/s1473-3099(24)00665-0}.
+
+\bibitem{Truong2026VietnamEffectiveness}
+Truong HC, Pham QD, Phan TV, Vo DTT, Nguyen PD, Nguyen HT, et~al.
+\newblock Effectiveness of pneumococcal conjugate vaccines against invasive
+  pneumococcal disease in Vietnamese children prior to national introduction: A
+  matched case-control study.
+\newblock Vaccine. 2026;77:128349.
+\newblock \href {http://dx.doi.org/10.1016/j.vaccine.2026.128349}
+  {doi:10.1016/j.vaccine.2026.128349}.
+
+\bibitem{Caro2012ModelingOverview}
+Caro JJ, Briggs AH, Siebert U, Kuntz KM.
+\newblock Modeling Good Research Practices---Overview: A Report of the
+  ISPOR-SMDM Modeling Good Research Practices Task Force-1.
+\newblock Value in Health. 2012;15(6):796-803.
+\newblock \href {http://dx.doi.org/10.1016/j.jval.2012.06.012}
+  {doi:10.1016/j.jval.2012.06.012}.
+
+\bibitem{Pitman2012DynamicTransmission}
+Pitman R, Fisman D, Zaric GS, Postma M, Kretzschmar M, Edmunds J, et~al.
+\newblock Dynamic Transmission Modeling: A Report of the ISPOR-SMDM Modeling
+  Good Research Practices Task Force-5.
+\newblock Value in Health. 2012;15(6):828-34.
+\newblock \href {http://dx.doi.org/10.1016/j.jval.2012.06.011}
+  {doi:10.1016/j.jval.2012.06.011}.
+
+\bibitem{Husereau2022CHEERS}
+Husereau D, Drummond M, Augustovski F, de~Bekker-Grob E, Briggs AH, Carswell C,
+  et~al.
+\newblock Consolidated Health Economic Evaluation Reporting Standards (CHEERS)
+  2022 Explanation and Elaboration: A Report of the ISPOR CHEERS II Good
+  Practices Task Force.
+\newblock Value in health : the journal of the International Society for
+  Pharmacoeconomics and Outcomes Research. 2022;25(1):10-31.
+\newblock \href {http://dx.doi.org/10.1016/j.jval.2021.10.008}
+  {doi:10.1016/j.jval.2021.10.008}.
+
+\bibitem{Tian2006}
+Tian JP, Kannan D.
+\newblock Lumpability and Commutativity of Markov Processes.
+\newblock Stochastic Analysis and Applications. 2006;24(3):685-702.
+\newblock \href {http://dx.doi.org/10.1080/07362990600632045}
+  {doi:10.1080/07362990600632045}.
+
+\bibitem{WHO2025}
+{World Health Organization}.
+\newblock WHO position paper: pneumococcal conjugate vaccines in infants and
+  children aged <5 years -- September 2025 [Internet]; 2025 [cited 2026 Oct 4].
+\newblock Available from:
+  \url{https://www.who.int/publications/i/item/who-wer10039-411-437}.
+
+\bibitem{WHOSchedule}
+{World Health Organization}.
+\newblock Table 2: Recommended routine immunizations for children [Internet];
+  2025 [cited 2026 Oct 12].
+\newblock Available from:
+  \url{https://cdn.who.int/media/docs/default-source/immunization/immunization_schedules/immunization-summary-table-2.pdf}.
+
+\bibitem{Wahl2018}
+Wahl B, O'Brien KL, Greenbaum A, Majumder A, Liu L, Chu Y, et~al.
+\newblock Burden of Streptococcus pneumoniae and Haemophilus influenzae type b
+  disease in children in the era of conjugate vaccines: global, regional, and
+  national estimates for 2000--15.
+\newblock The Lancet Global Health. 2018;6(7):e744-57.
+\newblock \href {http://dx.doi.org/10.1016/s2214-109x(18)30247-x}
+  {doi:10.1016/s2214-109x(18)30247-x}.
+
+\bibitem{Edmond2010}
+Edmond K, Clark A, Korczak VS, Sanderson C, Griffiths UK, Rudan I.
+\newblock Global and regional risk of disabling sequelae from bacterial
+  meningitis: a systematic review and meta-analysis.
+\newblock The Lancet Infectious Diseases. 2010;10(5):317-28.
+\newblock \href {http://dx.doi.org/10.1016/s1473-3099(10)70048-7}
+  {doi:10.1016/s1473-3099(10)70048-7}.
+
+\bibitem{PhilippinesHTA}
+{Health Technology Assessment Unit, Department of Health, Philippines}.
+\newblock Reassessment of 10- versus 13-valent Pneumococcal Conjugate Vaccines
+  in the Philippines [Internet]; 2020 [cited 2026 Oct 4].
+\newblock Available from:
+  \url{https://hta.dost.gov.ph/wp-content/uploads/2024/02/PCV-Full-HTA-Report-FINAL-.pdf}.
+\newblock Primary assessment report; population and age-band transfer requires
+  qualification.
+
+\bibitem{Adigweme2023}
+Adigweme I, Futa A, Saidy-Jah E, Edem B, Akpalu E, Dibbasey T, et~al.
+\newblock Immunogenicity and safety of a 10-valent pneumococcal conjugate
+  vaccine administered as a 2 + 1 schedule to healthy infants in The Gambia: a
+  single-centre, double-blind, active-controlled, randomised, phase 3 trial.
+\newblock The Lancet Infectious Diseases. 2023;23(5):609-20.
+\newblock \href {http://dx.doi.org/10.1016/s1473-3099(22)00734-4}
+  {doi:10.1016/s1473-3099(22)00734-4}.
+
+\bibitem{Tao2026VietnamCarriageReview}
+Tao X, Sharma K, King C, Nguyen TT, Nguyen TA, Dang HTT, et~al.
+\newblock Prevalence and serotype distribution of nasopharyngeal carriage of
+  Streptococcus pneumoniae in Vietnam: a systematic review and meta-analysis.
+\newblock The Lancet Regional Health - Western Pacific. 2026;66:101799.
+\newblock \href {http://dx.doi.org/10.1016/j.lanwpc.2026.101799}
+  {doi:10.1016/j.lanwpc.2026.101799}.
+
+\bibitem{Do2025}
+Do HD, Tran MD, Nguyen TX, Thuy~Phung TB, Ngoc~Hoang TB, Lien~Pham TL, et~al.
+\newblock Characteristics and antimicrobial susceptibility of bacteria causing
+  acute otitis media in children at Vietnam National Children's Hospital: a
+  cross-sectional study.
+\newblock JAC-Antimicrobial Resistance. 2025;7(1):dlaf006.
+\newblock \href {http://dx.doi.org/10.1093/jacamr/dlaf006}
+  {doi:10.1093/jacamr/dlaf006}.
+
+\bibitem{Bennett2000}
+Bennett JE, Sumner WI, Downs SM, Jaffe DM.
+\newblock Parents' Utilities for Outcomes of Occult Bacteremia.
+\newblock Archives of Pediatrics \& Adolescent Medicine. 2000;154(1):43-8.
+\newblock \href {http://dx.doi.org/10.1001/archpedi.154.1.43}
+  {doi:10.1001/archpedi.154.1.43}.
+
+\bibitem{Oh1996}
+Oh PI, Maerov P, Pritchard D, Knowles SR, Einarson TR, Shear NH.
+\newblock A cost-utility analysis of second-line antibiotics in the treatment
+  of acute otitis media in children.
+\newblock Clinical Therapeutics. 1996;18(1):160-82.
+\newblock Available from: \url{https://pubmed.ncbi.nlm.nih.gov/8851461/}. \href
+  {http://dx.doi.org/10.1016/S0149-2918(96)80188-3}
+  {doi:10.1016/S0149-2918(96)80188-3}.
+
+\bibitem{Oostenbrink2002}
+Oostenbrink R, Moll HAA, Essink-Bot ML.
+\newblock The EQ-5D and the Health Utilities Index for permanent sequelae after
+  meningitis: a head-to-head comparison.
+\newblock Journal of Clinical Epidemiology. 2002;55(8):791-9.
+\newblock Available from: \url{https://pubmed.ncbi.nlm.nih.gov/12384194/}.
+  \href {http://dx.doi.org/10.1016/S0895-4356(02)00448-1}
+  {doi:10.1016/S0895-4356(02)00448-1}.
+
+\bibitem{vanHoek2012}
+van Hoek AJ, Choi YH, Trotter C, Miller E, Jit M.
+\newblock The cost-effectiveness of a 13-valent pneumococcal conjugate
+  vaccination for infants in England.
+\newblock Vaccine. 2012;30(50):7205-13.
+\newblock \href {http://dx.doi.org/10.1016/j.vaccine.2012.10.017}
+  {doi:10.1016/j.vaccine.2012.10.017}.
+
+\bibitem{Mai2022}
+Mai VQ, Boonstoppel L, Vaughan K, Schutte C, Ozaltin A, Hong DT, et~al.
+\newblock Cost of Delivering Tetanus Toxoid and Tetanus-Diphtheria Vaccination
+  in Vietnam and the Budget Impact of Proposed Changes to the Schedule.
+\newblock Global Health: Science and Practice. 2022;10(2):e2100482.
+\newblock \href {http://dx.doi.org/10.9745/ghsp-d-21-00482}
+  {doi:10.9745/ghsp-d-21-00482}.
+
+\end{thebibliography}

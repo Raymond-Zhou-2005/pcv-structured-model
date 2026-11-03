@@ -1,0 +1,19 @@
+{
+  "revision": "2026-11-03-r1",
+  "returncode": 0,
+  "source_sha256": "4226a917ec45247a984de4207d33607027e5ba9a2e9fe30b355ac9955eb4c1ff",
+  "compiler": "D:\\CodexWorkplace\\Temp\\PCV_Main_Revision_20261027\\compiler\\tectonic.exe",
+  "requested_warning_counts": {
+    "microtype_footnote_patch": 0,
+    "underfull_hbox": 0
+  },
+  "overfull_box_count": 0,
+  "unresolved_reference_count": 0,
+  "engine_warnings": [
+    "warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.",
+    "warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.",
+    "warning: lineno.sty:296: Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.",
+    "warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details."
+  ],
+  "archive_check": true
+}
